@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button {
+  background-color:#F17228 !important;
+  color: white !important;
+  border: 1px solid #F17228 !important;
+  border-radius: 15px !important;
+  text-align: center;
+  padding: 10px 30px !important;
+  width: 100%;
+  font-weight: 500 !important;
+}
+button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.active-button{
+  background-color: white !important;
+  color: #F17228 !important;
+}
+.noBorder{
+  border-radius: 0 !important;
+}
+.see-all-mn::before{
+  content: "Бүгдийг харах ›";
+}
+.see-all-en::before{
+  content: "See the rest ›";
+}
+.nav-link{
+  color: #F17228 !important;
+  font-weight: 700 !important;
+  border: #F17228 1px solid !important;
+  border-radius: 15px !important;
+  padding: 10px 20px !important;
+}
+.active{
+  background-color: #F17228 !important;
+  color: white !important;
+}
+#menu-tab{
+  overflow: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+
