@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Slider Component style */
+
+.banner{
+  position: absolute;
+  width: 375px;
+  height: 250px;
+  left: 0px;
+  top: 90px;
+
+}
+
+.food-del{
+  position: relative;
+  width: 157px;
+  height: 60px;
+  right: 20px;
+  top: calc(50% - 60px/2 - 920.5px);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #F17228;
+}
