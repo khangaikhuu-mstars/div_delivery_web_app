@@ -1,5 +1,5 @@
-import './css/menu.css';
-import './css/App.css';
+import '../css/menu.css';
+import '../css/App.css';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 
 function Menu_Component() {

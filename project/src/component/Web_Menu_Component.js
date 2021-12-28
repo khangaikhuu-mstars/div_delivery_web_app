@@ -1,19 +1,26 @@
-import './css/menu.css';
-import './css/App.css';
-import {Container, Nav, Navbar, NavDropdown, Offcanvas, Form, FormControl, Button} from 'react-bootstrap';
+import '../css/menu.css';
+import '../css/App.css';
+import search from '../img/search.png';
+import busket from '../img/busket.png';
+import human from '../img/human.png';
+import food1 from '../img/food1.png';
+
+
+import {Container, Nav, Navbar, Offcanvas, Form, FormControl, Button} from 'react-bootstrap';
 
 function Web_Menu_Component() {
 return (
+
 <Navbar bg="light" expand="lg">
     <Container>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
-            <div className="search"><a href="#"><img src="search.png" alt="" /></a></div>
-            <div className="busket"><a href="#"><img src="busket.png" alt="" /></a></div>
+            <div className="search"><a href="#"><img src={search} alt="" /></a></div>
+            <div className="busket"><a href="#"><img src={busket} alt="" /></a></div>
         </div>
         <Navbar.Brand href="#">
             <div className="logo order-0">
-                <img src="food1.png" alt="" />
+                <img src={food1} alt="" />
                 <div className="food">Food Delivery</div>
             </div>
         </Navbar.Brand>
@@ -29,15 +36,15 @@ return (
                 <div className="loginBusket">
                     <div className="d-none d-md-block">
                         <Button variant="outline-none">
-                             <img src="search.png" alt="" />
+                            <img src="search.png" alt="" />
                         </Button>
                     </div>
                     <div className="busket">
-                        <img src="busket.png" alt="" />
+                        <img src={busket} alt="" />
                         <Button variant="outline-none">Сагс</Button>
                     </div>
                     <div className="login">
-                        <img src="human.png" alt="" />
+                        <img src={human} alt="" />
                         <Button variant="outline-none">Нэвтрэх</Button>
                     </div>
                 </div>

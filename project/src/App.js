@@ -1,5 +1,5 @@
-import Web_Menu_Component from './Web_Menu_Component';
-import Menu_Component from './Menu_Component';
+import Web_Menu_Component from './component/Web_Menu_Component';
+import Menu_Component from './component/Menu_Component';
 import './css/App.css';
 import './css/menu.css';
 
