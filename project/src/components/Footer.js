@@ -8,12 +8,14 @@ import { useState } from 'react'
 
 export default function Footer() {
 
-    const [media, setMedia] = useState('Бидний тухай')
+    const [about, setAbout] = useState('Бидний тухай');
+    const [media, setMedia] = useState('Бүх эрх хуулиар хамгаалагдсан');
+
 
     return(
         <div className="main-footer">
             <div className="container pt-4">
-                <div>
+                <div className=''>
                 <a href=""><img className='pe-2' src={img1}/><b>Food Delivery</b></a>
                 </div>
               <div className="row list-unstyle pt-4">
