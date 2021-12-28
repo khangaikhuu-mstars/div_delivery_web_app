@@ -3,11 +3,19 @@ import img1 from '../data/logo.png'
 import img2 from '../data/facebook.png'
 import img3 from '../data/instagram.png'
 import img4 from '../data/twitter.png'
+
+import { useState } from 'react'
+
 export default function Footer() {
+
+    const [media, setMedia] = useState('Бидний тухай')
+
     return(
         <div className="main-footer">
             <div className="container pt-4">
+                <div>
                 <a href=""><img className='pe-2' src={img1}/><b>Food Delivery</b></a>
+                </div>
               <div className="row list-unstyle pt-4">
                   {/* menu */}
                   <div className="col">
