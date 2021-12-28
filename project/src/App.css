@@ -1,47 +1,11 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Poppins', sans-serif !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 /* Slider Component style */
 
-.banner{
-  position: absolute;
+.banner {
+  position: relative;
   width: 375px;
   height: 250px;
   left: 0px;
@@ -49,20 +13,100 @@
 
 }
 
-.food-del{
-  position: relative;
-  width: 157px;
+.header {
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  left: 198px;
+  top: 140px;
+}
+
+/* MStars Food delivery */
+
+.food-del {
+  position: absolute !important; 
+  width: 160px;
   height: 60px;
   right: 20px;
-  top: calc(50% - 60px/2 - 920.5px);
+  top: -88px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 120%; 
   /* or 26px */
   display: flex;
   align-items: center;
   text-align: right;
   letter-spacing: 0.01em;
   color: #F17228;
+  
+}
+
+/* Хосгүй амтыг хормын дотор хүргэж өгнө. */
+
+.food-del-p {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  right: 20px;
+  top: -30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  /* or 14px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #4D2000;
+  
+}
+
+/* Сэт хоол тун удахгүй & Тун удахгүй... */
+
+.slider-text {
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  top: 50px;
+  right: 23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%; 
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #FFFFFF; 
+  /* banner text 2,3 */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+/* Button changing */
+
+.carousel-indicators [data-bs-target] { 
+  flex: 0 1 auto;
+  width: 8px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #FBC5A6;
+  background-clip: padding-box;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+  border-radius: 5px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 5px;
+  background: #F17228;
+  border-radius: 5px;
 }
