@@ -47,5 +47,12 @@ button:focus{
   white-space: nowrap;
   flex-wrap: nowrap;
 }
+.radius{
+  border-radius: 20px !important;
+}
+.text-orange{
+  color: #F17228 !important;
+}
+
 
 
