@@ -1,6 +1,5 @@
 
 import './App.css';
-import Text from './Register';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "./index.css"
 import Login from './login';
@@ -10,6 +9,7 @@ import Dropdown from './dropdown';
 function App() {
   return (
     <div>
+      <Slider />
       <header className="App-header1">
         <Register/>
       </header>
@@ -23,11 +23,7 @@ function App() {
         <Dropdown/>
       </header>
     </div>
-
- 
-
-  );
-}
+  )}
 
 
 export default App;
