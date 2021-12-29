@@ -17,46 +17,90 @@
     list-style: none;
     padding-bottom: 16.67px;
 }
-.social-icons{
-    display: flex;
-    justify-content: center;
-}
-.border{
-    width: 100%;
-    color: white;
-    opacity: 0.75;
-}
-.social-icons a img{
-    padding: 10px;
-    position: relative; 
-}
-.Copyright{
-    display: flex;
-    justify-content: end;
-    font-size: 12px;    
-    color: #fff;
 
-}
 .list-style2{
      position: absolute;
      box-sizing: border-box;
      padding:0;
 }
-.info{
-    display: flex; 
-    font-size: 14px;
-    padding-top: 10px;
-}
-.info ul li{
-    padding-bottom: 10px;
-    list-style: none;
-}
-.list-styled-change{
-    display: flex;
-    flex-direction: row;
-}
-.list-styled-change li{
-    display: flex;
-    padding-left: 10px;
+
+
+@media only screen and (max-width: 768px){
+   
+    .connect-we{
+        display: none;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-bottom: 2px solid white;
+    }
+    .social-icons a{
+        padding: 10px;
+    }
+    .about-and-policy{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-and-policy a{
+        margin-top: 10px;
+        padding-left: 12px;
+        line-height: 10px;
+    }
+    .copyright{
+        color: #fff;
+        display: flex;
+        justify-content: end;
+        align-items:flex-end;
+        font-size: 12px; 
+        margin-right: 10px;
+    }
+    .llc{
+        padding-right: 12px;
+    }
+  .law{
+      display: none;
+  }
 }
 
+@media only screen and (min-width: 768px){
+
+     .aboutus{
+         border-top: 2px solid white;
+         padding: 20px;
+     }
+    .about-and-policy{
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+    } 
+    .policy{
+        padding-right: 20px;
+    }
+     .social-icons a img{
+        padding-right: 10px;
+    }
+    .copyright{
+        display: flex;
+        justify-content:end;
+        align-items: flex-end;
+        flex-direction: column;
+        font-size: 12px;    
+        color: #fff;
+    }
+    .law{
+        display: block;
+    }
+    .connect-we{
+        display: block;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: start;
+        padding-left: 30px;
+    }
+}

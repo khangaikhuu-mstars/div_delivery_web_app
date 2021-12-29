@@ -1,5 +1,5 @@
 
-import Footer from './components/Footer'
+import Footer from './component/Footer'
 import './css/footer.css'
 import './App.css';
 import Slider from './component/Slider';
