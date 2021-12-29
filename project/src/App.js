@@ -1,10 +1,12 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import "./index.css"
+import "./compStyle/TextField.css"
 import Login from './login';
 import Register from './Register';
 import Dropdown from './dropdown';
+import Slider from  "./component/Slider"
+import Search from './search';
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
 
       <header className='App-header1'>
         <Dropdown/>
+      </header>
+      <header className='App-header1'>
+        <Search/>
       </header>
     </div>
   )}

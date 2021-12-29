@@ -1,11 +1,12 @@
 import React from "react"
 
 fetch('Location.json')
-    .then(response => response.json())
-    .then(data => data.map((Hayag) => {
-        document.getElementById("fetch").innerHTML += `<div>${Hayag.khoroo}</div>`
-       
+.then(response => {console.log(response) 
+    response.json()})
 
-    }))
+.then(data => data.map((Hayag) => {
+    console.log(data)
+
+}))
 
 export default fetch

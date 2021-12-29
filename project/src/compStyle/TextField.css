@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.App-header1 {
+
+    background-color: #fff;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #171717;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+/* Form Size&Shape */
+
+.formSize {
+    border-radius: 10px !important;
+    border: 1px solid #F17228 !important;
+    font-family: 'Poppins' !important;
+    font-size: 14px !important;
+
+}
+
+
+.form-select:scope {
+    background-color: #F17228 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+
+.form-control {
+    height: 40px;
+    padding-left: 30px;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem #ffffff !important;
+    border-color: #F17228 !important;
+}
+
+.form-select:checked {
+    background-color: #F17228 !important;
+    color: #fff !important;
+}
+
+#formEmail,
+#formPassword,
+#enabledSelect,
+#floatingTextarea2,
+#basic-addon1 {
+    display: block;
+    width: 335px;
+    height: 40px;
+
+}
+
+
+#formEmail,
+#formPassword:hover #enabledSelect,
+#floatingTextarea2 {
+    color: #171717;
+
+}
+
+
+
+/* Section Icon */
+.rightIcon {
+    position: absolute;
+    right: 0;
+    margin-top: 1px;
+    border: none !important;
+    background: transparent !important;
+}
+
+.leftIcon {
+    position: absolute;
+    left: 0;
+    margin-top: 4px;
+    border: none !important;
+    background: transparent !important;
+}
+
+
+.form-select {
+    padding-left: 30px !important;
+    background-image: url("../icons/arrow.svg") !important;
+}
+
+
+
+
+/* Register name password */
+
+.registerName {
+    margin-left: 20px !important;
+}
+
+.text-mute {
+    --bs-text-opacity: 1;
+    color: #171717;
+    margin-left: 199px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.text-mute:hover {
+
+    color: #F17228;
+
+}
+
+
+
+
+
+/* Checkbox Size */
+
+.checkboxSize {
+    margin-left: 61px;
+}
+
+
+.textColor {
+    color: #F17228;
+    line-height: 21px;
+}
+
+
+.form-check-input:checked[type=checkbox] {
+    background-color: #F17228;
+    border-radius: 20px;
+    border-color: #F17228;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 20px !important;
+    border-color: #F17228;
+}
+
+.formPadding {
+    padding-left: 30px !important;
+}

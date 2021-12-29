@@ -1,6 +1,6 @@
-body {
+/* body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,15 +10,17 @@ code {
   font-family: 'Poppins', sans-serif;
 }
 
+
+
 .App-header1 {
 
   background-color: #fff;
   min-height: 100vh;
   justify-content: center;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 14px !important;
   line-height: 140%;
   display: flex;
   align-items: center;
@@ -26,11 +28,38 @@ code {
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
-}
+} */
 
-.form-control {
+/* Form Size&Shape */
+
+/* .formSize {
   border-radius: 10px !important;
   border: 1px solid #F17228 !important;
+  font-family: 'Poppins' !important;
+  font-size: 14px !important;
+}
+
+.formSize:focus {
+  border-radius: 10px !important;
+  border: 1px solid #F17228 !important;
+  font-family: 'Poppins' !important;
+  font-size: 14px !important;
+  background-color: #F17228 !important;
+  background-image: url("./icons/location2.svg");
+} */
+
+
+
+
+/* .form-control {
+  height: 40px;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem #ffffff !important;
+  border-color: #F17228 !important;
 }
 
 #formEmail,
@@ -39,48 +68,89 @@ code {
 #floatingTextarea2 {
   display: block;
   width: 335px;
-  height: 42px;
-  left: 20px;
-  top: 160px;
-  border-radius: 10px;
-  padding: 0.375rem 0.75rem;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #b5b5b5;
-  border: 1px solid #F17228;
-  order: 0;
-  order: -1;
+  height: 40px;
+
 }
 
 
 #formEmail,
-#formPassword:hover {
+#formPassword:hover #enabledSelect,
+#floatingTextarea2 {
   color: #171717;
 
-}
+} */
 
-#formBasicCheckbox:checked {
-  background-image: #2F80ED !important;
-}
 
-.form-check-label {
-  color: #2F80ED !important;
-}
 
-.input-group-text {
+/* Section Icon */
+/* .rightIcon {
   position: absolute;
   right: 0;
+  margin-top: 1px;
   border: none !important;
   background: transparent !important;
 }
 
-.text-mute {
-  --bs-text-opacity: 1 !important;
-  color: #171717 !important;
-  text-align: end !important;
-  /* position: absolute !important; */
-  /* right: 20px !important; */
-  margin-top: -10px !important;
-  font-size: 14px !important;
+.leftIcon {
+  position: absolute;
+  left: 0;
+  margin-top: 4px;
+  border: none !important;
+  background: transparent !important;
 }
+
+
+.form-select {
+  padding-left: 30px !important;
+} */
+
+
+
+
+/* Register name password */
+
+/* .registerName {
+  margin-left: 20px !important;
+}
+
+.text-mute {
+  --bs-text-opacity: 1;
+  color: #171717;
+  margin-left: 199px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.text-mute:hover {
+
+  color: #F17228;
+
+} */
+
+
+
+
+
+/* Checkbox Size */
+
+/* .checkboxSize {
+  margin-left: 61px;
+}
+
+
+.textColor {
+  color: #F17228;
+  line-height: 21px;
+}
+
+
+.form-check-input:checked[type=checkbox] {
+  background-color: #F17228;
+  border-radius: 20px;
+  border-color: #F17228;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 20px !important;
+  border-color: #F17228;
+} */
