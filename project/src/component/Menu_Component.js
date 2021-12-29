@@ -30,8 +30,8 @@ return (
         {/* Tablet and Desktop Version NavLink */}
         <div className="tses">
           <Nav.Link className="ts" activeStyle={{color: "#F17228"}} href="#">НҮҮР</Nav.Link>
-          <Nav.Link className="ts" activeClassName="active" href="#">ХООЛНЫ ЦЭС</Nav.Link>
-          <Nav.Link className="ts" activeClassName="active" href="#">ХҮРГЭЛТИЙН БҮС</Nav.Link>
+          <Nav.Link className="ts" href="#">ХООЛНЫ ЦЭС</Nav.Link>
+          <Nav.Link className="ts" href="#">ХҮРГЭЛТИЙН БҮС</Nav.Link>
         </div>
 
         {/* Mobile Version Toggle FoodDelivery Info*/}

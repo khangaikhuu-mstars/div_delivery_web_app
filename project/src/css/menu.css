@@ -71,8 +71,11 @@ body {
     .navbar-collapse {
         position: absolute;
         top: 55px;
-        width: 80%;
+        left: 0;
+        width: 100%;
         height: 100vh;
+        z-index: 1;
+        background-color: white;
     }
     .loginBusket {
         display: none;
@@ -107,7 +110,7 @@ body {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1400px) {
+@media (min-width: 992px) and (max-width: 1440px) {
     #search {
         display: none;
     }
@@ -132,10 +135,9 @@ body {
     .user {
         display: none;
     }
-
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
     button.searchpng {
         display: none;
     }
@@ -147,5 +149,9 @@ body {
     .info,
     .user {
         display: none;
+    }
+
+    .tses {
+        margin-left: 60px;
     }
 }
