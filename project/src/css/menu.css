@@ -56,12 +56,11 @@ body {
     font-size: 16px;
 }
 
-.tses:hover {
+.ts:hover {
     color: #F17228 !important;
     font-weight: bold;
     font-size: 16px;
 }
-
 .ts {
     margin: 0 10px;
 }
@@ -97,10 +96,12 @@ body {
     }
     .line {
         border-bottom: 1px solid #F2994A;
-        transform: rotate(-0.19deg);
+        margin: 5px 0;
     }
-    .tses-toggle {
-        padding-left: 40px;
+    .menu-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
