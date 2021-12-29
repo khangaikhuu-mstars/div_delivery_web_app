@@ -5,15 +5,14 @@ import { Col, Container } from "react-bootstrap";
 import Tab from "./Tab";
 import Cards from "./Card";
 import { useEffect, useState } from "react";
+import SeeAllButton from "./SeeAllButton";
 import axios from "axios";
 
 function App() {
   const [foods, setFoods] = useState([]);
   useEffect(() => {
-    axios.get("http://52.221.191.153/api/foods").then((response) => {
-      console.log(response)
-      setFoods(response.data.data);
-    });
+    const axios = require("axios");
+    axios.get("../data/foods.json");
   }, [Cards]);
 
   return (
@@ -23,8 +22,7 @@ function App() {
           <Buttons value="default" className="default my-2" />
           <Buttons value="angarag" className="active-button my-2" />
           <Buttons value="default" className="noBorder my-2" />
-          <Buttons className="see-all-mn my-2" />
-          <Buttons className="see-all-en my-2" />
+          <SeeAllButton />
         </div>
       </Container>
       <div className="mt-5" id="tabs">
@@ -35,11 +33,11 @@ function App() {
           <div className="row space-between align-items-center">
             {foods.map((food) => {
               return (
-                <Col lg={3}>
+                <Col xs={6} lg={3}>
                   <Cards
                     name={food.name}
                     price={food.price}
-                    thumbnail={food.tumb_img}
+                    thumbnail={food.thumb_img}
                   />
                 </Col>
               );
