@@ -1,17 +1,15 @@
-
-import Footer from './component/Footer'
-import './css/footer.css'
-import './App.css';
-import Slider from './component/Slider';
+import Footer from "./component/Footer";
+import "./css/footer.css";
+import "./App.css";
+import Slider from "./component/Slider";
 
 function App() {
   return (
     <div className="App">
-        <Slider />
-       <Footer />
+      <Slider />
+      <Footer />
     </div>
-  )
-
-  }
+  );
+}
 
 export default App;
