@@ -56,13 +56,15 @@ body {
     font-size: 16px;
 }
 
-.ts:hover {
+.ts {
+    margin: 0 10px;
+    color: #000000;
+    font-weight: 500;
+}
+.active, .ts:hover {
     color: #F17228 !important;
     font-weight: bold;
     font-size: 16px;
-}
-.ts {
-    margin: 0 10px;
 }
 
 @media (max-width: 992px) {

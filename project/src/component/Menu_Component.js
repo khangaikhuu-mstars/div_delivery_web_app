@@ -27,13 +27,14 @@ return (
     </Navbar.Brand>
     <Navbar.Collapse id="navbarScroll">
       <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }}>
+        {/* Tablet and Desktop Version NavLink */}
         <div className="tses">
-          <Nav.Link className="ts" href="#" active>НҮҮР</Nav.Link>
-          <Nav.Link className="ts" href="#">ХООЛНЫ ЦЭС</Nav.Link>
-          <Nav.Link className="ts" href="#">ХҮРГЭЛТИЙН БҮС</Nav.Link>
+          <Nav.Link className="ts" activeStyle={{color: "#F17228"}} href="#">НҮҮР</Nav.Link>
+          <Nav.Link className="ts" activeClassName="active" href="#">ХООЛНЫ ЦЭС</Nav.Link>
+          <Nav.Link className="ts" activeClassName="active" href="#">ХҮРГЭЛТИЙН БҮС</Nav.Link>
         </div>
 
-        {/* Mobile Version Toggle Info*/}
+        {/* Mobile Version Toggle FoodDelivery Info*/}
         <div className="info">
           <div className="menu-info">
             <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,8 +110,6 @@ return (
     </Navbar.Collapse>
   </Container>
 </Navbar>
-
-
 );
 }
 
