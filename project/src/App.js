@@ -1,15 +1,17 @@
+import MenuComponent from './component/MenuComponent';
+import Slider from './component/Slider';
 import Footer from "./component/Footer";
+import './css/App.css';
+import './css/menu.css';
 import "./css/footer.css";
-import "./App.css";
-import Slider from "./component/Slider";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <MenuComponent/>
       <Slider />
       <Footer />
     </div>
-  );
+  )
 }
-
 export default App;
