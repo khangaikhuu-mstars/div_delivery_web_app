@@ -5,7 +5,7 @@ import './css/menu.css';
 
 function App() {
   return (
-    <Web_Menu_Component/>
+    <Menu_Component/>
   );
 }
 
