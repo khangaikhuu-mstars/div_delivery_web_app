@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './compStyle/TextField.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/index.css';
+import './css/footer.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
