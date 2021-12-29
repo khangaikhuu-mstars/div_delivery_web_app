@@ -1,9 +1,14 @@
-import './App.css';
-import Slider from './component/Slider';
+import Footer from "./component/Footer";
+import "./css/footer.css";
+import "./App.css";
+import Slider from "./component/Slider";
 
 function App() {
   return (
-    <Slider />
+    <div className="App">
+      <Slider />
+      <Footer />
+    </div>
   );
 }
 
