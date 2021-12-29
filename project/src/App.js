@@ -1,4 +1,4 @@
-import Menu_Component from './component/Menu_Component';
+import MenuComponent from './component/MenuComponent';
 import Slider from './component/Slider';
 import Footer from "./component/Footer";
 import './css/App.css';
@@ -8,7 +8,7 @@ import "./css/footer.css";
 function App() {
   return (
     <div>
-      <Menu_Component/>
+      <MenuComponent/>
       <Slider />
       <Footer />
     </div>
