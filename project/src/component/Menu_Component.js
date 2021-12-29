@@ -29,7 +29,7 @@ return (
       <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }}>
         {/* Tablet and Desktop Version NavLink */}
         <div className="tses">
-          <Nav.Link className="ts" activeStyle={{color: "#F17228"}} href="#">НҮҮР</Nav.Link>
+          <Nav.Link className="ts" href="#">НҮҮР</Nav.Link>
           <Nav.Link className="ts" href="#">ХООЛНЫ ЦЭС</Nav.Link>
           <Nav.Link className="ts" href="#">ХҮРГЭЛТИЙН БҮС</Nav.Link>
         </div>

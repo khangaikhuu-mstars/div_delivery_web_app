@@ -1,4 +1,3 @@
-
 import Menu_Component from './component/Menu_Component';
 import Slider from './component/Slider';
 import './css/App.css';
