@@ -6,12 +6,12 @@ import './css/App.css';
 import './css/menu.css';
 import "./css/footer.css";
 import './css/tab.css'
+import "./css/button.css"
 
 function App() {
   return (
     <div>
       <MenuComponent/>
-      <Tab/>
       <Slider />
       <Footer />
     </div>
