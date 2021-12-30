@@ -1,88 +1,83 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import slider1 from '../images/slider1.png';
-import slider2 from '../images/slider2.png';
-import slider3 from '../images/slider3.png';
-
-
-
-// <div className="banner">
-//     <Carousel>
-//         <Carousel.Item>
-//             <img
-//                 src={slider1}
-//                 alt="slider1"
-//             />
-//             <div className="header">
-//                 <h1 className="food-del">Mstars Food delivery</h1>
-//                 <p className="food-del-p">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
-//             </div>
-//         </Carousel.Item>
-
-//         <Carousel.Item >
-//             <img
-//                 className="slider2"
-//                 src={slider2}
-//                 alt="slider2-img"
-//             />
-//             <h1 className="slider-text">Сэт хоол тун удахгүй</h1>
-//         </Carousel.Item>
-
-//         <Carousel.Item>
-//             <img
-//                 className="slider3"
-//                 src={slider3}
-//                 alt="slider3-img"
-//             />
-//             <h1 className="slider-text">Тун удахгүй...</h1>
-//         </Carousel.Item>
-
-//     </Carousel>
-// </div>
-
-
+import '../css/slider.css';
+import webBg from '../images/web-bg.png';
+import webMealPic from '../images/web-meal-pic.png';
+import webB2 from '../images/web-b2.png';
+import webB3 from '../images/web-b3.png';
 function Slider() {
     const [index, setIndex] = useState(0);
-
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
     };
-
     return (
-        <div className="banner">
-            <Carousel activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item>
-                    <img
-                        className="slider"
-                        src={slider1}
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item>
+                <div className="header-slider">
 
-                    />
-                    <div className="header">
-                        <h1 className="food-del">Mstars Food delivery</h1>
-                        <p className="food-del-p">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>                 
+                    <div className="slider-bg">
+                        <img className="main-slider-img" src={webBg} alt="" />
                     </div>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img
-                        className="slider2"
-                        src={slider2}
-                        alt="slider2-img"
-                    />
-                    <h1 className="slider-text">Сэт хоол тун удахгүй</h1>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img
-                        className="slider"
-                        src={slider3}
-                        alt="slider3-img"
-                    />
-                    <h1 className="slider-text">Тун удахгүй...</h1>
-                </Carousel.Item>
-            </Carousel>
-        </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-6">
+                                <div className="slider-content-img">
+                                    <img className="img-fluid" src={webMealPic} alt="" />
+                                </div>
+                            </div>
+                            <div className="col-6">
+                                <div className="main-text me-3">
+                                    <h1 className="slider-text1 ">MStars Food delivery</h1>
+                                    <div className="line d-none d-md-block my-3"></div>
+                                    <p className="slider-text2">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+                                    {/* <div className="arrow">
+                                        <button className="next"></button> 
+                                    </div> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div className="header-slider">
+                    <div className="slider-bg">
+                        <img className="main-slider-img" src={webB2} alt="" />
+                    </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-6">
+                                
+                            </div>
+                            <div className="col-6">
+                                <div className="main-text text-white">
+                                    <h1 className="slider-text me-3">Сэт хоол тун удахгүй</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div className="header-slider">
+                    <div className="slider-bg">
+                        <img className="main-slider-img" src={webB3} alt="" />
+                    </div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-6">
+                                
+                            </div>
+                            <div className="col-6">
+                                <div className="main-text text-white">
+                                    <h1 className="slider-text me-3">Тун удахгүй...</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Carousel.Item>
+        </Carousel>
     );
 }
-
 export default Slider
