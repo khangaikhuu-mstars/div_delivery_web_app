@@ -28,7 +28,8 @@ function Slider() {
                             </div>
                             <div className="col-6">
                                 <div className="main-text me-3">
-                                    <h1 className="slider-text1 ">MStars Food delivery</h1>
+                                    <h1 className="slider-text1 ">MStars</h1>
+                                    <h1 className="slider-text1">Food delivery</h1> 
                                     <div className="line d-none d-md-block my-3"></div>
                                     <p className="slider-text2">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
                                     <Button className='active-button radius d-none d-lg-block' value="→"/>
