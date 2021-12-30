@@ -9,6 +9,24 @@ body {
 .text-orange {
   color: #F17228 !important;
 }
+#menu-tab .nav-link {
+  color: #F17228 !important;
+  font-weight: 700 !important;
+  border: #F17228 1px solid !important;
+  border-radius: 15px !important;
+  padding: 10px 20px !important;
+}
+
+.active {
+  background-color: #F17228 !important;
+  color: white !important;
+}
+
+#menu-tab {
+  overflow: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
 
 /* Slider Component style */
 
