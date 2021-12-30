@@ -4,9 +4,11 @@ import Footer from "./component/Footer";
 import './css/App.css';
 import './css/menu.css';
 import "./css/footer.css";
-import "./css/button.css";
+import "./css/button.css"
+
 import Cards from "./component/Cards"
 
+import './css/tab.css'
 
 function App() {
   return (
