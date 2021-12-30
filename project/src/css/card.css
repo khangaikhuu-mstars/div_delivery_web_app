@@ -2,16 +2,16 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     font-weight: 500;
 }
-#discounted-img::before{
-    content: "30%";
+#discounted-img{
     color: white;
+    font-size: auto;
     text-align: center;
     background-color: #F17228;
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 20%;
     position: absolute;
     z-index: 2;
-    top: 24px;
-    right: 24px;
-    border-radius: 0 10px 0 20px ;
+    top: 8px;
+    right: 8px;
+    border-radius: 0 8px 0 20px ;
 }

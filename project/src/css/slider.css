@@ -71,7 +71,6 @@
 }
 .line {
     border: 1px solid rgba(241, 114, 40, 0.6);
-    width: 90%;
 }
 @media (min-width: 426px) and (max-width: 1023px) {
     .slider-text1 {
@@ -110,7 +109,7 @@
         object-fit: cover;
     }
 }
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media (min-width: 1024px) {
     .slider-text1 {
         font-size: 55px;
         font-style: normal;

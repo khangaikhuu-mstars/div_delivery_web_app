@@ -3,16 +3,19 @@ import { Card } from "react-bootstrap";
 
 function Cards(props) {
   let productText = props.discount ? (
-    <Card.Text className="text-orange">
+    <Card.Text className="text-orange ps-2">
       {props.finalPrice}
       <strike className="ms-2 text-dark">{props.price}</strike>
     </Card.Text>
   ) : (
-    <Card.Text className="text-orange">{props.price}</Card.Text>
+    <Card.Text className="text-orange ps-2">{props.price}</Card.Text>
   );
   let productImage = props.discount ? (
-    <div id="discounted-img">
-    <Card.Img variant="top" className="img-fluid p-2" src={props.image} />
+    <div className="position-relative">
+      <Card.Img variant="top" className="img-fluid p-2" src={props.image} />
+      <div id="discounted-img">
+        {props.percentage}
+      </div>
     </div>
   ) : (
     <Card.Img variant="top" className="img-fluid p-2" src={props.image} />
@@ -23,7 +26,7 @@ function Cards(props) {
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
-          <Card.Title>{props.name}</Card.Title>
+          <Card.Title className="ps-2">{props.name}</Card.Title>
           {productText}
         </Card.Body>
       </Card>
