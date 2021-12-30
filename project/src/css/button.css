@@ -1,11 +1,10 @@
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-button {
+.default{
   background-color: #F17228 !important;
   color: white !important;
   border: 1px solid #F17228 !important;
@@ -16,21 +15,25 @@ button {
   font-weight: 500 !important;
 }
 
-button:focus {
+button:focus{
   outline: none !important;
   box-shadow: none !important;
 }
-
 .active-button {
   background-color: white !important;
   color: #F17228 !important;
+  border: 0 !important;
+}
+.active-button:hover{
+  background-color: #F17228 !important;
+  color: white !important;
 }
 
 .noBorder {
   border-radius: 0 !important;
 }
 
-.nav-link {
+#menu-tab .nav-link {
   color: #F17228 !important;
   font-weight: 700 !important;
   border: #F17228 1px solid !important;
@@ -48,17 +51,8 @@ button:focus {
   white-space: nowrap;
   flex-wrap: nowrap;
 }
-
-.radius {
-  border-radius: 20px !important;
-}
-
-.text-orange {
-  color: #F17228 !important;
-}
-
 #see-all-button{
   text-decoration: none !important;
   font-weight: 700 !important;
   padding: 15px 30px;
-}
+}  

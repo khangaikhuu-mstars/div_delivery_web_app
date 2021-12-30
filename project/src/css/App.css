@@ -1,5 +1,13 @@
 body {
   font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+}
+.radius {
+  border-radius: 20px !important;
+}
+
+.text-orange {
+  color: #F17228 !important;
 }
 
 /* Slider Component style */
