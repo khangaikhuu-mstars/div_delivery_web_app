@@ -2,6 +2,7 @@ import img1 from "../data/logo.png";
 import img2 from "../data/facebook.png";
 import img3 from "../data/instagram.png";
 import img4 from "../data/twitter.png";
+import React from 'react' 
 
 export default function Footer() {
   return (

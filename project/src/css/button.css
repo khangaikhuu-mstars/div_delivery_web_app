@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.default{
+  background-color: #F17228 !important;
+  color: white !important;
+  border: 1px solid #F17228 !important;
+  border-radius: 15px !important;
+  text-align: center;
+  padding: 10px 30px !important;
+  width: 100%;
+  font-weight: 500 !important;
+}
+
+button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.active-button {
+  background-color: white !important;
+  color: #F17228 !important;
+  border: 0 !important;
+}
+.active-button:hover{
+  background-color: #F17228 !important;
+  color: white !important;
+}
+
+.noBorder {
+  border-radius: 0 !important;
+}
+#see-all-button{
+  text-decoration: none !important;
+  font-weight: 700 !important;
+  padding: 15px 30px;
+}  

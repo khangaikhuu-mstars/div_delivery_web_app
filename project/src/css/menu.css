@@ -45,6 +45,10 @@ body {
     border-radius: 10px !important;
     border-color: #F17228 !important;
 }
+nav form input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
 
 .tses {
     display: flex;
