@@ -12,9 +12,10 @@ import "./css/footer.css";
 import "./css/TextField.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RecoverMail from "./component/RecoverMail";
-import RecoverPass from "./component/Password";
 import ConfirmPass from "./component/Password";
 import NewPass from "./component/RecoverPass";
+import "./css/button.css";
+
 
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
         <NewPass />
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
