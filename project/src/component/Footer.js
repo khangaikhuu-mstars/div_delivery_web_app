@@ -31,7 +31,7 @@ export default function Footer() {
             <a href="">
               <p className="fw-bold text-white mb-2">Холбоо барих </p>
             </a>
-            <ul className="list-style2 text-white">
+            <ul className="p-0 text-white">
               <li>(976) 77123456</li>
               <li>(976) 99489843</li>
             </ul>
@@ -62,9 +62,9 @@ export default function Footer() {
               <p>Үйлчилгээний нөхцөл</p>
             </a>
           </div>
-          <div className="copyright col-lg p-0">
-            <p className="mb-0 llc">© 2020 MStars Foods LLC </p>
-            <p className="law">Зохиогчийн эрх хуулиар хамгаалагдсан.</p>
+          <div className="copyright col-lg text-white text-end p-0">
+            <p className="mb-0 pe-3 pe-md-0">© 2020 MStars Foods LLC </p>
+            <p className="d-none d-md-block">Зохиогчийн эрх хуулиар хамгаалагдсан.</p>
           </div>
         </div>
       </div>
