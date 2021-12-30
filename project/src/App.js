@@ -1,19 +1,53 @@
-import Slider from  "./component/Slider"
+import Slider from "./component/Slider"
 import MenuComponent from './component/MenuComponent';
-import Slider from './component/Slider';
 import Footer from "./component/Footer";
+import Search from "./component/Search";
+import Register from "./component/Register";
+import Login from "./component/Login";
+import Dropdown from "./component/Dropdown";
+import UserInfo from "./component/User_Information";
 import './css/App.css';
 import './css/menu.css';
 import "./css/footer.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import "./compStyle/TextField.css"
+import "./css/TextField.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RecoverMail from "./component/RecoverMail";
+import RecoverPass from "./component/Password";
+import ConfirmPass from "./component/Password";
+import NewPass from "./component/RecoverPass";
+
 
 function App() {
   return (
     <div>
-      <MenuComponent/>
+      <MenuComponent />
       <Slider />
-      <Footer />
+      <div className="App-header1">
+        <Register />
+      </div>
+      <div className="App-header1">
+        <Login />
+      </div>
+      <div className="App-header1">
+        <Dropdown />
+      </div>
+      <div className="App-header1">
+        <Search />
+      </div>
+      <div className="App-header1">
+        <UserInfo />
+      </div>
+      <div className="App-header1">
+        <RecoverMail />
+      </div>
+      <div className="App-header1">
+        <ConfirmPass />
+      </div>
+      <div className="App-header1">
+        <NewPass />
+      </div>
+
+      {/* <Footer /> */}
     </div>
   )
 }
