@@ -5,6 +5,7 @@ import './css/App.css';
 import './css/menu.css';
 import "./css/footer.css";
 import "./css/button.css"
+import "./css/card.css"
 
 import Cards from "./component/Cards"
 
