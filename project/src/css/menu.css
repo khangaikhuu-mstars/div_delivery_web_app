@@ -1,0 +1,156 @@
+/*  */
+body {
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.food {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    color: #F17228;
+    margin-left: 10px;
+}
+
+.loginBusket {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.busket {
+    padding-left: 20px;
+}
+
+.searchAndBusket {
+    display: flex;
+    flex-direction: row;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+#search {
+    margin-left: 80px;
+    width: 230px;
+    border-radius: 10px !important;
+    border-color: #F17228 !important;
+}
+nav form input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.tses {
+    display: flex;
+    padding-left: 40px;
+    text-align: center;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .loginBusket {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    .tses {
+        display: none;
+    }
+
+    .info,
+    .user {
+        width: 335px;
+        top: 110px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 20px;
+    }
+
+    .line {
+        border-bottom: 1px solid #F2994A;
+        margin: 5px 0;
+    }
+
+    .menu-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+    #search {
+        display: none;
+    }
+
+    .tses {
+        margin-left: 60px;
+    }
+
+    button.sags {
+        display: none;
+    }
+
+    button.signin {
+        display: none;
+    }
+
+    button.searchpng {
+        display: block;
+    }
+
+    .info,
+    .user {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    button.searchpng {
+        display: none;
+    }
+
+    .tses {
+        margin-left: 60px;
+    }
+
+    .info,
+    .user {
+        display: none;
+    }
+
+    .tses {
+        margin-left: 60px;
+    }
+}

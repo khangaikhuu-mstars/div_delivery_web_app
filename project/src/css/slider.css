@@ -141,7 +141,7 @@
     }
     .header-slider {
         position: relative;
-        height: 95vh;
+        height: 65vh;
         width: 100%;
         overflow: hidden;
         display: flex;

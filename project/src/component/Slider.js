@@ -5,6 +5,7 @@ import webBg from '../images/web-bg.png';
 import webMealPic from '../images/web-meal-pic.png';
 import webB2 from '../images/web-b2.png';
 import webB3 from '../images/web-b3.png';
+import Button from './Button'
 function Slider() {
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
@@ -30,9 +31,7 @@ function Slider() {
                                     <h1 className="slider-text1 ">MStars Food delivery</h1>
                                     <div className="line d-none d-md-block my-3"></div>
                                     <p className="slider-text2">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
-                                    {/* <div className="arrow">
-                                        <button className="next"></button> 
-                                    </div> */}
+                                    <Button className='active-button radius d-none d-lg-block' value="→"/>
                                 </div>
                             </div>
                         </div>
