@@ -5,6 +5,7 @@ import './css/App.css';
 import './css/menu.css';
 import "./css/footer.css";
 import "./css/button.css";
+import Cards from "./component/Cards"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MenuComponent/>
       <Slider />
       <Footer />
+      <Cards/>
     </div>
   )
 }
