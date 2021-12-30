@@ -4,10 +4,15 @@ import {useEffect, useState} from "react"
 function Cards (){
     const [foods, setFoods] = useState([])
     useEffect(() => {
-        fetch("../public").then(response => console.log(response.json()))
+        fetch("../data/foods.json").then(response => response.json()).then(data => setFoods(data))
       }, [Cards])
     return (
-    <Card name={foods.name} price={foods.price} /> 
+        foods.map(data =>{
+            return(
+                <Card name={data.name} price={data.price} thumbnail={data.thumb_img} discount={data.sales} percentage={data.discount_percentage} finalPrice={data.final_price}/> 
+            )
+        })
+    
     )
 }
 
