@@ -10,14 +10,15 @@ function Cards() {
   }, [Cards]);
 
   return (
-    <div className="container">
+    <div className="container my-5">
       <div className="row">
-        {foods.map((data) => (
+        {foods.map((data, index) => (
           <div className="col-6 col-md-3">
             <Card
               name={data.name}
               price={data.price}
               image={data.thumb_img}
+              index={index}
               discount={data.sales}
               percentage={data.discount_percentage}
               finalPrice={data.final_price}
