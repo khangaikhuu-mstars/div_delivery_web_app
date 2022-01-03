@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1D1D1F;
+}
+p {
+    font-size: 14px;
+    color: #1D1D1F;
+    opacity: 0.75;
+}
+.InfoPanel {
+    height: 10vh;
+    padding: 40px;
+    background: linear-gradient(179.24deg, #F17228 -90.18%, rgba(255, 255, 255, 0) 41.19%);
+}
+.info-col {
+    display: flex;
+}
+.info-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px !important;
+}
+@media (max-width: 769px) {
+    .InfoPanel {
+        background: url('/src/img/base.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .col-2 svg, .info-text {
+        padding: 0 5px;
+        margin: 0 20px;
+    }
+    .info-text {
+        min-width: 220px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .infoBox {
+        display: flex;
+    }
+    .col-4 {
+        margin-left: 10px;
+    }
+    .urgun {
+        margin-left: 70px;
+    }
+}
+@media (min-width: 992px) {
+    .infoBox {
+        padding: 60px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+        text-align: center;
+    }
+    .info-text {
+        align-items: flex-start;
+    }
+    .urgun {
+        box-sizing: border-box;
+        width: 65px;
+    }
+}
