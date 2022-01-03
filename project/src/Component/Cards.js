@@ -10,7 +10,7 @@ function Cards() {
   }, [Cards]);
 
   return (
-    <div className="container">
+    <div className="container my-5">
       <div className="row">
         {foods.map((data) => (
           <div className="col-6 col-md-3">
@@ -21,6 +21,7 @@ function Cards() {
               discount={data.sales}
               percentage={data.discount_percentage}
               finalPrice={data.final_price}
+              
             />
           </div>
         ))}
