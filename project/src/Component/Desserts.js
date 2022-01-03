@@ -10,7 +10,7 @@ function Desserts() {
       .then((data) => {
         setFoods(data);
       });
-  }, [Card]);
+  }, []);
 
   let desserts = foods.filter((p) => p.category === "Амттан").slice(0, 4);
 

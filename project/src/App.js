@@ -10,6 +10,7 @@ import "./css/button.css";
 import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
+import "./css/category.css"
 import {
   BrowserRouter,
   Route,

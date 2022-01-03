@@ -7,7 +7,7 @@ function Cards() {
     fetch("../data/foods.json")
       .then((response) => response.json())
       .then((data) => setFoods(data));
-  }, [Cards]);
+  }, []);
 
 
   return (
