@@ -1,5 +1,5 @@
 .main-footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     background-image: url('../data/bg.png');

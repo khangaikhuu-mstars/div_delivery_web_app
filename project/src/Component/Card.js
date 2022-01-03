@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import '../css/card.css'
 
 function Cards(props) {
   let productText = props.discount ? (
