@@ -1,5 +1,4 @@
 import MenuComponent from './component/MenuComponent';
-import Slider from './component/Slider';
 import Footer from "./component/Footer";
 import './css/App.css';
 import './css/menu.css';
@@ -9,7 +8,6 @@ function App() {
   return (
     <div>
       <MenuComponent/>
-      <Slider />
       <Footer />
     </div>
   )

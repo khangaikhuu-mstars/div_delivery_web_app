@@ -11,7 +11,7 @@ function MenuComponent() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="offcanvasNavbar"/>
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search"><a href="#"><img src={search} alt="" /></a></div>
           <div className="busket"><a href="#"><img src={busket} alt="" /></a></div>

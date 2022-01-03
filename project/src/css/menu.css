@@ -1,6 +1,6 @@
 /*  */
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif !important;
     font-style: normal;
 }
 
@@ -15,7 +15,7 @@ body {
 .loginBusket {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
@@ -54,7 +54,16 @@ body {
     font-weight: 500;
     font-size: 16px;
 }
-
+.ts:hover {
+    color: #F17228 !important;
+    font-weight: bold;
+}
+.navbar-light .navbar-toggler {
+    border: 0 !important;
+}
+.navbar-toggler-icon {
+    filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg) brightness(99%) contrast(92%);
+}
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;
@@ -106,12 +115,12 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
+    
     #search {
         display: none;
     }
-
     .tses {
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     button.sags {
@@ -130,6 +139,15 @@ body {
     .user {
         display: none;
     }
+    .ts {
+        margin: 0 10px;
+    }
+    .searchAndBusket {
+        display: none;
+    }
+    .loginBusket {
+        display: inline-flex;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -145,8 +163,7 @@ body {
     .user {
         display: none;
     }
-
-    .tses {
-        margin-left: 60px;
+    .ts {
+        margin: 0 10px;
     }
 }
