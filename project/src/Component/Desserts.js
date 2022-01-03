@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { responsivePropType } from "react-bootstrap/esm/createUtilityClasses";
 import Card from "./Card";
 
 function Desserts() {
@@ -26,7 +25,6 @@ function Desserts() {
               image={data.thumb_img}
               discount={data.sales}
               percentage={data.discount_percentage}
-              finalPrice={data.final_price}
             />
           </div>
         );
