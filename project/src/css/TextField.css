@@ -11,7 +11,7 @@ code {
 }
 
 
-@media (min-width: 100px)and (max-width: 425px) {
+@media (min-width: 0px)and (max-width: 739px) {
 
 
     .App-header1 {
@@ -97,6 +97,7 @@ code {
         background: transparent !important;
         background-image: url("../icons/search.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
     .leftIcon {
@@ -109,11 +110,13 @@ code {
         background: transparent !important;
         background-image: url("../icons/location2.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
     .form-select {
         padding-left: 30px !important;
         background-image: url("../icons/arrow.svg") !important;
+        z-index: 10;
     }
 
     .rightIcons {
@@ -125,7 +128,7 @@ code {
         background-image: url("../icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
-
+        z-index: 10;
     }
 
     .leftIcons {
@@ -135,6 +138,7 @@ code {
         border: none !important;
         background: transparent !important;
         margin-left: 8px !important;
+        z-index: 10;
     }
 
     .userBack {
@@ -149,6 +153,7 @@ code {
         align-items: center;
         margin-left: 5px;
         margin-top: 6px;
+        z-index: 10;
     }
 
     .leftIconSearch {
@@ -161,6 +166,7 @@ code {
         background-image: url("../icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
+        z-index: 10;
 
 
     }
@@ -221,7 +227,7 @@ code {
     }
 }
 
-@media (min-width: 426px)and (max-width: 1024px) {
+@media (min-width: 740px)and (max-width: 1024px) {
 
 
     .App-header1 {
@@ -307,6 +313,7 @@ code {
         background: transparent !important;
         background-image: url("../icons/search.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
     .leftIcon {
@@ -319,12 +326,14 @@ code {
         background: transparent !important;
         background-image: url("../icons/location.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
 
     .form-select {
         padding-left: 30px !important;
         background-image: url("../icons/arrow.svg") !important;
+        z-index: 10;
     }
 
     .rightIcons {
@@ -336,6 +345,7 @@ code {
         background-image: url("../icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
+        z-index: 10;
     }
 
     .leftIcons {
@@ -345,6 +355,7 @@ code {
         border: none !important;
         background: transparent !important;
         margin-left: 8px !important;
+        z-index: 10;
     }
 
     .userBack {
@@ -359,6 +370,7 @@ code {
         align-items: center;
         margin-left: 5px;
         margin-top: 6px;
+        z-index: 10;
     }
 
 
@@ -372,6 +384,7 @@ code {
         background-image: url("../icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
+        z-index: 10;
 
 
     }
@@ -538,6 +551,7 @@ code {
         background: transparent !important;
         background-image: url("../icons/search.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
     .leftIcon {
@@ -550,11 +564,13 @@ code {
         background: transparent !important;
         background-image: url("../icons/location.svg") !important;
         background-repeat: no-repeat !important;
+        z-index: 10;
     }
 
     .form-select {
         padding-left: 30px !important;
         background-image: url("../icons/arrow.svg") !important;
+        z-index: 10;
     }
 
     .rightIcons {
@@ -566,6 +582,7 @@ code {
         background-image: url("../icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
+        z-index: 10;
     }
 
     .leftIcons {
@@ -575,6 +592,7 @@ code {
         border: none !important;
         background: transparent !important;
         margin-left: 8px !important;
+        z-index: 10;
     }
 
     .userBack {
@@ -589,6 +607,7 @@ code {
         align-items: center;
         margin-left: 5px;
         margin-top: 6px;
+        z-index: 10;
     }
 
     .leftIconSearch {
@@ -601,6 +620,7 @@ code {
         background-image: url("../icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
+        z-index: 10;
     }
 
     /* Register name password */
