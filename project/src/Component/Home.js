@@ -1,6 +1,4 @@
-import Cards from "./Cards";
 import Category from "./Category-container";
-import Sales from "./Sales";
 import Slider from "./Slider";
 
 function Home() {
@@ -12,3 +10,5 @@ function Home() {
   );
 }
 export default Home;
+
+ 
