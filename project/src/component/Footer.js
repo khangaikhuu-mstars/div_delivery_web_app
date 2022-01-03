@@ -65,8 +65,8 @@ export default function Footer() {
             </Nav.Link>
           </div>
           <div className="copyright col-lg text-white text-end p-0">
-            <p className="mb-0 pe-3 pe-md-0 text-white">© 2020 MStars Foods LLC </p>
-            <p className="d-none d-md-block  text-white">
+            <p className="mb-0 pe-3 pe-md-0">© 2020 MStars Foods LLC </p>
+            <p className="d-none d-md-block">
               Зохиогчийн эрх хуулиар хамгаалагдсан.
             </p>
           </div>
