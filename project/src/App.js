@@ -12,6 +12,7 @@ import './css/tab.css'
 import Category from './component/Category-container'
 import "./css/category.css"
 
+
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
       <Slider />
       <Category/>
       <Footer />
+
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-function Cards(props) {
+function CardComponent (props) {
   let productText = props.discount ? (
     <Card.Text className="text-orange ps-2">
       {props.finalPrice}
@@ -34,4 +34,4 @@ function Cards(props) {
   );
 }
 
-export default Cards;
+export default CardComponent;
