@@ -3,13 +3,11 @@ import Slider from "./Slider";
 import Footer from "./Footer";
 
 
-function App() {
+function Home() {
     return (
         <div>
-          <MenuComponent />
           <Slider />
-          <Footer />
         </div>
     );
   }
-  export default App;
+  export default Home;

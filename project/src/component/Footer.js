@@ -18,13 +18,13 @@ export default function Footer() {
           <div className="col">
             <ul className="list-style fw-bold p-0">
               <li>
-                <a>Нүүр</a>
+                <a href="/">Нүүр</a>
               </li>
               <li>
-                <a>Хоолны цэс</a>
+                <a href="FoodMenu">Хоолны цэс</a>
               </li>
               <li>
-                <a>Хүргэлтийн бүс</a>
+                <a href="Area">Хүргэлтийн бүс</a>
               </li>
             </ul>
           </div>

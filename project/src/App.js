@@ -11,12 +11,20 @@ import "./css/button.css";
 import "./css/tab.css";
 import "./css/button.css";
 import { BrowserRouter, Route } from "react-router-dom/cjs/react-router-dom.min";
+import DammyComponent from "./component/DammyComponent";
+import { Switch } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <Route path="/" component={Home}/>
+        <MenuComponent/>
+      
+          <Route exact path="/" component={Home}/>
+          <Route path="/FoodMenu" component={DammyComponent}/>
+          <Route path="/Area" component={DammyComponent}/>
+       
+        <Footer/>
       </div>
     </BrowserRouter>
   );
