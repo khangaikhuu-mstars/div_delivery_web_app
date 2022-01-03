@@ -23,7 +23,7 @@ function Cards(props) {
 
   return (
     <div id="card-component" className="radius">
-      <Card className="mt-5 radius border-0">
+      <Card className="mt-5 fw-600 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
           <Card.Title className="ps-2">{props.name}</Card.Title>
