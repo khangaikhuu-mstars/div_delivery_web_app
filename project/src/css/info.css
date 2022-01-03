@@ -10,10 +10,8 @@ p {
     opacity: 0.75;
 }
 .InfoPanel {
-    height: 10vh;
-    padding: 30px 0;
+    padding: 50px 0;
     background: linear-gradient(179.24deg, #F17228 -90.18%, rgba(255, 255, 255, 0) 41.19%);
-    display: flex;
 }
 .info-col {
     display: flex;
@@ -72,6 +70,9 @@ p {
     }
     .info-text p{
         font-size: 12px;
+    }
+    .InfoPanel {
+        padding: 40px 0;
     }
 }
 
