@@ -12,6 +12,9 @@
     text-decoration: none;
     color: #fff;
 }
+.main-footer .nav-link:hover{
+    color: #fff;
+}
 .nav-link p{
     opacity: 1;
 }
@@ -25,6 +28,7 @@
     font-size: 12px;
 }
 .copyright p{
+    color: #fff;
     opacity: 1;
 }
 .about-and-policy a{
