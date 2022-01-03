@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import "../css/TextField.css"
 import FloatingLabel from "react-bootstrap/esm/FloatingLabel";
 import InputGroup from "react-bootstrap/esm/InputGroup";
-import icon from "../icons/Location.svg"
+import icon from "../icons/location.svg"
 import FormControl from "react-bootstrap/esm/FormControl";
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/Row"
