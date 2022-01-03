@@ -9,6 +9,9 @@ body {
 .text-orange {
   color: #F17228 !important;
 }
+.bg-orange{
+  background-color: #F17228;
+}
 .fw-500{
   font-weight: 500 !important;
 }

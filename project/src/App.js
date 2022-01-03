@@ -10,6 +10,7 @@ import Cards from "./component/Cards"
 import "./css/TextField.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/tab.css'
+import Category from './component/Category'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Slider />
       <Footer />
       <Cards/>
+      <Category/>
     </div>
   )
 }
