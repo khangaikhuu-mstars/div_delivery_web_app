@@ -13,6 +13,7 @@ p {
     height: 10vh;
     padding: 30px 0;
     background: linear-gradient(179.24deg, #F17228 -90.18%, rgba(255, 255, 255, 0) 41.19%);
+    display: flex;
 }
 .info-col {
     display: flex;
@@ -41,18 +42,8 @@ p {
         padding-left: 80px !important;
         padding-top: 30px;
     }
-    .info-text h1 {
-        font-size: 18px !important;
-        font-weight: bold !important;
-    }
 }
 @media (max-width: 992px) {
-    .InfoPanel {
-        background: url('/src/img/base.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
     .col-2 svg, .info-text {
         padding: 0 5px;
         margin: 0 20px;
@@ -95,7 +86,7 @@ p {
     .info-text {
         align-items: flex-start;
     }
-    h1 {
+    .info-text h1 {
         font-size: 18px !important;
         font-weight: bold !important;
     }
