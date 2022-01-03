@@ -2,7 +2,7 @@ import img1 from "../data/logo.png";
 import img2 from "../data/facebook.png";
 import img3 from "../data/instagram.png";
 import img4 from "../data/twitter.png";
-import React from 'react' 
+import React from "react";
 import { Nav } from "react-bootstrap";
 
 export default function Footer() {
@@ -66,10 +66,12 @@ export default function Footer() {
           </div>
           <div className="copyright col-lg text-white text-end p-0">
             <p className="mb-0 pe-3 pe-md-0">© 2020 MStars Foods LLC </p>
-            <p className="d-none d-md-block">Зохиогчийн эрх хуулиар хамгаалагдсан.</p>
+            <p className="d-none d-md-block">
+              Зохиогчийн эрх хуулиар хамгаалагдсан.
+            </p>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
