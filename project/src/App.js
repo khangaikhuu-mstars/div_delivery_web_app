@@ -11,6 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/tab.css'
 import Category from './component/Category-container'
 import "./css/category.css"
+import SaladMenu from "./component/SaladMenuComponent";
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Slider />
       <Category/>
       <Footer />
+      <SaladMenu/>
+
     </div>
   )
 }
