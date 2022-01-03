@@ -30,8 +30,8 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col">
-            <Nav.Link href="">
-              <p className="fw-bold text-white mb-2">Холбоо барих </p>
+            <Nav.Link href="" className="ps-0">
+              <p className="call fw-bold mb-2 text-white">Холбоо барих </p>
             </Nav.Link>
             <ul className="p-0 text-white">
               <li>(976) 77123456</li>
@@ -58,10 +58,10 @@ export default function Footer() {
           </div>
           <div className="about-and-policy text-white col-md p-0">
             <Nav.Link href="">
-              <p className="policy mb-0">Нууцлалын бодлого</p>
+              <p className="policy mb-0  text-white">Нууцлалын бодлого</p>
             </Nav.Link>
             <Nav.Link href="">
-              <p>Үйлчилгээний нөхцөл</p>
+              <p className=" text-white">Үйлчилгээний нөхцөл</p>
             </Nav.Link>
           </div>
           <div className="copyright col-lg text-white text-end p-0">
