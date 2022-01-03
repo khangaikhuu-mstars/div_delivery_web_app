@@ -1,25 +1,34 @@
-import Slider from "./component/Slider";
 import MenuComponent from "./component/MenuComponent";
 import Footer from "./component/Footer";
+import Home from "./component/Home";
 import "./css/App.css";
 import "./css/menu.css";
 import "./css/footer.css";
-import "./css/button.css";
-import "./css/card.css";
 import "./css/TextField.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/button.css";
 import "./css/tab.css";
-import Category from "./component/Category-container";
-import "./css/category.css";
+import "./css/button.css";
+import {
+  BrowserRouter,
+  Route,
+} from "react-router-dom"
+import DammyComponent from "./component/DammyComponent";
+import { Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <MenuComponent />
-      <Slider />
-      <Category />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <MenuComponent />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/FoodMenu" component={DammyComponent} />
+          <Route path="/Area" component={DammyComponent} />
+        </Switch>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 export default App;
