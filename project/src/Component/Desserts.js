@@ -16,10 +16,11 @@ function Desserts() {
 
   return (
     <div className="row">
-      {desserts.map((data) => {
+      {desserts.map((data, index) => {
         return (
           <div className="col-6 col-md-3" id="category-card">
             <Card
+              key={index}
               name={data.name}
               price={data.price}
               image={data.thumb_img}
