@@ -30,8 +30,8 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col">
-            <Nav.Link href="">
-              <p className="call fw-bold text-white mb-2">Холбоо барих </p>
+            <Nav.Link href="" className="ps-0">
+              <p className="call fw-bold mb-2 text-white">Холбоо барих </p>
             </Nav.Link>
             <ul className="p-0 text-white">
               <li>(976) 77123456</li>
