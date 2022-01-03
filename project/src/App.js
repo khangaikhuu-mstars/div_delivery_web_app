@@ -1,4 +1,3 @@
-import Slider from "./component/Slider";
 import MenuComponent from "./component/MenuComponent";
 import Footer from "./component/Footer";
 import Home from "./component/Home"
@@ -19,11 +18,11 @@ function App() {
     <BrowserRouter>
       <div>
         <MenuComponent/>
-      
+        <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/FoodMenu" component={DammyComponent}/>
           <Route path="/Area" component={DammyComponent}/>
-       
+        </Switch>   
         <Footer/>
       </div>
     </BrowserRouter>
