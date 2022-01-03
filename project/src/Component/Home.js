@@ -1,4 +1,3 @@
-import Category from "./Category-container";
 import Slider from "./Slider";
 import InfoPanelComponent from "./InfoPanelComponent";
 import Category from "./Category"
