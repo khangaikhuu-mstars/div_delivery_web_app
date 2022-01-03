@@ -6,20 +6,19 @@ import './css/menu.css';
 import "./css/footer.css";
 import "./css/button.css"
 import "./css/card.css"
-import Cards from "./component/Cards"
 import "./css/TextField.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/tab.css'
-import Category from './component/Category'
+import Category from './component/Category-container'
+import "./css/category.css"
 
 function App() {
   return (
     <div>
       <MenuComponent/>
       <Slider />
-      <Footer />
-      <Cards/>
       <Category/>
+      <Footer />
     </div>
   )
 }

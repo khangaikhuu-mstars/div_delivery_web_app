@@ -21,7 +21,6 @@ function Cards() {
               discount={data.sales}
               percentage={data.discount_percentage}
               finalPrice={data.final_price}
-              
             />
           </div>
         ))}
