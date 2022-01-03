@@ -3,6 +3,7 @@ import img2 from "../data/facebook.png";
 import img3 from "../data/instagram.png";
 import img4 from "../data/twitter.png";
 import React from 'react' 
+import { Nav } from "react-bootstrap";
 
 export default function Footer() {
   return (
@@ -18,20 +19,20 @@ export default function Footer() {
           <div className="col">
             <ul className="list-style fw-bold p-0">
               <li>
-                <a href="/">Нүүр</a>
+                <Nav.Link href="/">Нүүр</Nav.Link>
               </li>
               <li>
-                <a href="FoodMenu">Хоолны цэс</a>
+                <Nav.Link href="FoodMenu">Хоолны цэс</Nav.Link>
               </li>
               <li>
-                <a href="Area">Хүргэлтийн бүс</a>
+                <Nav.Link href="Area">Хүргэлтийн бүс</Nav.Link>
               </li>
             </ul>
           </div>
           <div className="col">
-            <a href="">
+            <Nav.Link href="">
               <p className="fw-bold text-white mb-2">Холбоо барих </p>
-            </a>
+            </Nav.Link>
             <ul className="p-0 text-white">
               <li>(976) 77123456</li>
               <li>(976) 99489843</li>
@@ -43,25 +44,25 @@ export default function Footer() {
             <div className="social-main">
               <div className="connect-we">Бидэнтэй нэгдээрэй</div>
               <div className="social-icons">
-                <a href="">
+                <Nav.Link href="">
                   <img src={img2} alt="" />
-                </a>
-                <a href="">
+                </Nav.Link>
+                <Nav.Link href="">
                   <img src={img3} alt="" />
-                </a>
-                <a href="">
+                </Nav.Link>
+                <Nav.Link href="">
                   <img src={img4} alt="" />
-                </a>
+                </Nav.Link>
               </div>
             </div>
           </div>
           <div className="about-and-policy text-white col-md p-0">
-            <a href="">
+            <Nav.Link href="">
               <p className="policy mb-0">Нууцлалын бодлого</p>
-            </a>
-            <a href="">
+            </Nav.Link>
+            <Nav.Link href="">
               <p>Үйлчилгээний нөхцөл</p>
-            </a>
+            </Nav.Link>
           </div>
           <div className="copyright col-lg text-white text-end p-0">
             <p className="mb-0 pe-3 pe-md-0">© 2020 MStars Foods LLC </p>
