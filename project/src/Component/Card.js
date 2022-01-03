@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import '../css/card.css'
+import "../css/card.css";
 
 function Cards(props) {
   let productText = props.discount ? (
@@ -14,9 +14,7 @@ function Cards(props) {
   let productImage = props.discount ? (
     <div className="position-relative">
       <Card.Img variant="top" className="img-fluid p-2" src={props.image} />
-      <div id="discounted-img">
-        {props.percentage}
-      </div>
+      <div id="discounted-img">{props.percentage}</div>
     </div>
   ) : (
     <Card.Img variant="top" className="img-fluid p-2" src={props.image} />

@@ -1,6 +1,6 @@
 import Card from "./Card";
 import { useEffect, useState } from "react";
-import '../css/card.css'
+import "../css/card.css";
 
 function Sales() {
   const [sale, setSale] = useState([]);
@@ -9,7 +9,7 @@ function Sales() {
       .then((response) => response.json())
       .then((data) => setSale(data));
   }, [Sales]);
-   let mainSales  = sale.filter((s) => s.sales === true).slice(0, 4)
+  let mainSales = sale.filter((s) => s.sales === true).slice(0, 4);
   return (
     <div className="container my-5">
       <div className="row">
