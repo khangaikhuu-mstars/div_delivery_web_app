@@ -1,5 +1,4 @@
 .main-footer {
-    position: absolute;
     width: 100%;
     bottom: 0;
     background-image: url('../data/bg.png');
@@ -21,7 +20,6 @@
 .copyright{
     font-size: 12px;
 }
-
 
 @media only screen and (max-width: 768px) {
 

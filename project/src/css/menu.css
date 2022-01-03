@@ -1,6 +1,6 @@
 /*  */
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif !important;
     font-style: normal;
 }
 
@@ -15,7 +15,7 @@ body {
 .loginBusket {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
@@ -64,6 +64,17 @@ nav form input:focus {
     font-size: 16px;
 }
 
+.ts:hover {
+    color: #F17228 !important;
+    font-weight: bold;
+}
+.navbar-light .navbar-toggler {
+    border: 0 !important;
+}
+.navbar-toggler-icon {
+    filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg) brightness(99%) contrast(92%);
+}
+
 .tses .ts {
     color: black !important;
 }
@@ -81,15 +92,14 @@ nav form input:focus {
     filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
 }
 
-
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;
-        top: 55px;
+        top: 54px;
         left: 0;
         width: 100%;
         height: 100vh;
-        z-index: 1;
+        z-index: 10;
         background-color: white;
     }
 
@@ -133,12 +143,12 @@ nav form input:focus {
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
+    
     #search {
         display: none;
     }
-
     .tses {
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     button.sags {
@@ -157,6 +167,15 @@ nav form input:focus {
     .user {
         display: none;
     }
+    .ts {
+        margin: 0 10px;
+    }
+    .searchAndBusket {
+        display: none;
+    }
+    .loginBusket {
+        display: inline-flex;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -172,8 +191,7 @@ nav form input:focus {
     .user {
         display: none;
     }
-
-    .tses {
-        margin-left: 60px;
+    .ts {
+        margin: 0 10px;
     }
 }
