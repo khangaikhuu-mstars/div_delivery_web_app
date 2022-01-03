@@ -43,7 +43,16 @@ body {
     margin-left: 80px;
     width: 230px;
     border-radius: 10px !important;
-    border-color: #F17228 !important;
+    border-color: #FBC5A6 !important;
+}
+
+#search::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav form input:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .tses {
@@ -54,6 +63,7 @@ body {
     font-weight: 500;
     font-size: 16px;
 }
+
 .ts:hover {
     color: #F17228 !important;
     font-weight: bold;
@@ -64,6 +74,24 @@ body {
 .navbar-toggler-icon {
     filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg) brightness(99%) contrast(92%);
 }
+
+.tses .ts {
+    color: black !important;
+}
+
+.tses .active {
+    color: #F17228 !important;
+    font-weight: 700 !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
+}
+
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;

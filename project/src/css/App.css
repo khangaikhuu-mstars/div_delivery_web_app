@@ -1,112 +1,20 @@
 body {
   font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+}
+.radius {
+  border-radius: 20px !important;
 }
 
-/* Slider Component style */
-
-.banner {
-  position: relative;
-  width: 375px;
-  height: 250px;
-  left: 0px;
-  top: 90px;
-
+.text-orange {
+  color: #F17228 !important;
 }
-
-.header {
-  position: absolute;
-  width: 160px;
-  height: 100px;
-  left: 198px;
-  top: 140px;
+.fw-500{
+  font-weight: 500 !important;
 }
-
-/* MStars Food delivery */
-
-.food-del {
-  position: absolute !important; 
-  width: 160px;
-  height: 60px;
-  right: 20px;
-  top: -88px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 120%; 
-  /* or 26px */
-  display: flex;
-  align-items: center;
-  text-align: right;
-  letter-spacing: 0.01em;
-  color: #F17228;
-  
+.fw-700{
+  font-weight: 700 !important; 
 }
-
-/* Хосгүй амтыг хормын дотор хүргэж өгнө. */
-
-.food-del-p {
-  position: absolute;
-  width: 160px;
-  height: 40px;
-  right: 20px;
-  top: -30px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 120%;
-  /* or 14px */
-  display: flex;
-  align-items: center;
-  text-align: right;
-  letter-spacing: 0.01em;
-  color: #4D2000;
-  
-}
-
-/* Сэт хоол тун удахгүй & Тун удахгүй... */
-
-.slider-text {
-  position: absolute;
-  width: 160px;
-  height: 60px;
-  top: 50px;
-  right: 23px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 120%; 
-  /* or 26px */
-  display: flex;
-  align-items: center;
-  text-align: right;
-  letter-spacing: 0.01em;
-  color: #FFFFFF; 
-  /* banner text 2,3 */
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
-}
-
-/* Button changing */
-
-.carousel-indicators [data-bs-target] { 
-  flex: 0 1 auto;
-  width: 8px;
-  height: 5px;
-  margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: #FBC5A6;
-  background-clip: padding-box;
-  border-top: 0px solid transparent;
-  border-bottom: 0px solid transparent;
-  opacity: .5;
-  transition: opacity .6s ease;
-  border-radius: 5px;
-}
-
-.carousel-indicators .active {
-  width: 12px;
-  height: 5px;
-  background: #F17228;
-  border-radius: 5px;
+.fw-900{
+  font-weight: 900 !important;
 }

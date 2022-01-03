@@ -1,4 +1,4 @@
-import '../css/Info.css';
+import '../css/info.css';
 import '../css/App.css';
 import { Container, Col, Row } from 'react-bootstrap';
 
