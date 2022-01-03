@@ -9,7 +9,7 @@ function InfoPanelComponent() {
                 <div className="infoBox">
                     <Row>
                         <Col className="info-col" md={4} lg={4}>
-                            <div className="col-4 urgun">
+                            <div className="col-4">
                                 <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.5" y="0.400391" width="60" height="60" rx="10" fill="#FFD7BF" fill-opacity="0.28" />
                                     <path
@@ -17,7 +17,7 @@ function InfoPanelComponent() {
                                         fill="#FF7800" />
                                 </svg>
                             </div>
-                            <div className="info-text col-8">
+                            <div className="info-text col-9">
                                 <h1>Шуурхай хүргэлт</h1>
                                 <p>30 минутанд таны гарт.</p>
                             </div>
@@ -31,13 +31,13 @@ function InfoPanelComponent() {
                                         fill="#FF7800" />
                                 </svg>
                             </div>
-                            <div className="info-text col-8">
+                            <div className="info-text col-9">
                                 <h1>Эрүүл, баталгаат орц</h1>
                                 <p>Хамгийн чанартайг танд.</p>
                             </div>
                         </Col>
                         <Col className="info-col" md={4} lg={4}>
-                            <div className="col-4 urgun">
+                            <div className="col-4">
                                 <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.5" y="0.400391" width="60" height="60" rx="10" fill="#FFD7BF" fill-opacity="0.28" />
                                     <path
@@ -45,7 +45,7 @@ function InfoPanelComponent() {
                                         fill="#FF7800" />
                                 </svg>
                             </div>
-                            <div className="info-text col-8">
+                            <div className="info-text col-9">
                                 <h1>Өргөн сонголт</h1>
                                 <p>Хамгийн онцгойг танд.</p>
                             </div>

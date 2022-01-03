@@ -1,6 +1,7 @@
 .main-footer {
     width: 100%;
     bottom: 0;
+    position: absolute;
     background-image: url('../data/bg.png');
     background-position: center, center;
     font-size: 14px;
