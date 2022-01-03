@@ -6,6 +6,7 @@ import food1 from '../img/food1.png';
 import see from '../img/see.png';
 import '../css/menu.css';
 import '../css/App.css';
+import { Link } from 'react-router-dom';
 
 function MenuComponent() {
   return (
@@ -13,10 +14,10 @@ function MenuComponent() {
       <Container>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
-          <div className="search"><a href="#"><img src={search} alt="" /></a></div>
-          <div className="busket"><a href="#"><img src={busket} alt="" /></a></div>
+          <div className="search"><Link to="#"><img src={search} alt="" /></Link></div>
+          <div className="busket"><Link to="#"><img src={busket} alt="" /></Link></div>
         </div>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <div className="logo order-0">
             <img src={food1} alt="" />
             <div className="food">Food Delivery</div>
@@ -25,9 +26,9 @@ function MenuComponent() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }}>
             <div className="tses">
-              <Nav.Link className="ts" href="#home">НҮҮР</Nav.Link>
-              <Nav.Link className="ts" href="#menu">ХООЛНЫ ЦЭС</Nav.Link>
-              <Nav.Link className="ts" href="#radius">ХҮРГЭЛТИЙН БҮС</Nav.Link>
+              <Nav.Link className="ts" href="/">НҮҮР</Nav.Link>
+              <Nav.Link className="ts" href="FoodMenu">ХООЛНЫ ЦЭС</Nav.Link>
+              <Nav.Link className="ts" href="Area">ХҮРГЭЛТИЙН БҮС</Nav.Link>
             </div>
             <div className="info">
               <div className="menu-info">
