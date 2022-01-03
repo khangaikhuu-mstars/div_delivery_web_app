@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.026a5447.css",
-    "main.js": "/static/js/main.58914412.js",
-    "static/media/web-b2.png": "/static/media/web-b2.4b7bd218b5fcb8788e58.png",
-    "static/media/web-b3.png": "/static/media/web-b3.c76e1f10503f3d026366.png",
-    "static/media/web-bg.png": "/static/media/web-bg.08609212ed142c232108.png",
-    "static/media/web-meal-pic.png": "/static/media/web-meal-pic.5e84e84702c3a2ac45fa.png",
-    "static/media/bg.png": "/static/media/bg.016a5d2353184dfbfc4f.png",
-    "index.html": "/index.html",
-    "static/media/search.svg": "/static/media/search.cfeb55652af528532b58.svg",
-    "static/media/searchButton.svg": "/static/media/searchButton.61499274ae6b042d4cad.svg",
-    "static/media/pen.svg": "/static/media/pen.ce10fe733b47a7ce33b5.svg",
-    "static/media/location.svg": "/static/media/location.15f1ed9e90417410ec57.svg",
-    "static/media/location2.svg": "/static/media/location2.6be04a4b2e9a06012293.svg",
-    "static/media/arrow.svg": "/static/media/arrow.f5d69cfe294838e000e3.svg",
-    "main.026a5447.css.map": "/static/css/main.026a5447.css.map",
-    "main.58914412.js.map": "/static/js/main.58914412.js.map"
+    "main.css": "/khangaikhuu-mstars/div_delivery_web_app.git/static/css/main.827056b9.css",
+    "main.js": "/khangaikhuu-mstars/div_delivery_web_app.git/static/js/main.083c697a.js",
+    "static/media/web-b2.png": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/web-b2.4b7bd218b5fcb8788e58.png",
+    "static/media/web-b3.png": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/web-b3.c76e1f10503f3d026366.png",
+    "static/media/web-bg.png": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/web-bg.08609212ed142c232108.png",
+    "static/media/web-meal-pic.png": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/web-meal-pic.5e84e84702c3a2ac45fa.png",
+    "static/media/bg.png": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/bg.016a5d2353184dfbfc4f.png",
+    "index.html": "/khangaikhuu-mstars/div_delivery_web_app.git/index.html",
+    "static/media/search.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/search.cfeb55652af528532b58.svg",
+    "static/media/searchButton.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/searchButton.61499274ae6b042d4cad.svg",
+    "static/media/pen.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/pen.ce10fe733b47a7ce33b5.svg",
+    "static/media/location.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/location.15f1ed9e90417410ec57.svg",
+    "static/media/location2.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/location2.6be04a4b2e9a06012293.svg",
+    "static/media/arrow.svg": "/khangaikhuu-mstars/div_delivery_web_app.git/static/media/arrow.f5d69cfe294838e000e3.svg",
+    "main.827056b9.css.map": "/khangaikhuu-mstars/div_delivery_web_app.git/static/css/main.827056b9.css.map",
+    "main.083c697a.js.map": "/khangaikhuu-mstars/div_delivery_web_app.git/static/js/main.083c697a.js.map"
   },
   "entrypoints": [
-    "static/css/main.026a5447.css",
-    "static/js/main.58914412.js"
+    "static/css/main.827056b9.css",
+    "static/js/main.083c697a.js"
   ]
 }
