@@ -1,20 +1,20 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-function Cards(props) {
+function CardComponent (props) {
   let productText = props.discount ? (
     <Card.Text className="text-orange ps-2">
-      {props.finalPrice}
-      <strike className="ms-2 text-dark">{props.price}</strike>
+      {new Intl.NumberFormat().format(props.price - props.price * props.percentage / 100)}₮
+      <strike className="ms-2 text-dark">{props.price}₮</strike>
     </Card.Text>
   ) : (
-    <Card.Text className="text-orange ps-2">{props.price}</Card.Text>
+    <Card.Text className="text-orange ps-2">{new Intl.NumberFormat().format(props.price)}₮</Card.Text> 
   );
   let productImage = props.discount ? (
     <div className="position-relative">
       <Card.Img variant="top" className="img-fluid p-2" src={props.image} />
       <div id="discounted-img">
-        {props.percentage}
+        {props.percentage}%
       </div>
     </div>
   ) : (
@@ -23,7 +23,7 @@ function Cards(props) {
 
   return (
     <div id="card-component" className="radius">
-      <Card className="mt-5 fw-600 radius border-0">
+      <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
           <Card.Title className="ps-2">{props.name}</Card.Title>
@@ -34,4 +34,4 @@ function Cards(props) {
   );
 }
 
-export default Cards;
+export default CardComponent;

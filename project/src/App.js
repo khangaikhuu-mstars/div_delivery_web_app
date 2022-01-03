@@ -10,10 +10,11 @@ import "./css/button.css";
 import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
+import "./css/category.css"
 import {
   BrowserRouter,
   Route,
-} from "react-router-dom/cjs/react-router-dom.min";
+} from "react-router-dom"
 import DammyComponent from "./component/DammyComponent";
 import { Switch } from "react-router-dom";
 
