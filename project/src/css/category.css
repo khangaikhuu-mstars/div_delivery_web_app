@@ -1,3 +1,10 @@
 #category-name{
     border-left: 11px #F17228 solid !important;
 }
+
+@media screen and (max-width: 740px){
+    #category-card:nth-child(3), #category-card:last-child{
+        display: none;
+    }
+    
+}

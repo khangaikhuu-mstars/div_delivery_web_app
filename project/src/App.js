@@ -1,6 +1,7 @@
 import MenuComponent from "./component/MenuComponent";
 import Footer from "./component/Footer";
 import Home from "./component/Home";
+import DammyComponent from "./component/DammyComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
 import "./css/menu.css";
@@ -10,12 +11,8 @@ import "./css/button.css";
 import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
-import {
-  BrowserRouter,
-  Route,
-} from "react-router-dom/cjs/react-router-dom.min";
-import DammyComponent from "./component/DammyComponent";
-import { Switch } from "react-router-dom";
+import "./css/category.css"
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 function App() {
   return (

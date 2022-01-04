@@ -1,12 +1,13 @@
 import Slider from "./Slider";
 import InfoPanelComponent from "./InfoPanelComponent";
-import Cards from "./Cards";
+import Category from "./Category"
 
 function Home() {
     return (
         <div>
           <Slider />
           <InfoPanelComponent />
+          <Category/>
         </div>
     );
   }

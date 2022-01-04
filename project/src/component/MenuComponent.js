@@ -6,7 +6,7 @@ import food1 from '../img/food1.png';
 import see from '../img/see.png';
 import '../css/menu.css';
 import '../css/App.css';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 function MenuComponent() {
   return (
@@ -26,9 +26,9 @@ function MenuComponent() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }}>
             <div className="tses">
-              <Nav.Link className="ts" href="/">НҮҮР</Nav.Link>
-              <Nav.Link className="ts" href="FoodMenu">ХООЛНЫ ЦЭС</Nav.Link>
-              <Nav.Link className="ts" href="Area">ХҮРГЭЛТИЙН БҮС</Nav.Link>
+              <NavLink className="ts nav-link" exact to="/">НҮҮР</NavLink>
+              <NavLink className="ts nav-link" to="/FoodMenu">ХООЛНЫ ЦЭС</NavLink>
+              <NavLink className="ts nav-link" to="/Area">ХҮРГЭЛТИЙН БҮС</NavLink>
             </div>
             <div className="info">
               <div className="menu-info">
