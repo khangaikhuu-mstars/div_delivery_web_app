@@ -9,13 +9,13 @@
         "category": "Үндсэн хоол"
     },
     {
-        "name": "Бөөрөнхий мах",
+        "name": "Итали пицца",
         "sales": false,
         "price": 24000,
         "portion": 4,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, перец",
-        "thumb_img": "food/meatball.png",
+        "thumb_img": "food/italian_pizza.png",
         "category": "Үндсэн хоол"
     },
     {
