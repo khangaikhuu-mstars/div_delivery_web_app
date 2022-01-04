@@ -91,7 +91,12 @@ nav form input:focus {
 .navbar-light .navbar-toggler-icon {
     filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
 }
-
+@media (max-width: 375px) {
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        margin: 0;
+    }
+}
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;
