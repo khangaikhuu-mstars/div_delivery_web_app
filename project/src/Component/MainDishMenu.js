@@ -9,8 +9,8 @@ function MainDishMenu() {
     }, []);
     let menu = mainMenu.filter((m) => m.category === "Үндсэн хоол").slice(0,4)
     return (
-        <div className="row">
-
+        <div className="container">
+            <div className="row">
                 {menu.map((data) => (
                     <div className="col-6 col-md-3" id="category-card">
                         <Cards
@@ -24,7 +24,7 @@ function MainDishMenu() {
                         />  
                     </div>
                 ))}
-
+            </div>
         </div>
     )
 }
