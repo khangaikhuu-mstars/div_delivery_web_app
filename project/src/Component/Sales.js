@@ -11,8 +11,8 @@ function Sales() {
   }, [Sales]);
   let mainSales = sale.filter((s) => s.sales === true).slice(0, 4);
   return (
-    <div className="container my-5">
-      <div className="row">
+    <div className="row">
+ 
         {mainSales.map((data) => (
           <div className="col-6 col-md-3" id="category-card">
             <Card
@@ -25,7 +25,7 @@ function Sales() {
             />
           </div>
         ))}
-      </div>
+ 
     </div>
   );
 }

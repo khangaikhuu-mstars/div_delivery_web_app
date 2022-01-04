@@ -110,18 +110,6 @@
         "category": "Салад ба зууш"
     },
     {
-        "name": "Банана сендвич",
-        "sales": true,
-        "price": "5,800₮",
-        "discount_percentage": "20%",
-        "final_price": "4,640₮",
-        "portion": 2,
-        "stock": 10,
-        "recipe": "Талх, банана, шоколадны крем, ",
-        "thumb_img": "food/banana_sandwich.png",
-        "category": "Салад ба зууш"
-    },
-    {
         "name": "Детокс салад",
         "sales": false,
         "price": 11800,
