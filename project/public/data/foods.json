@@ -1,7 +1,47 @@
 [{
+        "name": "Салмон загас",
+        "sales": false,
+        "price": 6800,
+        "portion": 1,
+        "stock": 10,
+        "recipe": "Загасны мах, соус, төмсний нухаш",
+        "thumb_img": "food/salmon.png",
+        "category": "Үндсэн хоол"
+    },
+    {
+        "name": "Бөөрөнхий мах",
+        "sales": false,
+        "price": 24000,
+        "portion": 4,
+        "stock": 10,
+        "recipe": "Үхрийн мах, соус, перец",
+        "thumb_img": "food/meatball.png",
+        "category": "Үндсэн хоол"
+    },
+    {
+        "name": "Самрын нухаш",
+        "sales": false,
+        "price": 9800,
+        "portion": 1,
+        "stock": 10,
+        "recipe": "Самар, улаан лооль, авакадо, бусад ногоо",
+        "thumb_img": "food/nut_mash.png",
+        "category": "Үндсэн хоол"
+    },
+    {
+        "name": "Чикен бургер",
+        "sales": false,
+        "price": 14000,
+        "portion": 3,
+        "stock": 10,
+        "recipe": "Үхрийн мах, салатны навч, бургерийн талх, соус, сонгино",
+        "thumb_img": "food/chicken_burger.png",
+        "category": "Үндсэн хоол"
+    },
+    {
         "name": "Хулууны зутан",
         "sales": false,
-        "price": "6,800₮",
+        "price": 6800,
         "portion": 1,
         "stock": 10,
         "recipe": "Хулуу, төмс, лууван , сонгино, цөцгийн тос, самрын үр",
@@ -9,19 +49,50 @@
         "category": "Үндсэн хоол"
     },
     {
-        "name": "Итали пицца",
-        "sales": false,
-        "price": "24,000₮",
-        "portion": 4,
+        "name": "Банана сендвич",
+        "sales": true,
+        "price": 5800,
+        "discount_percentage": 20,
+        "portion": 2,
         "stock": 10,
         "recipe": "Улаан лоолийн нухаш, улаан буудайн гурил, бяслаг",
         "thumb_img": "food/italian_pizza.png",
         "category": "Үндсэн хоол"
     },
     {
+        "name": "Стейк",
+        "sales": false,
+        "price": 6800,
+        "portion": 2,
+        "stock": 10,
+        "recipe": "Үхрийн мах, соус, төмсний нухаш, брокколи",
+        "thumb_img": "food/steak.png",
+        "category": "Үндсэн хоол"
+    },
+    {
+        "name": "Гол стейк",
+        "sales": false,
+        "price": 25800,
+        "portion": 2,
+        "stock": 10,
+        "recipe": "Үхрийн мах, салатны навч",
+        "thumb_img": "food/club_steack.png",
+        "category": "Үндсэн хоол"
+    },
+    {
+        "name": "Догбугги",
+        "sales": false,
+        "price": 14000,
+        "portion": 1,
+        "stock": 10,
+        "recipe": "Будааны боов, үден",
+        "thumb_img": "food/dogbukki.png",
+        "category": "Үндсэн хоол"
+    },
+    {
         "name": "Чикен рамен",
         "sales": false,
-        "price": "9,800₮",
+        "price": 9800,
         "portion": 1,
         "stock": 10,
         "recipe": "Тахианы гуяны мах, будааны гоймон, тахианы шөл",
@@ -29,19 +100,9 @@
         "category": "Үндсэн хоол"
     },
     {
-        "name": "Догбугги",
-        "sales": false,
-        "price": "14,000₮",
-        "portion": 3,
-        "stock": 10,
-        "recipe": "Будааны боов, үден",
-        "thumb_img": "food/dogbukki.png",
-        "category": "Үндсэн хоол"
-    },
-    {
         "name": "Кобб салад",
         "sales": false,
-        "price": "6,800₮",
+        "price": 19800,
         "portion": 1,
         "stock": 10,
         "recipe": "Нарийн ногоо, авакадо, улаан лооль, огурци, салад",
@@ -63,69 +124,18 @@
     {
         "name": "Детокс салад",
         "sales": false,
-        "price": "6,800₮",
-        "portion": 2,
+        "price": 11800,
+        "portion": 1,
         "stock": 10,
         "recipe": "Гурил, саладны навч, соус, улаан лооль",
         "thumb_img": "food/detox_salad.png",
         "category": "Салад ба зууш"
     },
     {
-        "name": "Гол стейк",
-        "sales": false,
-        "price": "25,800₮",
-        "portion": 2,
-        "stock": 10,
-        "recipe": "Үхрийн мах, салатны навч",
-        "thumb_img": "food/club_steack.png",
-        "category": "Үндсэн хоол"
-    },
-    {
-        "name": "Чикен бургер",
-        "sales": false,
-        "price": "14,000₮",
-        "portion": 1,
-        "stock": 10,
-        "recipe": "Үхрийн мах, салатны навч, бургерийн талх, соус, сонгино",
-        "thumb_img": "food/chicken_burger.png",
-        "category": "Үндсэн хоол"
-    },
-    {
-        "name": "Самрын нухаш",
-        "sales": false,
-        "price": "9,800₮",
-        "portion": 1,
-        "stock": 10,
-        "recipe": "Самар, улаан лооль, авакадо, бусад ногоо",
-        "thumb_img": "food/nut_mash.png",
-        "category": "Үндсэн хоол"
-    },
-    {
-        "name": "Стейк",
-        "sales": false,
-        "price": "19,800₮",
-        "portion": 1,
-        "stock": 10,
-        "recipe": "Үхрийн мах, соус, төмсний нухаш, брокколи",
-        "thumb_img": "food/steak.png",
-        "category": "Үндсэн хоол"
-    },
-    {
-        "name": "Салмон загас",
-        "sales": false,
-        "price": "11,800₮",
-        "portion": 1,
-        "stock": 10,
-        "recipe": "Загасны мах, соус, төмсний нухаш",
-        "thumb_img": "food/salmon.png",
-        "category": "Үндсэн хоол"
-    },
-    {
         "name": "Өглөөний хоол",
         "sales": true,
-        "price": "6,800₮",
-        "discount_percentage": "20%",
-        "final_price": "5,440₮",
+        "price": 6800,
+        "discount_percentage": 20,
         "portion": 1,
         "stock": 10,
         "recipe": "Өндөг, бейкон, зайдас, шош",
@@ -135,7 +145,7 @@
     {
         "name": "Авокадо салад",
         "sales": false,
-        "price": "6,900₮",
+        "price": 6900,
         "portion": 1,
         "stock": 10,
         "recipe": "Авокадо, салатны навч, гүнжидийн үр, тос",
@@ -145,9 +155,8 @@
     {
         "name": "Панкейк",
         "sales": true,
-        "price": "7,000₮",
-        "discount_percentage": "20%",
-        "final_price": "5,600₮",
+        "price": 7000,
+        "discount_percentage": 20,
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, өндөг, сүү, соус",
@@ -157,7 +166,7 @@
     {
         "name": "Бөөрөнхий мах",
         "sales": false,
-        "price": "14,000₮",
+        "price": 14000,
         "portion": 2,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, перец",
@@ -167,7 +176,7 @@
     {
         "name": "Донатс",
         "sales": false,
-        "price": "5,800₮",
+        "price": 5800,
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, шоколад, өндөг, сүү",
@@ -177,7 +186,7 @@
     {
         "name": "Орео десерт",
         "sales": false,
-        "price": "7,800₮",
+        "price": 7800,
         "portion": 1,
         "stock": 10,
         "recipe": "Орео, шоколад, сүү, сүүн крем",
@@ -187,7 +196,7 @@
     {
         "name": "Вафли",
         "sales": false,
-        "price": "5,800₮",
+        "price": 5800,
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, сүү, өндөг, элсэн чихэр",
@@ -197,7 +206,7 @@
     {
         "name": "Макарон",
         "sales": false,
-        "price": "3,800₮",
+        "price": 3800,
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, өндөг, сүү, хүнсний өнгө оруулагч",
@@ -207,9 +216,8 @@
     {
         "name": "Зайрмаг",
         "sales": true,
-        "price": "6,800₮",
-        "discount_percentage": "30%",
-        "final_price": "4,760₮",
+        "price": 6800,
+        "discount_percentage": 30,
         "portion": 1,
         "stock": 10,
         "recipe": "Сүү, цөцгий",
@@ -219,7 +227,7 @@
     {
         "name": "Cендвич",
         "sales": false,
-        "price": "4,800₮",
+        "price": 4800,
         "portion": 1,
         "stock": 10,
         "recipe": "Cендвичний талх, хиам, салатны навч, сонгино",
