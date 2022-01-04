@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+import Tab from "./Tab";
 
 function DammyComponent() {
     return (
         <div>
        
-            Dammy component
+            <Tab />
         
         </div>
     );
