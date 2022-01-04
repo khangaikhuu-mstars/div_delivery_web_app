@@ -7,8 +7,15 @@ import see from '../img/see.png';
 import '../css/menu.css';
 import '../css/App.css';
 import { Link } from 'react-router-dom';
+import FoodSearch from "./FoodSearch"
 
 function MenuComponent() {
+  handleSubmit = (e)=>{
+    e.preventDefault();
+    let foodName = food.value
+    let path = `/FoodMenu/${foodName}`
+    history.push(path)
+  }
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -77,8 +84,8 @@ function MenuComponent() {
               </div>
             </div>
           </Nav>
-          <Form className="d-flex form">
-            <FormControl type="search" placeholder="&#128269; Хайх" id="search" className="me-2" aria-label="Search" />
+          <Form className="d-flex form" onSubmit={FoodSearch}>
+            <FormControl type="search" ref={(input) => food = input } placeholder="&#128269; Хайх" id="search" className="me-2" aria-label="Search" />
             <div className="loginBusket">
               <Button variant="outline-none" className="searchpng">
                 <a href=""><img src={search} alt="" /></a>
