@@ -13,6 +13,7 @@ import "./css/info.css";
 import "./css/card.css";
 import "./css/category.css"
 import {BrowserRouter, Route, Switch} from "react-router-dom"
+import DeliveryArea from "./component/DeliveryArea";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/FoodMenu" component={DammyComponent} />
-          <Route path="/Area" component={DammyComponent} />
+          <Route path="/Area" component={DeliveryArea} />
         </Switch>
         <Footer />
       </div>

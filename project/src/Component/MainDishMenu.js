@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Cards from "./Card";
+import Cards from "./Cards";
 function MainDishMenu() {
     const [mainMenu, setMainMenu] = useState([])
     useEffect(() => {
