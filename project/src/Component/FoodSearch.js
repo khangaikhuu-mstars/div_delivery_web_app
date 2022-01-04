@@ -5,7 +5,7 @@ function FoodSearch ({match}) {
     const name = match.params.name
     return (
         <div>
-            <Cards/>
+            <Cards />
         </div>
     )
 }

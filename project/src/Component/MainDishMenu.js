@@ -28,4 +28,4 @@ function MainDishMenu() {
         </div>
     )
 }
-export default MainDishMenu
+export default MainDishMenu;
