@@ -1,4 +1,4 @@
-import {Container, Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
+import { Container, Nav, Navbar, Form, FormControl, Button } from 'react-bootstrap';
 import search from '../img/search.png';
 import busket from '../img/busket.png';
 import human from '../img/human.png';
@@ -6,13 +6,17 @@ import food1 from '../img/food1.png';
 import see from '../img/see.png';
 import '../css/menu.css';
 import '../css/App.css';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link } from "react-router-dom";
+import { useState } from "react"
+import Example from './Canvas';
+
 
 function MenuComponent() {
+  const [show, setShow] = useState(false)
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar"/>
+        <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search"><Link to="#"><img src={search} alt="" /></Link></div>
           <div className="busket"><Link to="#"><img src={busket} alt="" /></Link></div>
@@ -83,9 +87,8 @@ function MenuComponent() {
               <Button variant="outline-none" className="searchpng">
                 <a href=""><img src={search} alt="" /></a>
               </Button>
-              <div className="busket">
-                <a href=""><img src={busket} width={17} height={19} alt="" /></a>
-                <Button variant="outline-none" className="sags text-orange fw-500">Сагс</Button>
+              <div>
+                <Example />
               </div>
               <div className="login">
                 <a href=""><img src={human} alt="" /></a>

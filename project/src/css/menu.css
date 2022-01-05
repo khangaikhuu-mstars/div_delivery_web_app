@@ -26,8 +26,9 @@ body {
     flex-wrap: wrap;
 }
 
-.busket {
-    padding-left: 20px;
+.busketSize{
+    margin-top: -4px;
+    margin-right: 10px;
 }
 
 .searchAndBusket {
