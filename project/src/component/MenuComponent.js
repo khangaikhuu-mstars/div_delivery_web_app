@@ -17,6 +17,8 @@ import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
 
+  const [show, setShow] = useState(false)
+
   let foodInput = "";
   let history = useHistory();
   const handleSubmit = (e) => {
@@ -201,6 +203,8 @@ function MenuComponent() {
                 >
                   Сагс
                 </Button>
+              <div>
+                <Example />
               </div>
               <div className="login">
                 <a href="">
@@ -213,6 +217,7 @@ function MenuComponent() {
                   Нэвтрэх
                 </Button>
               </div>
+            </div>
             </div>
           </Form>
         </Navbar.Collapse>
