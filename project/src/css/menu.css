@@ -26,8 +26,6 @@ body {
     flex-wrap: wrap;
 }
 
-
-
 .searchAndBusket {
     display: flex;
     flex-direction: row;

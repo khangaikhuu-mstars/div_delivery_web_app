@@ -8,7 +8,7 @@ function Category() {
 
   return (
     <div className="container my-5">
-      <div className="row align-items-center my-3 ps-4 ps-md-0">
+      <div className="row align-items-center my-5 ps-4 ps-md-0">
         <div className="col-6 fw-700 py-2" id="category-name">
           Хямдралтай
         </div>
@@ -16,7 +16,7 @@ function Category() {
         <div className="col-6 d-none d-lg-flex justify-content-end" id="category-button"><SeeAllButton/></div>
         <Sales />
       </div>
-      <div className="row align-items-center my-3 ps-4 ps-md-0">
+      <div className="row align-items-center my-5 ps-4 ps-md-0">
         <div className="col-6 fw-700 py-2" id="category-name">
           Үндсэн хоол
         </div>
@@ -24,7 +24,7 @@ function Category() {
         <div className="col-6 d-none d-lg-flex justify-content-end" id="category-button"><SeeAllButton/></div>
         <MainDishMenu />
       </div>
-      <div className="row align-items-center my-3 ps-4 ps-md-0">
+      <div className="row align-items-center my-5 ps-4 ps-md-0">
         <div className="col-6 fw-700 py-2" id="category-name">
           Салад ба зууш
         </div>
@@ -32,7 +32,7 @@ function Category() {
         <div className="col-6 d-none d-lg-flex justify-content-end" id="category-button"><SeeAllButton/></div>
         <SaladMenu />
       </div>
-      <div className="row align-items-center my-3 ps-4 ps-md-0">
+      <div className="row align-items-center my-5 ps-4 ps-md-0">
         <div className="col-6 fw-700 py-2" id="category-name">
           Амттан
         </div>

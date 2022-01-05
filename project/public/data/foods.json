@@ -9,13 +9,17 @@
         "category": "Үндсэн хоол"
     },
     {
-        "name": "Бөөрөнхий мах",
+        "name": "Итали пицца",
         "sales": false,
         "price": 24000,
         "portion": 4,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, перец",
+<<<<<<< HEAD
         "thumb_img": "/food/meatball.png",
+=======
+        "thumb_img": "food/italian_pizza.png",
+>>>>>>> 40cd13bd5fd46101c18a1738d565478eb99ccff8
         "category": "Үндсэн хоол"
     },
     {
@@ -55,9 +59,15 @@
         "discount_percentage": 20,
         "portion": 2,
         "stock": 10,
+<<<<<<< HEAD
         "recipe": "Улаан лоолийн нухаш, улаан буудайн гурил, бяслаг",
         "thumb_img": "/food/italian_pizza.png",
         "category": "Үндсэн хоол"
+=======
+        "recipe": "Талх, банана, шоколадны крем, ",
+        "thumb_img": "food/banana_sandwich.png",
+        "category": "Салад ба зууш"
+>>>>>>> 40cd13bd5fd46101c18a1738d565478eb99ccff8
     },
     {
         "name": "Стейк",
