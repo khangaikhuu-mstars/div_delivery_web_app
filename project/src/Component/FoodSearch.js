@@ -25,24 +25,24 @@ const FoodSearch = () => {
     foodFound = true;
   }
   let searchContent = foodFound ? <div className="row">
-  {foundFood.map((data, index) => {
-    return (
-      <div className="col-6 col-md-3">
-        <Card
-          key={index}
-          name={data.name}
-          price={data.price}
-          image={data.thumb_img}
-          discount={data.sales}
-          percentage={data.discount_percentage}
-        />
-      </div>
-    );
-  })}
-</div> : <div className="col-12 text-center" id="not-found">
-  <img className="img-fluid" src="/food/gif.png" alt="" />
-  <p >Уучлаарай, илэрц олдсонгүй...</p>
-</div>
+    {foundFood.map((data, index) => {
+      return (
+        <div className="col-6 col-md-3">
+          <Card
+            key={index}
+            name={data.name}
+            price={data.price}
+            image={data.thumb_img}
+            discount={data.sales}
+            percentage={data.discount_percentage}
+          />
+        </div>
+      );
+    })}
+  </div> : <div className="col-12 text-center" id="not-found">
+    <img className="img-fluid" src="/food/gif.png" alt="" />
+    <p >Уучлаарай, илэрц олдсонгүй...</p>
+  </div>
 
 
   return <div className="container mb-5">{searchContent}</div>;
