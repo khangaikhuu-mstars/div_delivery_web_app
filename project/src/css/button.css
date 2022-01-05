@@ -19,6 +19,7 @@ button:focus{
   outline: none !important;
   box-shadow: none !important;
 }
+
 .active-button {
   background-color: white !important;
   color: #F17228 !important;
@@ -32,6 +33,14 @@ button:focus{
 .active-button:hover{
   background-color: #F17228 !important;
   color: white !important;
+}
+.header-slider .active-button{
+  background-color: white !important;
+  color: #F17228 !important;
+  border-radius: 20px !important;
+  border: 0 !important;
+  padding: 10px 20px !important;
+  text-align: center;
 }
 
 .noBorder {

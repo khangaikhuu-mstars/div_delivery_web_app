@@ -15,8 +15,6 @@ import "./css/card.css";
 import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import Dropdown from "./component/Dropdown";
-import Login from "./component/Login"
 
 function App() {
   return (
@@ -28,9 +26,7 @@ function App() {
           <Route path="/FoodMenu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
         </Switch>
-        <Dropdown />
         <Footer />
-        <Login />
       </div>
     </BrowserRouter>
   );
