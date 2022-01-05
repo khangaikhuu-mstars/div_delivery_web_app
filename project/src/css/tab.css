@@ -16,3 +16,8 @@
     white-space: nowrap;
     flex-wrap: nowrap;
   }
+  @media (min-width: 992px) {
+    #menu-tab {
+      width: 75%;
+    }
+  }

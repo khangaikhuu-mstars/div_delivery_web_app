@@ -14,7 +14,6 @@ import see from "../img/see.png";
 import "../css/menu.css";
 import "../css/App.css";
 import OffCanvas from "./Canvas";
-
 import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
@@ -32,6 +31,7 @@ function MenuComponent() {
       <Container>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
+          <div className="search"><Link to="#"><img src={search} alt="" /></Link></div>
           <div className="search">
             <Link to="#">
               <img src={search} alt="" />
