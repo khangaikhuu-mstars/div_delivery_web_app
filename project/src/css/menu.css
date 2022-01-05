@@ -86,8 +86,11 @@ nav .tses .active{
         color: rgba(0,0,0,.9);
         margin: 0;
     }
-    .busketSize {
-        margin-left: 5px !important;
+    .search{
+        margin-right: -5px;
+    }
+    .busketSize{
+        margin-right: -15px;
     }
 }
 @media (max-width: 992px) {
@@ -138,15 +141,10 @@ nav .tses .active{
         flex-direction: row;
         justify-content: space-between;
     }
-    .busketSize{
-        margin-left: 15px;
-        width: 17px !important;
-        height: 20px !important;
-    }
-    .text {
+    .text{
         display: none;
     }
-    .search {
+    .search{
         margin-top: 9px;
     }
 }
@@ -182,6 +180,9 @@ nav .tses .active{
     .loginBusket {
         display: inline-flex;
     }
+    .text{
+        display: none;
+    }
     .busketSize{
         margin-top: -4px;
     }
@@ -203,10 +204,11 @@ nav .tses .active{
     .ts {
         margin: 0 10px;
     }
-    button.sags {
-        display: flex;
+button.sags{
+display: flex;
     }
     .busketSize{
+        /* margin-top: -1px; */
         margin-right: 10px;
     }
 }
