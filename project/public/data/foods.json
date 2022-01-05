@@ -5,7 +5,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Загасны мах, соус, төмсний нухаш",
-        "thumb_img": "food/salmon.png",
+        "thumb_img": "/food/salmon.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -25,7 +25,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Самар, улаан лооль, авакадо, бусад ногоо",
-        "thumb_img": "food/nut_mash.png",
+        "thumb_img": "/food/nut_mash.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -35,7 +35,7 @@
         "portion": 3,
         "stock": 10,
         "recipe": "Үхрийн мах, салатны навч, бургерийн талх, соус, сонгино",
-        "thumb_img": "food/chicken_burger.png",
+        "thumb_img": "/food/chicken_burger.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -45,7 +45,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Хулуу, төмс, лууван , сонгино, цөцгийн тос, самрын үр",
-        "thumb_img": "food/pumpkin_soup.png",
+        "thumb_img": "/food/pumpkin_soup.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -66,7 +66,7 @@
         "portion": 2,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, төмсний нухаш, брокколи",
-        "thumb_img": "food/steak.png",
+        "thumb_img": "/food/steak.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -76,7 +76,7 @@
         "portion": 2,
         "stock": 10,
         "recipe": "Үхрийн мах, салатны навч",
-        "thumb_img": "food/club_steack.png",
+        "thumb_img": "/food/club_steack.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -86,7 +86,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Будааны боов, үден",
-        "thumb_img": "food/dogbukki.png",
+        "thumb_img": "/food/dogbukki.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -96,7 +96,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Тахианы гуяны мах, будааны гоймон, тахианы шөл",
-        "thumb_img": "food/chicken_ramen.png",
+        "thumb_img": "/food/chicken_ramen.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -106,7 +106,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Нарийн ногоо, авакадо, улаан лооль, огурци, салад",
-        "thumb_img": "food/cobb_salad.png",
+        "thumb_img": "/food/cobb_salad.png",
         "category": "Салад ба зууш"
     },
     {
@@ -116,7 +116,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, саладны навч, соус, улаан лооль",
-        "thumb_img": "food/detox_salad.png",
+        "thumb_img": "/food/detox_salad.png",
         "category": "Салад ба зууш"
     },
     {
@@ -127,7 +127,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Өндөг, бейкон, зайдас, шош",
-        "thumb_img": "food/breakfast.png",
+        "thumb_img": "/food/breakfast.png",
         "category": "Салад ба зууш"
     },
     {
@@ -137,7 +137,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Авокадо, салатны навч, гүнжидийн үр, тос",
-        "thumb_img": "food/avocado_salad.png",
+        "thumb_img": "/food/avocado_salad.png",
         "category": "Салад ба зууш"
     },
     {
@@ -148,7 +148,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, өндөг, сүү, соус",
-        "thumb_img": "food/pancake.png",
+        "thumb_img": "/food/pancake.png",
         "category": "Салад ба зууш"
     },
     {
@@ -158,7 +158,7 @@
         "portion": 2,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, перец",
-        "thumb_img": "food/meatball.png",
+        "thumb_img": "/food/meatball.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -168,7 +168,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, шоколад, өндөг, сүү",
-        "thumb_img": "food/donuts.png",
+        "thumb_img": "/food/donuts.png",
         "category": "Амттан"
     },
     {
@@ -178,7 +178,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Орео, шоколад, сүү, сүүн крем",
-        "thumb_img": "food/oreo_dessert.png",
+        "thumb_img": "/food/oreo_dessert.png",
         "category": "Амттан"
     },
     {
@@ -188,7 +188,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, сүү, өндөг, элсэн чихэр",
-        "thumb_img": "food/waffle.png",
+        "thumb_img": "/food/waffle.png",
         "category": "Амттан"
     },
     {
@@ -198,7 +198,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Гурил, өндөг, сүү, хүнсний өнгө оруулагч",
-        "thumb_img": "food/macaron.png",
+        "thumb_img": "/food/macaron.png",
         "category": "Амттан"
     },
     {
@@ -209,7 +209,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Сүү, цөцгий",
-        "thumb_img": "food/icecream.png",
+        "thumb_img": "/food/icecream.png",
         "category": "Амттан"
     },
     {
@@ -219,7 +219,7 @@
         "portion": 1,
         "stock": 10,
         "recipe": "Cендвичний талх, хиам, салатны навч, сонгино",
-        "thumb_img": "food/sandwich.png",
+        "thumb_img": "/food/sandwich.png",
         "category": "Салад ба зууш"
     }
 ]

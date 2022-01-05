@@ -157,7 +157,6 @@ nav .tses .active{
     .tses {
         margin-left: 80px;
     }
-
     button.signin {
         display: none;
     }
@@ -165,7 +164,9 @@ nav .tses .active{
     button.searchpng {
         display: block;
     }
-
+    .text {
+        display: none;
+    }
     .info,
     .user {
         display: none;

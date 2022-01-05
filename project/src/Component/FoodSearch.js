@@ -7,7 +7,6 @@ import queryString from "query-string";
 const FoodSearch = () => {
   const { search } = useLocation();
   const foodSearch = queryString.parse(search);
-  console.log(foodSearch.q);
   const [foods, setFoods] = useState([]);
 
   useEffect(() => {

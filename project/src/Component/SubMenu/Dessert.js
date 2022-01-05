@@ -1,0 +1,37 @@
+import { useState, useEffect } from "react";
+import Card from "../Card";
+
+function Desserts() {
+  const [foods, setFoods] = useState([]);
+
+  useEffect(() => {
+    fetch("../data/foods.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setFoods(data);
+      });
+  }, []);
+
+  let desserts = foods.filter((p) => p.category === "Амттан");
+
+  return (
+    <div className="row">
+      {desserts.map((data, index) => {
+        return (
+          <div className="col-6 col-md-3" id="category-card">
+            <Card
+              key={index}
+              name={data.name}
+              price={data.price}
+              image={data.thumb_img}
+              discount={data.sales}
+              percentage={data.discount_percentage}
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+export default Desserts;

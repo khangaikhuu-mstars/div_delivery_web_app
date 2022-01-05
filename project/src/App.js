@@ -1,7 +1,7 @@
 import MenuComponent from "./component/MenuComponent";
 import Footer from "./component/Footer";
 import Home from "./component/Home";
-import DammyComponent from "./component/DammyComponent";
+import SubMenuComponent from "./component/SubMenuComponent";
 import FoodSearch from "./component/FoodSearch";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
@@ -23,8 +23,7 @@ function App() {
         <MenuComponent />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/FoodMenu" component={DammyComponent} />
-          <Route path="/Area" component={DammyComponent} />
+          <Route path="/FoodMenu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch}/>
         </Switch>
         <Footer />

@@ -7,7 +7,7 @@ import { Nav } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <div className="main-footer">
+    <div className="main-footer mt-5">
       <div className="container  pb-5">
         <div className="row list-unstyle pt-4">
           <div className="col-md pb-3">
