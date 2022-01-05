@@ -17,6 +17,7 @@ import {
 } from "react-router-dom"
 import DammyComponent from "./component/DammyComponent";
 import { Switch } from "react-router-dom";
+import { Breadcrumb } from "react-bootstrap";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/FoodMenu" component={DammyComponent} />
           <Route path="/Area" component={DammyComponent} />
         </Switch>
+        <Breadcrumb />
         <Footer />
       </div>
     </BrowserRouter>
