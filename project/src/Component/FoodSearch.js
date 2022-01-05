@@ -39,8 +39,8 @@ const FoodSearch = () => {
         </div>
       );
     })}
-  </div> : <div className="col-12 text-center" id="not-found">
-    <img className="img-fluid" src="/food/gif.png" alt="" />
+  </div> : <div className="d-flex align-items-center justify-content-center flex-column text-center" id="not-found">
+    <img className="img-fluid"  src="/food/gif.png" alt="" />
     <p >Уучлаарай, илэрц олдсонгүй...</p>
   </div>
 
