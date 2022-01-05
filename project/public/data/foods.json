@@ -15,7 +15,7 @@
         "portion": 4,
         "stock": 10,
         "recipe": "Үхрийн мах, соус, перец",
-        "thumb_img": "food/italian_pizza.png",
+        "thumb_img": "/food/italian_pizza.png",
         "category": "Үндсэн хоол"
     },
     {
@@ -56,7 +56,7 @@
         "portion": 2,
         "stock": 10,
         "recipe": "Талх, банана, шоколадны крем, ",
-        "thumb_img": "food/banana_sandwich.png",
+        "thumb_img": "/food/banana_sandwich.png",
         "category": "Салад ба зууш"
     },
     {
