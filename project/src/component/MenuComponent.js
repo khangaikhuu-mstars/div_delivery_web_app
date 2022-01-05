@@ -6,10 +6,6 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import search from "../img/search.png";
-import human from "../img/human.png";
-import food1 from "../img/food1.png";
-import see from "../img/see.png";
 import "../css/menu.css";
 import "../css/App.css";
 import OffCanvas from "./Canvas";
@@ -30,17 +26,17 @@ function MenuComponent() {
       <Container>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
-          <div className="search"><Link to="#"><img src={search} alt="" /></Link></div>
+          <div className="search"><Link to="#"></Link></div>
           <div className="search">
             <Link to="#">
-              <img src={search} alt="" />
+              <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
             </Link>
           </div>
           <OffCanvas />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">
-            <img src={food1} alt="" />
+            <img src="/icons/food.svg" alt="" width={30} height={35} />
             <div className="food">Food Delivery</div>
           </div>
         </Navbar.Brand>
@@ -82,7 +78,7 @@ function MenuComponent() {
                   Хоолны цэс
                 </Nav.Link>
                 <a href="">
-                  <img src={see} alt="" />
+                  <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
                 </a>
               </div>
               <div className="line"></div>
@@ -110,7 +106,7 @@ function MenuComponent() {
                   Хүргэлтийн бүс
                 </Nav.Link>
                 <a href="">
-                  <img src={see} alt="" />
+                  <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
                 </a>
               </div>
             </div>
@@ -139,7 +135,7 @@ function MenuComponent() {
                   Хэрэглэгчийн мэдээлэл
                 </Nav.Link>
                 <a href="">
-                  <img src={see} alt="" />
+                  <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
                 </a>
               </div>
               <div className="line"></div>
@@ -167,7 +163,7 @@ function MenuComponent() {
                   Миний захиалга
                 </Nav.Link>
                 <a href="">
-                  <img src={see} alt="" />
+                  <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
                 </a>
               </div>
             </div>
@@ -184,7 +180,7 @@ function MenuComponent() {
             <div className="loginBusket">
               <Button variant="outline-none" className="searchpng">
                 <a href="">
-                  <img src={search} alt="" />
+                  <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
                 </a>
               </Button>
               <div className="busket">
@@ -192,7 +188,7 @@ function MenuComponent() {
               </div>
               <div className="login">
                 <a href="">
-                  <img src={human} alt="" />
+                  <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
                 </a>
                 <Button
                   variant="outline-none"
