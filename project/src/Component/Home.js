@@ -1,7 +1,8 @@
 import Slider from "./Slider";
 import InfoPanelComponent from "./InfoPanelComponent";
 import Category from "./Category"
-import Breadcrumb from "./Breadcrumb";
+import Login from "./Login"
+import Password from "./Password";
 
 function Home() {
     return (
@@ -9,6 +10,8 @@ function Home() {
           <Slider />
           <InfoPanelComponent />
           <Category/>
+          <Login/>
+          <Password/>
         </div>
     );
   }

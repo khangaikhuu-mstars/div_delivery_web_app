@@ -2,7 +2,7 @@ import React from "react"
 import Form from 'react-bootstrap/Form';
 import InputGroup from "react-bootstrap/InputGroup"
 import Col from "react-bootstrap/Col"
-import "../css/TextField.css"
+import Button from "./Button"
 
 const Login = () => {
   return (
@@ -26,6 +26,12 @@ const Login = () => {
             </Form.Text>
           </Form.Group>
         </Col>
+        <Button value="НЭВТРЭХ" className="default"/>
+        <p className="text-center my-3">эсвэл</p>
+        <Button value="БҮРТГҮҮЛЭХ" className="active-button"/>
+
+
+
       </Form>
     </div>
   )

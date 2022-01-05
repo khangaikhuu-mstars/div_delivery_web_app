@@ -1,25 +1,25 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-
-code {
-    font-family: 'Poppins', sans-serif;
+.reBorder {
+    margin-bottom: -8px !important;
+    position: absolute;
+    position: static;
+    width: 9px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #F17228;
 }
-
-
-@media (min-width: 0px)and (max-width: 739px) {
+@media (min-width: 0px) and (max-width: 739px) {
 
 
     .App-header1 {
-
         background-color: #fff;
         min-height: 50vh;
         justify-content: center;
-        font-family: "Poppins";
         font-style: normal;
         font-weight: normal;
         font-size: 14px !important;
@@ -36,7 +36,6 @@ code {
     .formSize {
         border-radius: 10px !important;
         border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
         font-size: 14px !important;
     }
 
@@ -235,7 +234,6 @@ code {
         background-color: #fff;
         min-height: 50vh;
         justify-content: center;
-        font-family: "Poppins";
         font-style: normal;
         font-weight: normal;
         font-size: 14px !important;
@@ -253,7 +251,6 @@ code {
     .formSize {
         border-radius: 10px !important;
         border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
         font-size: 14px !important;
     }
 
@@ -443,7 +440,6 @@ code {
 
     .recoverPass,
     .newPass {
-        font-family: Poppins;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
@@ -473,7 +469,6 @@ code {
         background-color: #fff;
         min-height: 50vh;
         justify-content: center;
-        font-family: "Poppins";
         font-style: normal;
         font-weight: normal;
         font-size: 14px !important;
@@ -491,7 +486,6 @@ code {
     .formSize {
         border-radius: 10px !important;
         border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
         font-size: 14px !important;
     }
 
@@ -675,7 +669,6 @@ code {
 
     .recoverPass,
     .newPass {
-        font-family: Poppins;
         font-size: 18px;
         font-style: normal;
         font-weight: 600;
