@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import queryString from "query-string";
 import Breadcrumb from "./Breadcrumb"
+import NotFound from "./NotFound"
 const FoodSearch = () => {
   const { search } = useLocation();
   const foodSearch = queryString.parse(search);
@@ -38,10 +39,7 @@ const FoodSearch = () => {
         </div>
       );
     })}
-  </div> : <div className="d-flex align-items-center justify-content-center flex-column text-center" id="not-found">
-    <img className="img-fluid"  src="/food/gif.png" alt="" />
-    <p >Уучлаарай, илэрц олдсонгүй...</p>
-  </div>
+  </div> : <NotFound/>
 
 
   return <div className="container mb-5">

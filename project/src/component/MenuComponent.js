@@ -7,7 +7,6 @@ import {
   Button,
 } from "react-bootstrap";
 import search from "../img/search.png";
-import busket from "../img/busket.png";
 import human from "../img/human.png";
 import food1 from "../img/food1.png";
 import see from "../img/see.png";
