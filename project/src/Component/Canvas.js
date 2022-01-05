@@ -3,7 +3,7 @@ import { Offcanvas, Button } from 'react-bootstrap';
 import busket from '../img/busket.png';
 
 
-function Example() {
+function OffCanvas() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -12,7 +12,7 @@ function Example() {
     return (
         <>
             <Button variant="outline-none" className="sags text-orange fw-500" onClick={handleShow} > <img className='busketSize' src={busket} width={17} height={20} />
-                Сагс
+                <div className="text">Сагс</div>
             </Button>
             <Offcanvas show={show} onHide={handleClose} placement="end" >
                 <Offcanvas.Header closeButton>
@@ -27,4 +27,4 @@ function Example() {
     );
 }
 
-export default Example
+export default OffCanvas
