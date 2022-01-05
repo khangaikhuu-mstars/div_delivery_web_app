@@ -16,7 +16,7 @@ const Sales = () => {
           <Card
             name={data.name}
             price={data.price}
-            image={data.submenu_img}
+            image={data.thumb_img}
             discount={data.sales}
             percentage={data.discount_percentage}
             finalPrice={data.final_price}

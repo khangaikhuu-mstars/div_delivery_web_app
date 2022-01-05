@@ -23,17 +23,12 @@ return (
                             <Nav.Item className="ms-2">
                             <NavLink className="nav-link" to={`${match.url}/saled`}> Хямдралтай </NavLink> </Nav.Item>
                                 </Nav> <Route exact path={match.path} render={()=>
-                                <Redirect to={`${match.path}/main`} />}
-                                />
+                                <Redirect to={`${match.path}/main`} />} />
 
-                                <Route path={`${match.path}/main`} render={()=>
-                                    <Main />} />
-                                <Route path={`${match.path}/salad`} render={()=>
-                                    <Salad />} />
-                                <Route path={`${match.path}/dessert`} render={()=>
-                                    <Dessert />} />
-                                <Route path={`${match.path}/saled`} render={()=>
-                                    <Saled />} />
+                                <Route path={`${match.path}/main`} component={Main} />
+                                <Route path={`${match.path}/salad`} component={Salad} />
+                                <Route path={`${match.path}/dessert`} component={Dessert} />
+                                <Route path={`${match.path}/saled`} component={Saled} />
     </Container>
 </div>
 );

@@ -20,7 +20,7 @@ function Main() {
                             portion={data.portion}
                             stock={data.stock}
                             recipe={data.recipe}
-                            image={data.submenu_img}
+                            image={data.thumb_img}
                             category={data.category}
                         />  
                     </div>
