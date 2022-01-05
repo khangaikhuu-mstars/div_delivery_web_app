@@ -13,12 +13,10 @@ import food1 from "../img/food1.png";
 import see from "../img/see.png";
 import "../css/menu.css";
 import "../css/App.css";
+
 import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
-
-  const [show, setShow] = useState(false)
-
   let foodInput = "";
   let history = useHistory();
   const handleSubmit = (e) => {
@@ -26,12 +24,12 @@ function MenuComponent() {
     let foodName = foodInput.value;
     let path = `/search?q=${foodName}`;
     history.push(path);
-  }
+  };
 
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="offcanvasNavbar"/>
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search">
             <Link to="#">
@@ -203,8 +201,6 @@ function MenuComponent() {
                 >
                   Сагс
                 </Button>
-              <div>
-                <Example />
               </div>
               <div className="login">
                 <a href="">
@@ -217,7 +213,6 @@ function MenuComponent() {
                   Нэвтрэх
                 </Button>
               </div>
-            </div>
             </div>
           </Form>
         </Navbar.Collapse>

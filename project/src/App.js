@@ -13,6 +13,7 @@ import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
 import "./css/category.css"
+import "./css/search.css"
 import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 function App() {

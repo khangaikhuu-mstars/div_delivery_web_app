@@ -55,9 +55,9 @@
         "discount_percentage": 20,
         "portion": 2,
         "stock": 10,
-        "recipe": "Улаан лоолийн нухаш, улаан буудайн гурил, бяслаг",
-        "thumb_img": "food/italian_pizza.png",
-        "category": "Үндсэн хоол"
+        "recipe": "Талх, банана, шоколадны крем, ",
+        "thumb_img": "food/banana_sandwich.png",
+        "category": "Салад ба зууш"
     },
     {
         "name": "Стейк",
