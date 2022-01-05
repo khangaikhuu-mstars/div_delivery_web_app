@@ -95,7 +95,7 @@ code {
         margin-top: 15px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/search.svg") !important;
+        background-image: url("/public/icons/search.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
@@ -108,14 +108,15 @@ code {
         margin-left: 12px;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/location2.svg") !important;
+        background-image: url("/public/icons/location.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
 
+
     .form-select {
         padding-left: 30px !important;
-        background-image: url("../icons/arrow.svg") !important;
+        background-image: url("/public/icons/arrow.svg") !important;
         z-index: 10;
     }
 
@@ -125,7 +126,7 @@ code {
         margin-top: 18px;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/pen.svg") !important;
+        background-image: url("/public/icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
         z-index: 10;
@@ -163,7 +164,7 @@ code {
         margin-left: 10px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/searchButton.svg") !important;
+        background-image: url("/public/icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
         z-index: 10;
@@ -311,7 +312,7 @@ code {
         margin-top: 15px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/search.svg") !important;
+        background-image: url("/public/icons/search.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
@@ -324,7 +325,7 @@ code {
         margin-left: 12px;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/location.svg") !important;
+        background-image: url("/public/icons/location.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
@@ -332,7 +333,7 @@ code {
 
     .form-select {
         padding-left: 30px !important;
-        background-image: url("../icons/arrow.svg") !important;
+        background-image: url("/public/icons/arrow.svg") !important;
         z-index: 10;
     }
 
@@ -342,7 +343,7 @@ code {
         margin-top: 14px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/pen.svg") !important;
+        background-image: url("/public/icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
         z-index: 10;
@@ -381,7 +382,7 @@ code {
         margin-left: 10px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/searchButton.svg") !important;
+        background-image: url("/public/icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
         z-index: 10;
@@ -549,7 +550,7 @@ code {
         margin-top: 15px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/search.svg") !important;
+        background-image: url("/public/icons/search.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
@@ -562,14 +563,14 @@ code {
         margin-left: 12px;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/location.svg") !important;
+        background-image: url("/public/icons/location.svg") !important;
         background-repeat: no-repeat !important;
         z-index: 10;
     }
 
     .form-select {
         padding-left: 30px !important;
-        background-image: url("../icons/arrow.svg") !important;
+        background-image: url("/public/icons/arrow.svg") !important;
         z-index: 10;
     }
 
@@ -579,7 +580,7 @@ code {
         margin-top: 13px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/pen.svg") !important;
+        background-image: url("/public/icons/pen.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 20px !important;
         z-index: 10;
@@ -617,7 +618,7 @@ code {
         margin-left: 10px !important;
         border: none !important;
         background: transparent !important;
-        background-image: url("../icons/searchButton.svg") !important;
+        background-image: url("/public/icons/searchButton.svg") !important;
         background-repeat: no-repeat !important;
         padding-top: 15px !important;
         z-index: 10;
