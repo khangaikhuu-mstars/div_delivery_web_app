@@ -10,6 +10,7 @@ body {
     line-height: 21px;
     color: #F17228;
     margin-left: 10px;
+    margin-top: 8px;
 }
 
 .loginBusket {
@@ -147,6 +148,9 @@ nav .tses .active{
     .search{
         margin-top: 9px;
     }
+    .menuSize{
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -184,7 +188,7 @@ nav .tses .active{
         display: none;
     }
     .busketSize{
-        margin-top: -4px;
+        margin-top: -1px;
     }
 }
 
@@ -204,11 +208,14 @@ nav .tses .active{
     .ts {
         margin: 0 10px;
     }
-button.sags{
-display: flex;
+    button.sags{
+    display: flex;
     }
     .busketSize{
-        /* margin-top: -1px; */
+        margin-top: -2px;
         margin-right: 10px;
+    }
+    .text{
+        margin-top: 2px;
     }
 }
