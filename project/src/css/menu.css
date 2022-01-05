@@ -26,11 +26,6 @@ body {
     flex-wrap: wrap;
 }
 
-.busketSize{
-    margin-top: -4px;
-    margin-right: 10px;
-}
-
 .searchAndBusket {
     display: flex;
     flex-direction: row;
@@ -91,6 +86,12 @@ nav .tses .active{
         color: rgba(0,0,0,.9);
         margin: 0;
     }
+    .search{
+        margin-right: -5px;
+    }
+    .busketSize{
+        margin-right: -15px;
+    }
 }
 @media (max-width: 992px) {
     .navbar-collapse {
@@ -140,6 +141,12 @@ nav .tses .active{
         flex-direction: row;
         justify-content: space-between;
     }
+    .text{
+        display: none;
+    }
+    .search{
+        margin-top: 9px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -149,10 +156,6 @@ nav .tses .active{
     }
     .tses {
         margin-left: 80px;
-    }
-
-    button.sags {
-        display: none;
     }
 
     button.signin {
@@ -176,6 +179,12 @@ nav .tses .active{
     .loginBusket {
         display: inline-flex;
     }
+    .text{
+        display: none;
+    }
+    .busketSize{
+        margin-top: -4px;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -193,5 +202,12 @@ nav .tses .active{
     }
     .ts {
         margin: 0 10px;
+    }
+button.sags{
+display: flex;
+    }
+    .busketSize{
+        /* margin-top: -1px; */
+        margin-right: 10px;
     }
 }

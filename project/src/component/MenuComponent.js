@@ -13,6 +13,7 @@ import food1 from "../img/food1.png";
 import see from "../img/see.png";
 import "../css/menu.css";
 import "../css/App.css";
+import OffCanvas from "./Canvas";
 
 import { NavLink, Link, useHistory } from "react-router-dom";
 
@@ -29,18 +30,14 @@ function MenuComponent() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar"/>
+        <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search">
             <Link to="#">
               <img src={search} alt="" />
             </Link>
           </div>
-          <div className="busket">
-            <Link to="#">
-              <img src={busket} alt="" />
-            </Link>
-          </div>
+          <OffCanvas />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">
@@ -192,15 +189,7 @@ function MenuComponent() {
                 </a>
               </Button>
               <div className="busket">
-                <a href="">
-                  <img src={busket} width={17} height={19} alt="" />
-                </a>
-                <Button
-                  variant="outline-none"
-                  className="sags text-orange fw-500"
-                >
-                  Сагс
-                </Button>
+                <OffCanvas />
               </div>
               <div className="login">
                 <a href="">
