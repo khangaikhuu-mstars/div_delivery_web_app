@@ -19,7 +19,7 @@ function MenuComponent() {
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search"><Link to="#"><img src={search} alt="" /></Link></div>
-          <div className="busket"><Link to="#"><img src={busket} alt="" /></Link></div>
+         <Example />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">

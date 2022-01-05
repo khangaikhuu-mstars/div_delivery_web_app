@@ -12,7 +12,7 @@ function Example() {
     return (
         <>
             <Button variant="outline-none" className="sags text-orange fw-500" onClick={handleShow} > <img className='busketSize' src={busket} width={17} height={20} />
-                Сагс
+                <div className="text"> Сагс </div> 
             </Button>
             <Offcanvas show={show} onHide={handleClose} placement="end" >
                 <Offcanvas.Header closeButton>
