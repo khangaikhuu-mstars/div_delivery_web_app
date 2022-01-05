@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Offcanvas, Button } from 'react-bootstrap';
-import busket from '../img/busket.png';
+
 
 
 function OffCanvas() {
@@ -11,7 +11,7 @@ function OffCanvas() {
 
     return (
         <>
-            <Button variant="outline-none" className="sags text-orange fw-500" onClick={handleShow} > <img className='busketSize' src={busket} width={17} height={20} />
+            <Button variant="outline-none" className="sags text-orange fw-500" onClick={handleShow} > <img className='busketSize' src="/icons/busket.svg" width={25} height={30} />
                 <div className="text">Сагс</div>
             </Button>
             <Offcanvas show={show} onHide={handleClose} placement="end" >
