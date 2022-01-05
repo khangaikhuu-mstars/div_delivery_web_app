@@ -1,19 +1,20 @@
-import React, { useEffect, useState } from "react";
-import Cards from "./Card";
-function MainDishMenu() {
+import React from "react";
+import { useEffect, useState } from "react";
+import Card from "../Card";
+
+const Salad = () => {
     const [mainMenu, setMainMenu] = useState([])
     useEffect(() => {
         fetch("../data/foods.json")
             .then((response) => response.json())
             .then((data) => setMainMenu(data));
     }, []);
-    let menu = mainMenu.filter((m) => m.category === "Үндсэн хоол").slice(0,4)
+    let menu = mainMenu.filter((m) => m.category === "Салад ба зууш")
     return (
-        <div className="row">
-
+            <div className="row">
                 {menu.map((data) => (
                     <div className="col-6 col-md-3" id="category-card">
-                        <Cards
+                        <Card
                             name={data.name}
                             price={data.price}
                             portion={data.portion}
@@ -24,8 +25,8 @@ function MainDishMenu() {
                         />  
                     </div>
                 ))}
-
         </div>
     )
 }
-export default MainDishMenu;
+
+export default Salad;

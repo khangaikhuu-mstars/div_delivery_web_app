@@ -8,7 +8,6 @@ function Home() {
         <div>
           <Slider />
           <InfoPanelComponent />
-          <Breadcrumb/>
           <Category/>
         </div>
     );

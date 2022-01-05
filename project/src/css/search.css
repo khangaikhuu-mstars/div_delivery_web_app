@@ -1,0 +1,13 @@
+#not-found{
+    height: 30vh;
+    margin-top: 200px;
+}
+#not-found p{
+    color: #808080;
+}
+
+@media screen and (max-width: 740px) {
+    #not-found{
+        margin-top: 50px;
+    }
+}
