@@ -3,7 +3,7 @@ import Card from "./Card";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import queryString from "query-string";
-
+import Breadcrumb from "./Breadcrumb"
 const FoodSearch = () => {
   const { search } = useLocation();
   const foodSearch = queryString.parse(search);
@@ -44,7 +44,11 @@ const FoodSearch = () => {
   </div>
 
 
-  return <div className="container mb-5">{searchContent}</div>;
+  return <div className="container mb-5">
+    <Breadcrumb value={foodSearch.q}/>
+    {searchContent}
+    </div>;
+
 };
 
 export default FoodSearch;
