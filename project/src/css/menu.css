@@ -10,6 +10,7 @@ body {
     line-height: 21px;
     color: #F17228;
     margin-left: 10px;
+    margin-top: 8px;
 }
 
 .loginBusket {
@@ -24,11 +25,6 @@ body {
 .logo {
     display: flex;
     flex-wrap: wrap;
-}
-
-.busketSize{
-    margin-top: -4px;
-    margin-right: 10px;
 }
 
 .searchAndBusket {
@@ -91,6 +87,12 @@ nav .tses .active{
         color: rgba(0,0,0,.9);
         margin: 0;
     }
+    .search{
+        margin-right: -5px;
+    }
+    .busketSize{
+        margin-right: -15px;
+    }
 }
 @media (max-width: 992px) {
     .navbar-collapse {
@@ -140,6 +142,15 @@ nav .tses .active{
         flex-direction: row;
         justify-content: space-between;
     }
+    .text{
+        display: none;
+    }
+    .search{
+        margin-top: 9px;
+    }
+    .menuSize{
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -150,11 +161,6 @@ nav .tses .active{
     .tses {
         margin-left: 80px;
     }
-
-    button.sags {
-        display: none;
-    }
-
     button.signin {
         display: none;
     }
@@ -162,7 +168,9 @@ nav .tses .active{
     button.searchpng {
         display: block;
     }
-
+    .text {
+        display: none;
+    }
     .info,
     .user {
         display: none;
@@ -175,6 +183,12 @@ nav .tses .active{
     }
     .loginBusket {
         display: inline-flex;
+    }
+    .text{
+        display: none;
+    }
+    .busketSize{
+        margin-top: -1px;
     }
 }
 
@@ -193,5 +207,15 @@ nav .tses .active{
     }
     .ts {
         margin: 0 10px;
+    }
+    button.sags{
+    display: flex;
+    }
+    .busketSize{
+        margin-top: -2px;
+        margin-right: 10px;
+    }
+    .text{
+        margin-top: 2px;
     }
 }

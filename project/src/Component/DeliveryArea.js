@@ -1,81 +1,51 @@
-import arrow from "../img/arrow.png";
 import location from "../img/location.png";
-import map from "../img/map.png"
+import maap from "../img/maap.png";
+import { useState, useEffect } from "react";
 
 function DeliveryArea() {
+  const [area, setArea] = useState([]);
+  useEffect(() => {
+    fetch("/data/area.json")
+      .then((response) => response.json())
+      .then((data) => setArea(data));
+  }, []);
+
+  const deliveryArea = area
+  .map((data) => (
+    <ul>
+      <li>
+        <img src={location} alt="" /> {data.Area}
+      </li>
+    </ul>
+  ));
   return (
-    <div>
-        <div className="titled d-flex">
-            <img src={arrow} alt="" />
-          <div className="name">
-            <h4>Хүргэлтийн бүс</h4>
-          </div>
-          <div></div>
-        </div>
-        <img className="map3" src={map} alt="" />
+    <div className="main-area-contents">
+      <img className="map3 col-12" src={maap} alt="" />
       <div className="container p-0">
-        <img className="map" src={map} alt="" />
+      <div className="name ps-2">
+          <h4>Хүргэлтийн бүс</h4>
+      </div>
+        <img className="map col-12" src={maap} alt="" />
         <div className="area-content row mb-3">
-          <div className="desc">
+          <div className="desc ms-0">
             <p>Хүргэлтийн бүс дэх хаягууд</p>
           </div>
           <div className="main-area col-xl">
             <div className="area-a-b">
-              <p className="fw-bold pt-3">"А" Бүс</p>
+              <p className="fw-bold pt-3">"Б" Бүс</p>
             </div>
             <div className="area-list">
-              <ul>
-                <li className="">
-                  <img src={location} alt="" /> Хоймор хотхон
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 45-р байр
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> Оранж хотхон
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-                <hr className="line" />
-                <li className="noned">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="noned">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-              </ul>
+              <div className="first-area-list d-md-none">
+                {deliveryArea.slice(0, 5)}
+                  
+              </div>
+              <div className="first-area-list d-none d-md-block">
+                {
+                  deliveryArea.slice(0, 10)}
+              </div>
               <div className="second-area-list">
-              <ul>
-                <li className="">
-                  <img src={location} alt="" /> Хоймор хотхон
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 45-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> Оранж хотхон
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-              </ul>
+                {deliveryArea
+                  .slice(0, 8)}
               </div>
             </div>
           </div>
@@ -84,64 +54,23 @@ function DeliveryArea() {
               <p className="fw-bold pt-3">"Б" Бүс</p>
             </div>
             <div className="area-list">
-              <ul>
-                <li className="">
-                  <img src={location} alt="" /> Хоймор хотхон
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 45-р байр
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> Оранж хотхон
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <hr className="line" />
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-                <hr className="line" />
-                <li className="noned">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="noned">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-              </ul>
+              <div className="first-area-list d-md-none">
+                {deliveryArea
+                  .slice(0, 5)}
+              </div>
+              <div className="first-area-list d-none d-md-block">
+                {deliveryArea
+                  .slice(0, 10)}
+              </div>
               <div className="second-area-list">
-              <ul>
-                <li className="">
-                  <img src={location} alt="" /> Хоймор хотхон
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 45-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> Оранж хотхон
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 3-р байр
-                </li>
-                <li className="">
-                  <img src={location} alt="" /> 33-р байр
-                </li>
-              </ul>
+                {deliveryArea
+                  .slice(0, 8)}
               </div>
             </div>
           </div>
         </div>
       </div>
-         <img className="map2" src={map} alt="" />
+      <img className="map2 col-12" src={maap} alt="" />
     </div>
   );
 }

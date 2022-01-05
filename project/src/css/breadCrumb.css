@@ -1,0 +1,18 @@
+.breadcrumb {
+  border-radius: 20px !important;
+  border: 1px solid #F17228 !important;
+  padding: 15px 30px  !important;
+}
+#breadcrumb nav{
+  display: inline-block;
+}
+
+.text-orange {
+  color: #F17228 !important;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  display: none;
+}
+.breadcrumb a{
+  text-decoration: none;
+}
