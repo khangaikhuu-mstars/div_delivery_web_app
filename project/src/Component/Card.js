@@ -23,7 +23,7 @@ function CardComponent (props) {
   );
 
   return (
-    <div id="card-component" className="radius">
+    <div id="card-component" className="radius ">
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}

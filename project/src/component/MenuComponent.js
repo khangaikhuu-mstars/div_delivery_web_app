@@ -9,7 +9,7 @@ import {
 
 import "../css/menu.css";
 import "../css/App.css";
-import OffCanvas from "./Canvas";
+import Canvas from "./Canvas";
 import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
@@ -23,9 +23,9 @@ function MenuComponent() {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="navbarScroll" />
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search"><Link to="#"></Link></div>
           <div className="search">
@@ -33,7 +33,7 @@ function MenuComponent() {
               <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
             </Link>
           </div>
-          <OffCanvas />
+          <Canvas />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">
@@ -185,7 +185,7 @@ function MenuComponent() {
                 </a>
               </Button>
               <div className="busket">
-                <OffCanvas />
+                <Canvas />
               </div>
               <div className="login">
                 <a href="">
