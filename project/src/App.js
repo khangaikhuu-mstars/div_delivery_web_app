@@ -12,6 +12,8 @@ import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
 import "./css/category.css"
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+import DeliveryArea from "./component/DeliveryArea"
 
 function App() {
   return (

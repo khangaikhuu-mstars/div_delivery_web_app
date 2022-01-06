@@ -6,10 +6,10 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-
 import "../css/menu.css";
 import "../css/App.css";
 import OffCanvas from "./Canvas";
+import TabSearch from "./TabSearch";
 import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
@@ -27,13 +27,8 @@ function MenuComponent() {
       <Container>
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <div className="searchAndBusket order-1 d-lg-none">
-          <div className="search"><Link to="#"></Link></div>
-          <div className="search">
-            <Link to="#">
-              <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
-            </Link>
-          </div>
-          <OffCanvas />
+           <TabSearch/>
+           <OffCanvas />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">
@@ -179,14 +174,8 @@ function MenuComponent() {
               aria-label="Search"
             />
             <div className="loginBusket">
-              <Button variant="outline-none" className="searchpng">
-                <a href="">
-                  <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
-                </a>
-              </Button>
-              <div className="busket">
+                <TabSearch/>
                 <OffCanvas />
-              </div>
               <div className="login">
                 <a href="">
                   <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
