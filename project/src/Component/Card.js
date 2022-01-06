@@ -6,7 +6,7 @@ function CardComponent (props) {
   let productText = props.discount ? (
     <Card.Text className="text-orange ps-2">
       {new Intl.NumberFormat().format(props.price - props.price * props.percentage / 100)}₮
-      <strike className="ms-2 text-dark">{props.price}₮</strike>
+      <strike className="ms-2 text-dark">{new Intl.NumberFormat().format(props.price)}₮</strike>
     </Card.Text>
   ) : (
     <Card.Text className="text-orange ps-2">{new Intl.NumberFormat().format(props.price)}₮</Card.Text> 
