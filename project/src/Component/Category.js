@@ -1,13 +1,12 @@
-import SeeAllButton from "./SeeAllButton"
+import SeeAllButton from "./SeeAllButton";
 import Desserts from "./Desserts";
 import MainDishMenu from "./MainDishMenu";
-import Sales from "./Sales"
+import Sales from "./Sales";
 import SaladMenu from "./SaladMenuComponent";
 import {NavLink } from "react-router-dom"
 
 
 function Category() {
-
   return (
     <div className="container my-5">
       <div className="row align-items-center my-5 ps-4 ps-md-0">

@@ -4,12 +4,12 @@ import Category from "./Category"
 
 
 function Home() {
-    return (
-        <div>
-          <Slider />
-          <InfoPanelComponent />
-          <Category/>
-        </div>
-    );
-  }
+  return (
+    <div>
+      <Slider />
+      <InfoPanelComponent />
+      <Category />
+    </div>
+  );
+}
 export default Home;

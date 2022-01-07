@@ -1,6 +1,6 @@
-import React from "react"
-import Form from 'react-bootstrap/Form';
-import "../css/TextField.css"
+import React from "react";
+import Form from "react-bootstrap/Form";
+import "../css/TextField.css";
 
 const RecoverMail = () => {
     return (

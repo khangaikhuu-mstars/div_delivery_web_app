@@ -23,6 +23,7 @@ import Register from "./component/Register";
 import RecoverMail from "./component/RecoverMail";
 import NewPass from "./component/RecoverPass";
 import PasswordRecovery from "./component/Password"
+import "./css/category.css";
 
 
 function App() {
