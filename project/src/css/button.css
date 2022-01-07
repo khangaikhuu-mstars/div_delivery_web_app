@@ -10,7 +10,6 @@ body {
   border: 1px solid #F17228 !important;
   border-radius: 15px !important;
   text-align: center;
-  padding: 10px 30px !important;
   width: 100%;
   font-weight: 500 !important;
 }
@@ -29,9 +28,40 @@ button:focus{
   color: white !important;
 }
 
+.border {
+  border-radius: 15px !important;
+  background-color: #F17228 !important;
+  color: white !important;
+  border: 1px solid #F17228 !important;
+  text-align: center;
+  padding: 10px 30px !important;
+  font-weight: 500 !important;
+  width: 300px;
+}
+
 .noBorder {
   border-radius: 0 !important;
+  background-color: #F17228 !important;
+  color: white !important;
+  border: 1px solid #F17228 !important;
+  text-align: center;
+  padding: 10px 30px !important;
+  font-weight: 500 !important;
+  width: 300px;
 }
+
+.noBorder1 {
+  border-radius: 0 !important;
+  background-color: #FFF1E9 !important;
+  color: black !important;
+  border: 1px solid #FFF1E9 !important;
+  text-align: center;
+  padding: 10px 30px !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+  width: 300px;
+}
+
 #see-all-button{
   text-decoration: none !important;
   font-weight: 700 !important;
