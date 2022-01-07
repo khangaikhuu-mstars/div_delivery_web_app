@@ -37,7 +37,7 @@ const SubMenuComponent = ({ match }) => {
             </NavLink>{" "}
           </Nav.Item>
           <Nav.Item className="ms-2">
-            <NavLink className="nav-link" to={`${match.url}/saled`}>
+            <NavLink className="nav-link" to={`${match.url}/sales`}>
               {" "}
               Хямдралтай{" "}
             </NavLink>{" "}
@@ -51,7 +51,7 @@ const SubMenuComponent = ({ match }) => {
         <Route path={`${match.path}/main`} component={Main} />
         <Route path={`${match.path}/salad`} component={Salad} />
         <Route path={`${match.path}/dessert`} component={Dessert} />
-        <Route path={`${match.path}/saled`} component={Saled} />
+        <Route path={`${match.path}/sales`} component={Sales} />
       </Container>
     </div>
   );
