@@ -4,6 +4,7 @@ import SubMenuComponent from "./component/SubMenuComponent";
 import FoodSearch from "./component/FoodSearch";
 import Login from "./component/Login"
 import DeliveryArea from "./component/DeliveryArea"
+import Footer from "./component/Footer"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
 import "./css/menu.css";
@@ -40,6 +41,7 @@ function App() {
           <Route path="/password-recovery" component={PasswordRecovery}/>
           <Route path="/register" component={Register}/>
         </Switch>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
