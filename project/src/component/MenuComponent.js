@@ -47,10 +47,10 @@ function MenuComponent() {
               <NavLink className="ts nav-link" exact to="/">
                 НҮҮР
               </NavLink>
-              <NavLink className="ts nav-link" to="/FoodMenu">
+              <NavLink className="ts nav-link" to="/menu">
                 ХООЛНЫ ЦЭС
               </NavLink>
-              <NavLink className="ts nav-link" to="/Area">
+              <NavLink className="ts nav-link" to="/area">
                 ХҮРГЭЛТИЙН БҮС
               </NavLink>
             </div>
@@ -188,15 +188,18 @@ function MenuComponent() {
                 <Canvas />
               </div>
               <div className="login">
-                <a href="">
+                  <NavLink to="/login">
                   <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
-                </a>
+
+                 
+            
                 <Button
                   variant="outline-none"
                   className="signin text-orange fw-500"
                 >
                   Нэвтрэх
                 </Button>
+                </NavLink>
               </div>
             </div>
           </Form>

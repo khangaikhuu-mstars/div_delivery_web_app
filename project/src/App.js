@@ -3,6 +3,7 @@ import Footer from "./component/Footer";
 import Home from "./component/Home";
 import SubMenuComponent from "./component/SubMenuComponent";
 import FoodSearch from "./component/FoodSearch";
+import Login from "./component/Login"
 import DeliveryArea from "./component/DeliveryArea"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
@@ -17,6 +18,7 @@ import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -24,10 +26,10 @@ function App() {
         <MenuComponent />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/FoodMenu" component={SubMenuComponent} />
+          <Route path="/menu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
-          <Route path="/Area" component={DeliveryArea} />
-
+          <Route path="/area" component={DeliveryArea} />
+          <Route path="/login" component={Login}/>
         </Switch>
         <Footer />
       </div>
