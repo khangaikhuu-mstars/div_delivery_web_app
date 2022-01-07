@@ -49,7 +49,7 @@ function MenuComponent() {
               <NavLink className="ts nav-link" to="/menu">
                 ХООЛНЫ ЦЭС
               </NavLink>
-              <NavLink className="ts nav-link" to="/area">
+              <NavLink className="yun ts ve nav-link" to="/area">
                 ХҮРГЭЛТИЙН БҮС
               </NavLink>
             </div>

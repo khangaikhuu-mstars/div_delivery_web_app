@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from "react-bootstrap/InputGroup"
 import Col from "react-bootstrap/Col"
 import Button from "./Button"
+import { BrowserRouter, NavLink } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -22,16 +23,16 @@ const Login = () => {
               <InputGroup.Text className="rightIcon"><a href="#"></a></InputGroup.Text>
             </InputGroup>
             <Form.Text >
-              <a href="#" className="text-mute">Нууц үгээ мартсан уу.</a>
+              <NavLink  className="nav-link text-end text-dark p-0" to="/password-recovery">Нууц үгээ мартсан?</NavLink>
             </Form.Text>
           </Form.Group>
         </Col>
         <Button value="НЭВТРЭХ" className="default"/>
         <p className="text-center my-3">эсвэл</p>
+        <NavLink to="/register">
         <Button value="БҮРТГҮҮЛЭХ" className="active-button"/>
 
-
-
+        </NavLink>
       </Form>
     </div>
   )
