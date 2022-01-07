@@ -8,25 +8,25 @@ export default function Footer() {
         <div className="row list-unstyle pt-4">
           <div className="col-md pb-3">
             <Nav.Link href="/">
-              <img className="pe-2" src='/img/logo.png' />
-              <b>Food Delivery</b>
+              <img className="pe-2" src='/icons/logos.svg' />
+              <b className="text-white">Food Delivery</b>
             </Nav.Link>
           </div>
           <div className="col">
             <ul className="list-style fw-bold p-0">
               <li>
-                <Nav.Link href="/">Нүүр</Nav.Link>
+                <Nav.Link className="text-white" href="/">Нүүр</Nav.Link>
               </li>
               <li>
-                <Nav.Link href="FoodMenu">Хоолны цэс</Nav.Link>
+                <Nav.Link className="text-white" href="menu">Хоолны цэс</Nav.Link>
               </li>
               <li>
-                <Nav.Link href="Area">Хүргэлтийн бүс</Nav.Link>
+                <Nav.Link className="text-white" href="area">Хүргэлтийн бүс</Nav.Link>
               </li>
             </ul>
           </div>
           <div className="col">
-            <Nav.Link href="" className="ps-0">
+            <Nav.Link href="" className="ps-0 text-white">
               <p className="call fw-bold mb-2 text-white">Холбоо барих </p>
             </Nav.Link>
             <ul className="p-0 text-white">

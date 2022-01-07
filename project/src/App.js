@@ -13,9 +13,8 @@ import "./css/button.css";
 import "./css/tab.css";
 import "./css/info.css";
 import "./css/card.css";
-import "./css/category.css"
-import "./css/search.css"
-import { BrowserRouter, Route, Switch } from "react-router-dom"
+import "./css/category.css";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
         <MenuComponent />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/FoodMenu" component={SubMenuComponent} />
+          <Route path="/menu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
           <Route path="/Area" component={DeliveryArea} />
         </Switch>

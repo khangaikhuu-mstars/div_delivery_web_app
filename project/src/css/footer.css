@@ -17,6 +17,7 @@
     color: #fff;
 }
 .nav-link p{
+    color: white !important ;
     opacity: 1;
 }
 .nav-link:hover{
@@ -36,6 +37,9 @@
 .about-and-policy a{
     padding: 0;
     color: white;
+}
+.food{
+    color: #fff !important;
 }
 
 
@@ -68,7 +72,6 @@
         padding-left: 12px;
         line-height: 10px;
     }
-
 
 }
 

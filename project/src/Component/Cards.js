@@ -9,7 +9,6 @@ function Cards() {
       .then((data) => setFoods(data));
   }, []);
 
-
   return (
     <div className="container my-5">
       <div className="row">
