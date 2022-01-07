@@ -6,10 +6,6 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-<<<<<<< HEAD
-=======
-
->>>>>>> 824c5fceee35c354493454e752e25d258aefe036
 import "../css/menu.css";
 import "../css/App.css";
 import Canvas from "./Canvas";

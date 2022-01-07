@@ -17,6 +17,14 @@ import "./css/card.css";
 import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Dropdown from "./component/Dropdown";
+import Login from "./component/Login";
+import ConfirmPass from "./component/Password";
+import UserInfo from "./component/UserInformation";
+import Register from "./component/Register";
+import RecoverMail from "./component/RecoverMail";
+import NewPass from "./component/RecoverPass";
+
 
 function App() {
   return (
@@ -27,10 +35,13 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/menu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
+<<<<<<< HEAD
           <Route path="/area" component={DeliveryArea} />
           <Route path="/login" component={Login}/>
+=======
+          <Route path="/Area" component={DeliveryArea} />
+>>>>>>> 718587ebadd04c847a808cc309de0679d679c035
         </Switch>
-        <Footer />
       </div>
     </BrowserRouter>
   );
