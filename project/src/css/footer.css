@@ -1,5 +1,6 @@
 .main-footer {
     position: relative;
+    display: block;
     width: 100%;
     bottom: 0;
     background-image: url('../data/bg.png');
@@ -97,5 +98,6 @@
         display: flex;
         justify-content: start;
         padding-left: 20px;
+        border-bottom: none;
     }
 }

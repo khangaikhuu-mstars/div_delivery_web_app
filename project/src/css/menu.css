@@ -60,9 +60,11 @@ nav form input:focus {
     font-weight: 500;
     font-size: 16px;
 }
+
 .navbar-light .navbar-toggler {
     border: 0 !important;
 }
+
 .navbar-toggler-icon {
     filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg) brightness(99%) contrast(92%);
 }
@@ -74,7 +76,8 @@ nav form input:focus {
 .navbar-light .navbar-toggler {
     border: 0;
 }
-nav .tses .active{
+
+nav .tses .active {
     color: #F17228 !important;
     font-weight: 600;
 }
@@ -82,18 +85,22 @@ nav .tses .active{
 .navbar-light .navbar-toggler-icon {
     filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
 }
+
 @media (max-width: 375px) {
     .navbar-light .navbar-brand {
-        color: rgba(0,0,0,.9);
+        color: rgba(0, 0, 0, .9);
         margin: 0;
     }
-    .search{
+
+    .search {
         margin-right: -5px;
     }
-    .busketSize{
+
+    .busketSize {
         margin-right: -15px;
     }
 }
+
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;
@@ -142,25 +149,30 @@ nav .tses .active{
         flex-direction: row;
         justify-content: space-between;
     }
-    .text{
+
+    .text {
         display: none;
     }
-    .search{
+
+    .search {
         margin-top: 9px;
     }
-    .menuSize{
+
+    .menuSize {
         margin-top: 15px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
-    
+
     #search {
         display: none;
     }
+
     .tses {
         margin-left: 80px;
     }
+
     button.signin {
         display: none;
     }
@@ -168,26 +180,33 @@ nav .tses .active{
     button.searchpng {
         display: block;
     }
+
     .text {
         display: none;
     }
+
     .info,
     .user {
         display: none;
     }
+
     .ts {
         margin: 0 10px;
     }
+
     .searchAndBusket {
         display: none;
     }
+
     .loginBusket {
         display: inline-flex;
     }
-    .text{
+
+    .text {
         display: none;
     }
-    .busketSize{
+
+    .busketSize {
         margin-top: -1px;
     }
 }
@@ -205,17 +224,21 @@ nav .tses .active{
     .user {
         display: none;
     }
+
     .ts {
         margin: 0 10px;
     }
-    button.sags{
-    display: flex;
+
+    button.sags {
+        display: flex;
     }
-    .busketSize{
+
+    .busketSize {
         margin-top: -2px;
         margin-right: 10px;
     }
-    .text{
+
+    .text {
         margin-top: 2px;
     }
 }

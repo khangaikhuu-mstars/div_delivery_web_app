@@ -6,9 +6,13 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 824c5fceee35c354493454e752e25d258aefe036
 import "../css/menu.css";
 import "../css/App.css";
-import OffCanvas from "./Canvas";
+import Canvas from "./Canvas";
 import { NavLink, Link, useHistory } from "react-router-dom";
 
 function MenuComponent() {
@@ -22,9 +26,9 @@ function MenuComponent() {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="navbarScroll" />
         <div className="searchAndBusket order-1 d-lg-none">
           <div className="search"><Link to="#"></Link></div>
           <div className="search">
@@ -32,7 +36,7 @@ function MenuComponent() {
               <img src="/icons/searchButton.svg" alt="" width={20} height={25} />
             </Link>
           </div>
-          <OffCanvas />
+          <Canvas />
         </div>
         <Navbar.Brand href="/">
           <div className="logo order-0">
@@ -46,10 +50,10 @@ function MenuComponent() {
               <NavLink className="ts nav-link" exact to="/">
                 НҮҮР
               </NavLink>
-              <NavLink className="ts nav-link" to="/FoodMenu">
+              <NavLink className="ts nav-link" to="/menu">
                 ХООЛНЫ ЦЭС
               </NavLink>
-              <NavLink className="ts nav-link" to="/Area">
+              <NavLink className="ts nav-link" to="/area">
                 ХҮРГЭЛТИЙН БҮС
               </NavLink>
             </div>
@@ -184,18 +188,21 @@ function MenuComponent() {
                 </a>
               </Button>
               <div className="busket">
-                <OffCanvas />
+                <Canvas />
               </div>
               <div className="login">
-                <a href="">
+                  <NavLink to="/login">
                   <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
-                </a>
+
+                 
+            
                 <Button
                   variant="outline-none"
                   className="signin text-orange fw-500"
                 >
                   Нэвтрэх
                 </Button>
+                </NavLink>
               </div>
             </div>
           </Form>
