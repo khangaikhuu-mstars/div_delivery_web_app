@@ -9,4 +9,4 @@ function NotFound() {
     </div>
   );
 }
-export default NotFound
+export default NotFound;
