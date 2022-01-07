@@ -24,3 +24,7 @@ body {
 .fw-900{
   font-weight: 900 !important;
 }
+.leaflet-container{
+  width: 100vw;
+  height: 50vh;
+}

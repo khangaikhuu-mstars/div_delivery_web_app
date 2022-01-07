@@ -1,6 +1,6 @@
 import location from "../img/location.png";
-import maap from "../img/maap.png";
 import { useState, useEffect } from "react";
+import Map from "./Map";
 
 function DeliveryArea() {
   const [area, setArea] = useState([]);
@@ -20,12 +20,16 @@ function DeliveryArea() {
   ));
   return (
     <div className="main-area-contents">
-      <img className="map3 col-12" src={maap} alt="" />
+      <div className="map3">
+       <Map/>
+      </div>
       <div className="container p-0">
       <div className="name ps-2">
           <h4>Хүргэлтийн бүс</h4>
       </div>
-        <img className="map col-12" src={maap} alt="" />
+      <div className="map">
+        <Map/>
+      </div>
         <div className="area-content row mb-3">
           <div className="desc ms-0">
             <p>Хүргэлтийн бүс дэх хаягууд</p>
@@ -70,7 +74,9 @@ function DeliveryArea() {
           </div>
         </div>
       </div>
-      <img className="map2 col-12" src={maap} alt="" />
+      <div className="map2">
+       <Map/>
+      </div>
     </div>
   );
 }
