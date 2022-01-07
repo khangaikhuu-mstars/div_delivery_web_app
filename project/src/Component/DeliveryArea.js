@@ -10,8 +10,7 @@ function DeliveryArea() {
       .then((data) => setArea(data));
   }, []);
 
-  const deliveryArea = area
-  .map((data) => (
+  const deliveryArea = area.map((data) => (
     <ul>
       <li>
         <img src={location} alt="" /> {data.Area}
@@ -22,9 +21,9 @@ function DeliveryArea() {
     <div className="main-area-contents">
       <img className="map3 col-12" src={maap} alt="" />
       <div className="container p-0">
-      <div className="name ps-2">
+        <div className="name ps-2">
           <h4>Хүргэлтийн бүс</h4>
-      </div>
+        </div>
         <img className="map col-12" src={maap} alt="" />
         <div className="area-content row mb-3">
           <div className="desc ms-0">
@@ -37,16 +36,11 @@ function DeliveryArea() {
             <div className="area-list">
               <div className="first-area-list d-md-none">
                 {deliveryArea.slice(0, 5)}
-                  
               </div>
               <div className="first-area-list d-none d-md-block">
-                {
-                  deliveryArea.slice(0, 10)}
+                {deliveryArea.slice(0, 10)}
               </div>
-              <div className="second-area-list">
-                {deliveryArea
-                  .slice(0, 8)}
-              </div>
+              <div className="second-area-list">{deliveryArea.slice(0, 8)}</div>
             </div>
           </div>
           <div className="main-area col-xl">
@@ -55,17 +49,12 @@ function DeliveryArea() {
             </div>
             <div className="area-list">
               <div className="first-area-list d-md-none">
-                {deliveryArea
-                  .slice(0, 5)}
+                {deliveryArea.slice(0, 5)}
               </div>
               <div className="first-area-list d-none d-md-block">
-                {deliveryArea
-                  .slice(0, 10)}
+                {deliveryArea.slice(0, 10)}
               </div>
-              <div className="second-area-list">
-                {deliveryArea
-                  .slice(0, 8)}
-              </div>
+              <div className="second-area-list">{deliveryArea.slice(0, 8)}</div>
             </div>
           </div>
         </div>
