@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Card from "./Card";
-function SaladMenuComponent() {
+import Cards from "./Card";
+function SaladMenu() {
   const [mainMenu, setMainMenu] = useState([]);
   useEffect(() => {
     fetch("../data/foods.json")
@@ -12,8 +12,8 @@ function SaladMenuComponent() {
   return (
     <div className="row">
       {menu.map((data) => (
-        <div className="col-6 col-md-3">
-          <Card
+        <div className="col-6 col-md-3" id="category-card">
+          <Cards
             name={data.name}
             price={data.price}
             portion={data.portion}
@@ -27,4 +27,4 @@ function SaladMenuComponent() {
     </div>
   );
 }
-export default SaladMenuComponent;
+export default SaladMenu;

@@ -7,14 +7,14 @@ import { Nav } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <div className="main-footer">
+    <div className="main-footer mt-5">
       <div className="container  pb-5">
         <div className="row list-unstyle pt-4">
           <div className="col-md pb-3">
-            <a href="">
+            <Nav.Link href="">
               <img className="pe-2" src={img1} />
               <b>Food Delivery</b>
-            </a>
+            </Nav.Link>
           </div>
           <div className="col">
             <ul className="list-style fw-bold p-0">

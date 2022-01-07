@@ -10,6 +10,7 @@ body {
     line-height: 21px;
     color: #F17228;
     margin-left: 10px;
+    margin-top: 8px;
 }
 
 .loginBusket {
@@ -24,10 +25,6 @@ body {
 .logo {
     display: flex;
     flex-wrap: wrap;
-}
-
-.busket {
-    padding-left: 20px;
 }
 
 .searchAndBusket {
@@ -63,11 +60,6 @@ nav form input:focus {
     font-weight: 500;
     font-size: 16px;
 }
-
-.ts:hover {
-    color: #F17228 !important;
-    font-weight: bold;
-}
 .navbar-light .navbar-toggler {
     border: 0 !important;
 }
@@ -79,19 +71,29 @@ nav form input:focus {
     color: black !important;
 }
 
-.tses .active {
-    color: #F17228 !important;
-    font-weight: 700 !important;
-}
-
 .navbar-light .navbar-toggler {
     border: 0;
+}
+nav .tses .active{
+    color: #F17228 !important;
+    font-weight: 600;
 }
 
 .navbar-light .navbar-toggler-icon {
     filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
 }
-
+@media (max-width: 375px) {
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        margin: 0;
+    }
+    .search{
+        margin-right: -5px;
+    }
+    .busketSize{
+        margin-right: -15px;
+    }
+}
 @media (max-width: 992px) {
     .navbar-collapse {
         position: absolute;
@@ -140,6 +142,15 @@ nav form input:focus {
         flex-direction: row;
         justify-content: space-between;
     }
+    .text{
+        display: none;
+    }
+    .search{
+        margin-top: 9px;
+    }
+    .menuSize{
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -150,11 +161,6 @@ nav form input:focus {
     .tses {
         margin-left: 80px;
     }
-
-    button.sags {
-        display: none;
-    }
-
     button.signin {
         display: none;
     }
@@ -162,7 +168,9 @@ nav form input:focus {
     button.searchpng {
         display: block;
     }
-
+    .text {
+        display: none;
+    }
     .info,
     .user {
         display: none;
@@ -175,6 +183,12 @@ nav form input:focus {
     }
     .loginBusket {
         display: inline-flex;
+    }
+    .text{
+        display: none;
+    }
+    .busketSize{
+        margin-top: -1px;
     }
 }
 
@@ -193,5 +207,15 @@ nav form input:focus {
     }
     .ts {
         margin: 0 10px;
+    }
+    button.sags{
+    display: flex;
+    }
+    .busketSize{
+        margin-top: -2px;
+        margin-right: 10px;
+    }
+    .text{
+        margin-top: 2px;
     }
 }
