@@ -26,7 +26,7 @@ p {
 }
 @media (max-width: 767px) {
     .InfoPanel {
-        background: url('/src/img/base.png');
+        background: url('../../public/img/base.png');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;

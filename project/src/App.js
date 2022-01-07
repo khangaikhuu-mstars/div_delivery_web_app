@@ -16,7 +16,6 @@ import "./css/card.css";
 import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import dynamic from "next/dynamic";
 
 function App() {
   return (

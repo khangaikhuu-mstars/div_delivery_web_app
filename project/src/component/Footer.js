@@ -1,7 +1,3 @@
-import img1 from "../data/logo.png";
-import img2 from "../data/facebook.png";
-import img3 from "../data/instagram.png";
-import img4 from "../data/twitter.png";
 import React from "react";
 import { Nav } from "react-bootstrap";
 
@@ -11,8 +7,8 @@ export default function Footer() {
       <div className="container  pb-5">
         <div className="row list-unstyle pt-4">
           <div className="col-md pb-3">
-            <Nav.Link href="">
-              <img className="pe-2" src={img1} />
+            <Nav.Link href="/">
+              <img className="pe-2" src='/img/logo.png' />
               <b>Food Delivery</b>
             </Nav.Link>
           </div>
@@ -45,13 +41,13 @@ export default function Footer() {
               <div className="connect-we">Бидэнтэй нэгдээрэй</div>
               <div className="social-icons">
                 <Nav.Link href="">
-                  <img src={img2} alt="" />
+                  <img src='/img/fb.pmg' alt="" />
                 </Nav.Link>
                 <Nav.Link href="">
-                  <img src={img3} alt="" />
+                  <img src='img/twitter.png' alt="" />
                 </Nav.Link>
                 <Nav.Link href="">
-                  <img src={img4} alt="" />
+                  <img src='ig.png' alt="" />
                 </Nav.Link>
               </div>
             </div>

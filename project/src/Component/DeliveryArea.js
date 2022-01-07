@@ -1,4 +1,3 @@
-import location from "../img/location.png";
 import { useState, useEffect } from "react";
 import Map from "./Map";
 
@@ -14,7 +13,7 @@ function DeliveryArea() {
   .map((data) => (
     <ul>
       <li>
-        <img src={location} alt="" /> {data.Area}
+        <img src='img/location.png' alt="" /> {data.Area}
       </li>
     </ul>
   ));
