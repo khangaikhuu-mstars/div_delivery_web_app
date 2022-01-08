@@ -82,13 +82,11 @@ body {
 
 .rightIcon {
     position: absolute;
-    right: 0;
+    cursor: pointer;
+    right: 15px;
     margin-top: 15px !important;
     border: none !important;
-    background: transparent !important;
-    background-image: url("/public/icons/search.svg") !important;
-    background-repeat: no-repeat !important;
-    z-index: 10;
+    z-index: 3;
 }
 
 .leftIcon {
@@ -164,9 +162,6 @@ body {
 
 /* Register name password */
 
-.registerName {
-    margin-left: 20px !important;
-}
 
 .text-mute {
     --bs-text-opacity: 1;
@@ -234,6 +229,11 @@ form .form-text a:hover {
     left: 0px;
     top: 0px;
     background-color: #F17228;
+}
+#codeSent{
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(241, 114, 40, 0.5);
+    padding: 12px;
 }
 
 @media (min-width: 0px)and (max-width: 739px) {

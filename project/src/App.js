@@ -17,13 +17,13 @@ import "./css/card.css";
 import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
+import PasswordRecovery from "./component/PasswordRecovery"
 import Dropdown from "./component/Dropdown";
 import ConfirmPass from "./component/Password";
 import UserInfo from "./component/UserInformation";
 import Register from "./component/Register";
 import RecoverMail from "./component/RecoverMail";
 import NewPass from "./component/RecoverPass";
-import PasswordRecovery from "./component/Password"
 import "./css/category.css";
 
 
