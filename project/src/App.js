@@ -1,10 +1,10 @@
-import MenuComponent from "./component/MenuComponent";
-import Home from "./component/Home";
-import SubMenuComponent from "./component/SubMenuComponent";
-import FoodSearch from "./component/FoodSearch";
-import Login from "./component/Login"
-import DeliveryArea from "./component/DeliveryArea"
-import Footer from "./component/Footer"
+import MenuComponent from "./components/MenuComponent";
+import Home from "./components/Home";
+import SubMenuComponent from "./components/SubMenuComponent";
+import FoodSearch from "./components/FoodSearch";
+import Login from "./components/Login"
+import DeliveryArea from "./components/DeliveryArea"
+import Footer from "./components/Footer"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
 import "./css/menu.css";
@@ -17,13 +17,13 @@ import "./css/card.css";
 import "./css/category.css"
 import "./css/search.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import PasswordRecovery from "./component/PasswordRecovery"
-import Dropdown from "./component/Dropdown";
-import ConfirmPass from "./component/Password";
-import UserInfo from "./component/UserInformation";
-import Register from "./component/Register";
-import RecoverMail from "./component/RecoverMail";
-import NewPass from "./component/RecoverPass";
+import PasswordRecovery from "./components/PasswordRecovery"
+import Dropdown from "./components/Dropdown";
+import ConfirmPass from "./components/Password";
+import UserInfo from "./components/UserInformation";
+import Register from "./components/Register";
+import RecoverMail from "./components/RecoverMail";
+import NewPass from "./components/RecoverPass";
 import "./css/category.css";
 
 
