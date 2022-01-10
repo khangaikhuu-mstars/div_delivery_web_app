@@ -22,7 +22,7 @@ export default function Footer() {
                 <Nav.Link href="/">Нүүр</Nav.Link>
               </li>
               <li>
-                <Nav.Link href="FoodMenu">Хоолны цэс</Nav.Link>
+                <Nav.Link href="/menu">Хоолны цэс</Nav.Link>
               </li>
               <li>
                 <Nav.Link href="Area">Хүргэлтийн бүс</Nav.Link>

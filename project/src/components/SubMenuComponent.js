@@ -1,7 +1,7 @@
 import Main from "./SubMenu/Main";
 import Salad from "./SubMenu/Salad";
 import Dessert from "./SubMenu/Dessert";
-import Saled from "./SubMenu/Saled";
+import Sales from "./SubMenu/Sales";
 import { Route, Redirect } from "react-router-dom";
 import React from "react";
 import { Nav, Container } from "react-bootstrap";
@@ -37,7 +37,7 @@ const SubMenuComponent = ({ match }) => {
             </NavLink>{" "}
           </Nav.Item>
           <Nav.Item className="ms-2">
-            <NavLink className="nav-link" to={`${match.url}/saled`}>
+            <NavLink className="nav-link" to={`${match.url}/sales`}>
               {" "}
               Хямдралтай{" "}
             </NavLink>{" "}
@@ -51,7 +51,7 @@ const SubMenuComponent = ({ match }) => {
         <Route path={`${match.path}/main`} component={Main} />
         <Route path={`${match.path}/salad`} component={Salad} />
         <Route path={`${match.path}/dessert`} component={Dessert} />
-        <Route path={`${match.path}/saled`} component={Saled} />
+        <Route path={`${match.path}/sales`} component={Sales} />
       </Container>
     </div>
   );
