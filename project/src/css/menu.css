@@ -24,7 +24,6 @@ body {
 
 .logo {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .searchAndBusket {
@@ -262,6 +261,9 @@ nav .tses .active {
   }
   input.search_input {
     margin-top: 5px;
+  }
+  .tses {
+    /* padding: 0 40px; */
   }
 }
 
