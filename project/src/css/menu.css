@@ -1,7 +1,6 @@
 /*  */
 body {
-  font-family: "Poppins", sans-serif !important;
-  font-style: normal;
+    font-style: normal;
 }
 
 .food {
@@ -75,9 +74,11 @@ nav form input:focus {
   font-size: 16px;
   margin-right: 70px;
 }
+
 .navbar-light .navbar-toggler {
   border: 0 !important;
 }
+
 .navbar-toggler-icon {
   filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg)
     brightness(99%) contrast(92%);

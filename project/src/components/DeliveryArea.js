@@ -31,7 +31,7 @@ function DeliveryArea() {
           </div>
           <div className="main-area col-xl">
             <div className="area-a-b">
-              <p className="fw-bold pt-3">"Б" Бүс</p>
+              <p className="fw-bold pt-3">"А" Бүс</p>
             </div>
             <div className="area-list">
               <div className="first-area-list d-md-none">

@@ -5,10 +5,8 @@ import "../css/card.css";
 function CardComponent(props) {
   let productText = props.discount ? (
     <Card.Text className="text-orange ps-2">
-      {new Intl.NumberFormat().format(
-        props.price - (props.price * props.percentage) / 100
-      )}
-      ₮<strike className="ms-2 text-dark">{props.price}₮</strike>
+      {new Intl.NumberFormat().format(props.price - props.price * props.percentage / 100)}₮
+      <strike className="ms-2 text-dark">{new Intl.NumberFormat().format(props.price)}₮</strike>
     </Card.Text>
   ) : (
     <Card.Text className="text-orange ps-2">
@@ -25,7 +23,7 @@ function CardComponent(props) {
   );
 
   return (
-    <div id="card-component" className="radius">
+    <div id="card-component" className="radius ">
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
