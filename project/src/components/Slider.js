@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../css/slider.css";
-import webBg from "../images/web-bg.png";
-import webMealPic from "../images/web-meal-pic.png";
-import webB2 from "../images/web-b2.png";
-import webB3 from "../images/web-b3.png";
 import Button from "./Button";
+
 function Slider() {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -16,13 +13,17 @@ function Slider() {
       <Carousel.Item>
         <div className="header-slider">
           <div className="slider-bg">
-            <img className="main-slider-img" src={webBg} alt="" />
+            <img className="main-slider-img" src="images/web-bg.png" alt="" />
           </div>
           <div className="container">
             <div className="row">
               <div className="col-6">
                 <div className="slider-content-img">
-                  <img className="img-fluid" src={webMealPic} alt="" />
+                  <img
+                    className="img-fluid"
+                    src="images/web-meal-pic.png"
+                    alt=""
+                  />
                 </div>
               </div>
               <div className="col-6">
@@ -46,7 +47,7 @@ function Slider() {
       <Carousel.Item>
         <div className="header-slider">
           <div className="slider-bg">
-            <img className="main-slider-img" src={webB2} alt="" />
+            <img className="main-slider-img" src="images/web-b2.png" alt="" />
           </div>
           <div className="container">
             <div className="row">
@@ -63,7 +64,7 @@ function Slider() {
       <Carousel.Item>
         <div className="header-slider">
           <div className="slider-bg">
-            <img className="main-slider-img" src={webB3} alt="" />
+            <img className="main-slider-img" src="images/web-b3.png" alt="" />
           </div>
           <div className="container">
             <div className="row">

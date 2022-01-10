@@ -3,7 +3,7 @@
     display: block;
     width: 100%;
     bottom: 0;
-    background-image: url('../data/bg.png');
+    background-image: url('../../public/img/bg.png');
     background-position: center, center;
     font-size: 14px;
 }
@@ -17,13 +17,15 @@
     color: #fff;
 }
 .nav-link p{
+    color: white !important ;
     opacity: 1;
 }
-
+.nav-link:hover{
+    color: white;
+}
 .list-unstyle ul li {
     color: #fff;
     list-style: none;
-    padding-bottom: 16.67px;
 }
 .copyright{
     font-size: 12px;
@@ -35,6 +37,9 @@
 .about-and-policy a{
     padding: 0;
     color: white;
+}
+.food{
+    color: #fff !important;
 }
 
 
@@ -67,7 +72,6 @@
         padding-left: 12px;
         line-height: 10px;
     }
-
 
 }
 
