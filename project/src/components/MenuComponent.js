@@ -41,6 +41,9 @@ function MenuComponent() {
             <SearchBar />
             <OffCanvas />
             <div className="login">
+              <NavLink to="/login">
+
+      
               <a href="">
                 <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
               </a>
@@ -50,6 +53,7 @@ function MenuComponent() {
               >
                 Нэвтрэх
               </Button>
+              </NavLink>
             </div>
           </div>
         </Navbar>
