@@ -19,7 +19,7 @@ function MenuComponent() {
         <Navbar.Brand href="/">
           <div className="logo order-0">
             <img src="/icons/food.svg" alt="" width={30} height={35} />
-            <div className="food">Food Delivery</div>
+            <div className="food"><p className="text-white">Food Delivery</p></div>
           </div>
         </Navbar.Brand>
         <Navbar id="navbarScroll">
