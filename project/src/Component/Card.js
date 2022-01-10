@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import "../css/card.css";
 import ModalCard from "./ModalCard";
-// import { useModal } from "../context/ModalContext";
 
 function CardComponent(props) {
-  // const { modalShow, setModalShow } = useModal();
   const [ showModal, setShowModal ] = useState(false)
 
   let productText = props.discount ? (
@@ -38,7 +36,6 @@ function CardComponent(props) {
           {productText}
         </Card.Body>
       </Card>
-      {/* {modalShow && <ModalCard data={props} showHandler={setModalShow} />} */}
       {showModal && <ModalCard data={props} showHandler={setShowModal} />}
     </div>
   );

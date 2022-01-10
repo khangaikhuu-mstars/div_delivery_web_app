@@ -1,17 +1,8 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "./Button";
-// import { useModal } from "../context/ModalContext";
 
 function ModalCard(props) {
-  // const {modalShow, setModalShow } = useModal();
-
-  // const hideModal =()=>{
-  //   setTimeout(() => {
-  //   setModalShow(false)
-  //   console.log(modalShow)
-  // }, 200)};
-
   const [ show, setShow ] = useState(true)
   const handleClose = () => {
     setShow(false);
