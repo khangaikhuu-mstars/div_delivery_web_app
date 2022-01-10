@@ -1,9 +1,9 @@
-import MenuComponent from "./component/MenuComponent";
-import Footer from "./component/Footer";
-import Home from "./component/Home";
-import SubMenuComponent from "./component/SubMenuComponent";
-import FoodSearch from "./component/FoodSearch";
-import DeliveryArea from "./component/DeliveryArea"
+import MenuComponent from "./components/MenuComponent";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import SubMenuComponent from "./components/SubMenuComponent";
+import FoodSearch from "./components/FoodSearch";
+import DeliveryArea from "./components/DeliveryArea"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/App.css";
 import "./css/menu.css";
@@ -27,6 +27,7 @@ function App() {
           <Route path="/FoodMenu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
           <Route path="/Area" component={DeliveryArea} />
+          <Footer />
         </Switch>
       </div>
     </BrowserRouter>
