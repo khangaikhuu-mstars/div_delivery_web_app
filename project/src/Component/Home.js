@@ -1,6 +1,6 @@
 import Slider from "./Slider";
-import InfoPanelComponent from "./component/InfoPanelComponent";
-import Category from "./component/Category";
+import InfoPanelComponent from "./InfoPanelComponent";
+import Category from "./Category";
 
 function Home() {
   return (
