@@ -7,7 +7,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 21px;
-  color: #f17228;
+  color: #f17228 !important;
   margin-left: 10px;
   margin-top: 8px;
 }
@@ -20,7 +20,6 @@ body {
   align-items: center;
   margin-left: 30px;
 }
-
 .logo {
   display: flex;
   flex-wrap: wrap;
@@ -44,7 +43,6 @@ body {
   position: absolute;
   width: 100%;
   background-color: transparent;
-  cursor: pointer;
   padding: 0.2em 2em;
 }
 .search_submit {
@@ -189,7 +187,7 @@ nav .tses .active {
     margin-top: 4px;
     right: 5px;
   }
-  .nav-link {
+  .navbar .nav-link {
     color: black !important;
   }
   .menu-info:first-child {
@@ -219,6 +217,8 @@ nav .tses .active {
     background-color: transparent;
     cursor: pointer;
     padding: 0.2em 2em;
+    transition: ease-in-out 3s;
+    
   }
   .uu {
     margin-top: 5px;
@@ -263,6 +263,9 @@ nav .tses .active {
   }
   input.search_input {
     margin-top: 5px;
+  }
+  .search_input{
+    cursor: pointer;
   }
 }
 

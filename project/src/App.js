@@ -9,6 +9,8 @@ import MenuComponent from "./components/MenuComponent";
 import PasswordRecovery from "./components/PasswordRecovery";
 import Register from "./components/Register";
 import SubMenuComponent from "./components/SubMenuComponent";
+import Policy from "./components/Policy"
+import Confidentiality from "./components/Confidentiality"
 import "./css/App.css";
 import "./css/button.css";
 import "./css/card.css";
@@ -19,6 +21,7 @@ import "./css/menu.css";
 import "./css/search.css";
 import "./css/tab.css";
 import "./css/TextField.css";
+import "./css/footerPage.css"
 
 
 
@@ -35,6 +38,8 @@ function App() {
           <Route path="/login" component={Login}/>
           <Route path="/password-recovery" component={PasswordRecovery}/>
           <Route path="/register" component={Register}/>
+          <Route path="/policy" component={Policy}/>
+          <Route path="/confidentiality" component={Confidentiality}/>
         </Switch>
         <Footer/>
       </div>

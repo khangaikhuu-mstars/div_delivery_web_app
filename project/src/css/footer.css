@@ -16,11 +16,14 @@
 .main-footer .nav-link:hover{
     color: #fff;
 }
-.nav-link p{
+.main-footer .nav-link p{
     color: white !important ;
     opacity: 1;
 }
-.nav-link:hover{
+.main-footer .nav-link:hover{
+    color: white;
+}
+.main-footer .nav-link:focus{
     color: white;
 }
 .list-unstyle ul li {
