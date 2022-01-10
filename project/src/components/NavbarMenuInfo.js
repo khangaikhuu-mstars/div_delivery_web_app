@@ -38,7 +38,7 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <Nav.Link className="tses-toggle" href="/menu">
               Хоолны цэс
             </Nav.Link>
             <a href="">
@@ -66,11 +66,11 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <Nav.Link className="tses-toggle" href="area">
               Хүргэлтийн бүс
             </Nav.Link>
             <a href="">
-              <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
+              <img src="/icons/arrowRi  ght.svg" alt="" className="menuSize" />
             </a>
           </div>
         </div>

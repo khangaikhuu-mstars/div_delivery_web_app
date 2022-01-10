@@ -8,7 +8,7 @@ function Home() {
     <div>
       <Slider />
       <InfoPanelComponent />
-      <Category />
+      {/* <Category /> */}
     </div>
   );
 }
