@@ -1,221 +1,307 @@
 /*  */
 body {
-    font-family: 'Poppins', sans-serif !important;
     font-style: normal;
 }
 
 .food {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 21px;
-    color: #F17228;
-    margin-left: 10px;
-    margin-top: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  color: #f17228;
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 .loginBusket {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
 }
 
 .logo {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .searchAndBusket {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .login {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-#search {
-    margin-left: 80px;
-    width: 230px;
-    border-radius: 10px !important;
-    border-color: #FBC5A6 !important;
+.hideSearch {
+  position: relative;
 }
-
-#search::placeholder {
-    color: rgba(0, 0, 0, 0.5);
+.search_input {
+  border: 0;
+  flex-grow: 1;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.2em 2em;
 }
-
+.search_submit {
+  background: transparent;
+  border: 0;
+}
+#search:focus-within {
+  width: 230px;
+  height: 40px;
+  border-radius: 10px !important;
+  border: 1px solid #fbc5a6 !important;
+}
+.search_input {
+  opacity: 1;
+  z-index: initial;
+}
 nav form input:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .tses {
-    display: flex;
-    padding-left: 40px;
-    text-align: center;
-    margin-left: 30px;
-    font-weight: 500;
-    font-size: 16px;
+  display: flex;
+  padding-left: 40px;
+  text-align: center;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 70px;
 }
+
 .navbar-light .navbar-toggler {
-    border: 0 !important;
+  border: 0 !important;
 }
+
 .navbar-toggler-icon {
-    filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg) brightness(99%) contrast(92%);
+  filter: invert(54%) sepia(75%) saturate(2608%) hue-rotate(345deg)
+    brightness(99%) contrast(92%);
 }
 
 .tses .ts {
-    color: black !important;
+  color: black !important;
 }
 
 .navbar-light .navbar-toggler {
-    border: 0;
+  border: 0;
 }
-nav .tses .active{
-    color: #F17228 !important;
-    font-weight: 600;
+nav .tses .active {
+  color: #f17228 !important;
+  font-weight: 600;
 }
 
 .navbar-light .navbar-toggler-icon {
-    filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg) brightness(99%) contrast(91%);
+  filter: invert(48%) sepia(55%) saturate(945%) hue-rotate(342deg)
+    brightness(99%) contrast(91%);
 }
+.menuMain {
+  width: 100%;
+}
+.main-menu {
+  display: flex;
+}
+.basket {
+  display: flex;
+}
+.toggleMenu {
+  display: none;
+}
+
 @media (max-width: 375px) {
-    .navbar-light .navbar-brand {
-        color: rgba(0,0,0,.9);
-        margin: 0;
-    }
-    .search{
-        margin-right: -5px;
-    }
-    .busketSize{
-        margin-right: -15px;
-    }
+  .navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+  }
+  .search {
+    margin-right: -15px;
+  }
+  .busketSize {
+    margin-right: -25px;
+  }
+  .toggleMenu {
+    display: block;
+  }
+  .info,
+  .user {
+    width: 335px;
+    top: 110px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+  }
 }
-@media (max-width: 992px) {
-    .navbar-collapse {
-        position: absolute;
-        top: 54px;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: 10;
-        background-color: white;
-    }
+@media (max-width: 991px) {
+  .toggleMenu {
+    display: block;
+    background: transparent;
+    border: none;
+  }
+  #menu-info {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    margin: 0px;
+    background-color: white;
+    display: none;
+  }
+  .info,
+  .user {
+    margin: 0 auto !important;
+  }
+  .tses {
+    display: none;
+  }
 
-    .loginBusket {
-        display: none;
-    }
-
-    #search {
-        display: none;
-    }
-
-    .tses {
-        display: none;
-    }
-
-    .info,
-    .user {
-        width: 335px;
-        top: 110px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-        border-radius: 10px;
-        padding: 20px;
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        padding: 20px;
-    }
-
-    .line {
-        border-bottom: 1px solid #F2994A;
-        margin: 5px 0;
-    }
-
-    .menu-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .text{
-        display: none;
-    }
-    .search{
-        margin-top: 9px;
-    }
-    .menuSize{
-        margin-top: 15px;
-    }
+  .info,
+  .user {
+    width: 335px;
+    top: 110px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: black;
+  }
+  #search {
+    overflow: hidden;
+    position: absolute;
+    transition: width 450ms ease-in-out;
+    background: white;
+    margin-top: 4px;
+    right: 5px;
+  }
+  .nav-link {
+    color: black !important;
+  }
+  .menu-info:first-child {
+    border-bottom: 1px solid #f2994a !important;
+    width: 100%;
+  }
+  .menu-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+  .text {
+    display: none;
+  }
+  .menuSize {
+    margin-top: 15px;
+  }
+  .loginBusket {
+    display: none;
+  }
+  .search_input {
+    border: 0;
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.2em 2em;
+  }
+  .uu {
+    margin-top: 5px;
+  }
+  input.search_input {
+    margin-top: 5px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1440px) {
-    
-    #search {
-        display: none;
-    }
-    .tses {
-        margin-left: 80px;
-    }
-    button.signin {
-        display: none;
-    }
+  button.signin {
+    display: none;
+  }
 
-    button.searchpng {
-        display: block;
-    }
-    .text {
-        display: none;
-    }
-    .info,
-    .user {
-        display: none;
-    }
-    .ts {
-        margin: 0 10px;
-    }
-    .searchAndBusket {
-        display: none;
-    }
-    .loginBusket {
-        display: inline-flex;
-    }
-    .text{
-        display: none;
-    }
-    .busketSize{
-        margin-top: -1px;
-    }
+  #search {
+    overflow: hidden;
+    position: absolute;
+    transition: width 450ms ease-in-out;
+    background: white;
+    margin-top: -18px;
+    right: 5px;
+  }
+  .uu {
+    margin-top: 13px;
+  }
+  .text {
+    display: none;
+  }
+  .info,
+  .user {
+    display: none;
+  }
+  .ts {
+    margin: 0 10px;
+  }
+
+  .busketSize {
+    margin-left: 10px;
+  }
+  .search_submit {
+    margin-top: -10px !important;
+  }
+  input.search_input {
+    margin-top: 5px;
+  }
 }
 
-@media (min-width: 1440px) {
-    button.searchpng {
-        display: none;
-    }
+@media (min-width: 1441px) {
+  .tses {
+    margin-left: 60px;
+  }
 
-    .tses {
-        margin-left: 60px;
-    }
-
-    .info,
-    .user {
-        display: none;
-    }
-    .ts {
-        margin: 0 10px;
-    }
-    button.sags{
+  .info,
+  .user {
+    display: none;
+  }
+  .ts {
+    margin: 0 10px;
+  }
+  button.sags {
     display: flex;
-    }
-    .busketSize{
-        margin-top: -2px;
-        margin-right: 10px;
-    }
-    .text{
-        margin-top: 2px;
-    }
+    margin-left: 10px;
+  }
+  .busketSize {
+    margin-top: -2px;
+    margin-right: 9px;
+    text-align: center;
+  }
+  .text {
+    margin-top: 2px;
+  }
+  #search {
+    width: 230px;
+    height: 40px;
+    border-radius: 10px !important;
+    border: 1px solid #fbc5a6 !important;
+    position: relative;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin: 5px !important;
+  }
 }

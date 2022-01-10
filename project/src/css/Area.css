@@ -216,4 +216,8 @@
     .map3{
         display: none;
     }
+    .leaflet-container{
+        max-width: 1320px;
+        margin: 0 auto;
+    }
 }

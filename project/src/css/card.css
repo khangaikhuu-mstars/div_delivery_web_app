@@ -23,10 +23,11 @@
 }
 
 @media screen and (max-width: 740px) {
-    #card-component .card-title {
-        font-size: 14px;
+    #card-component .card-title, .card-text {
+        font-size: 12px;
         font-weight: 700;
     }
+
 
     #discounted-img {
         color: white;
