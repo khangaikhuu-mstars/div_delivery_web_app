@@ -1,155 +1,164 @@
 .my-modal {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .modal-content {
-    height: 50vh;
-    width: 70vw;
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foods-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.foods-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f17228;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.ingredient {
+  width: 100%;
+  height: 100%;
+  background: #f7f8f7;
+  border-radius: 10px;
+  padding: 10px;
+}
+.orts {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.size {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.number {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.line-1 {
+  width: 100%;
+  border: 1px solid #f3f3f3;
+}
+.modal-header {
+  border-bottom: none;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .my-modal {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-content {
+    height: 70vh;
+    width: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.foods-name {
+  }
+  .foods-name {
     font-size: 16px;
     font-weight: 600;
     color: black;
-}
-.foods-price {
+  }
+  .foods-price {
     font-size: 18px;
-    font-weight: 600;
-    color: #F17228;
-}
-.ingredient {
+    font-weight: bold;
+    color: #f17228;
+  }
+  .ingredient {
     width: 100%;
     height: 100%;
-    background: #F7F8F7;
+    background: #f7f8f7;
     border-radius: 10px;
     padding: 10px;
-}
-.orts {
-    color: black;
-    font-size: 16px;
+  }
+  .orts {
+    color: #f17228;
+    font-size: 14px;
     font-weight: 600;
-}
-.size {
-    color: black;
-    font-size: 16px;
+  }
+  .size {
+    color: #f17228;
+    font-size: 14px;
     font-weight: 600;
-}
-.number {
-    color: black;
-    font-size: 16px;
+  }
+  .number {
+    color: #f17228;
+    font-size: 14px;
     font-weight: 600;
-}
-.line-1 {
+  }
+  .line-1 {
     width: 100%;
-    border: 1px solid #F3F3F3;
-}
-@media (min-width: 375px) and (max-width: 425px) {
-    .my-modal {
-        display: flex;
-        flex-direction: column;
-    } 
-    .modal-content {
-        height: 70vh;
-        width: 95vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .foods-name {
-        font-size: 16px;
-        font-weight: 600;
-        color: black;
-    }
-    .foods-price {
-        font-size: 18px;
-        font-weight: bold;
-        color: #F17228;
-    }
-    .ingredient {
-        width: 100%;
-        height: 100%;
-        background: #F7F8F7;
-        border-radius: 10px;
-        padding: 10px;
-    }
-    .orts {
-        color: #F17228;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .size {
-        color: #F17228;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .number {
-        color: #F17228;
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .line-1 {
-        width: 100%;
-        border: 1px solid #F17228;
-    }
-    .noBorder.border {
-        border-radius: 15px !important;
-        background-color: #F17228 !important;
-        color: white !important;
-        border: 1px solid #F17228 !important;
-        text-align: center;
-        padding: 10px 30px !important;
-        font-weight: 500 !important;
-    }
+    border: 1px solid #f17228;
+  }
+  .noBorder.border {
+    border-radius: 15px !important;
+    background-color: #f17228 !important;
+    color: white !important;
+    border: 1px solid #f17228 !important;
+    text-align: center;
+    padding: 10px 30px !important;
+    font-weight: 500 !important;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 1023px) {
-    .my-modal {
-        display: flex;
-        flex-direction: column;
-    } 
-    .modal-content {
-        height: 70vh;
-        width: 95vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .foods-name {
-        font-size: 16px;
-        font-weight: 600;
-        color: black;
-    }
-    .foods-price {
-        font-size: 16px;
-        font-weight: 600;
-        color: #F17228;
-    }
-    .ingredient {
-        width: 100%;
-        height: 100%;
-        background: #F7F8F7;
-        border-radius: 10px;
-        padding: 10px;
-    }
-    .orts {
-        color: black;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .size {
-        color: black;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .number {
-        color: black;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .line-1 {
-        width: 100%;
-        border: 1px solid #F3F3F3;
-    }
+  .my-modal {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-content {
+    height: 70vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .foods-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+  .foods-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f17228;
+  }
+  .ingredient {
+    width: 100%;
+    height: 100%;
+    background: #f7f8f7;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .orts {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .size {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .number {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .line-1 {
+    width: 100%;
+    border: 1px solid #f3f3f3;
+  }
 }

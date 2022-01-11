@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import "../css/card.css";
-import ModalCard from "./ModalCard";
+import Modal from "react-bootstrap/Modal";
+import Button from "./Button";
 
 function CardComponent(props) {
-  const [ showModal, setShowModal ] = useState(false)
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => setShow(true);
+  const handleClose = () => setTimeout(()=>{setShow(false)}, 10);
 
   let productText = props.discount ? (
     <Card.Text className="text-orange ps-2">
@@ -28,7 +32,7 @@ function CardComponent(props) {
   );
 
   return (
-    <div id="card-component" className="radius" onClick={()=>setShowModal(true)}>
+    <div id="card-component" className="radius" onClick={handleShow} >
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
@@ -36,7 +40,60 @@ function CardComponent(props) {
           {productText}
         </Card.Body>
       </Card>
-      {showModal && <ModalCard data={props} showHandler={setShowModal} />}
+      <Modal
+        show={show}
+        onHide={handleClose}
+        centered
+      >
+        <Modal.Header closeButton></Modal.Header>
+        <div className="container my-modal">
+          <div className="">
+            <img className="" src={props.image} alt="" />
+          </div>
+
+          <div className="container">
+            <div className="row mb-2">
+              <h5 className="foods-name">{props.name}</h5>
+              <h5 className="foods-price">{props.price}₮</h5>
+            </div>
+
+            <div className="line-1 mb-3"></div>
+
+            <div className="">
+              <h5 className="orts">Орц</h5>
+              <p className="ingredient">{props.recipe}</p>
+            </div>
+
+            <div className="row mb-4">
+              <h5 className="size">Хэмжээ</h5>
+              <Button
+                className="border active w-50"
+                value={props.portion}
+              ></Button>
+            </div>
+
+            <div className="row mb-4">
+              <h5 className="number">Тоо</h5>
+              <div className="col-3">
+                <Button className="default mt-1" value="-"></Button>
+              </div>
+              <div className="col-6">
+                <Button
+                  className="noBorder1 w-100"
+                  value={props.portion}
+                ></Button>
+              </div>
+              <div className="col-3">
+                <Button className="default mt-1" value="+"></Button>
+              </div>
+            </div>
+
+            <Button className="noBorder border w-100" value="Сагслах">
+              Сагслах
+            </Button>
+          </div>
+        </div>
+      </Modal>
     </div>
   );
 }
