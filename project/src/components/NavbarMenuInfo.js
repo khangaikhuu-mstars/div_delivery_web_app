@@ -92,9 +92,9 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <NavLink className="tses-toggle nav-link" to="/login">
               Хэрэглэгчийн мэдээлэл
-            </Nav.Link>
+            </NavLink>
               <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
           </div>
           <div className="line"></div>
@@ -118,9 +118,9 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <NavLink className="tses-toggle nav-link" to="/">
               Миний захиалга
-            </Nav.Link>
+            </NavLink>
               <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
           </div>
         </div>

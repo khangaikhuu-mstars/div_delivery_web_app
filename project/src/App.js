@@ -11,6 +11,7 @@ import Register from "./components/Register";
 import SubMenuComponent from "./components/SubMenuComponent";
 import Policy from "./components/Policy"
 import Confidentiality from "./components/Confidentiality"
+import NewPassword from "./components/RecoverPass"
 import "./css/App.css";
 import "./css/button.css";
 import "./css/card.css";
@@ -40,6 +41,7 @@ function App() {
           <Route path="/register" component={Register}/>
           <Route path="/policy" component={Policy}/>
           <Route path="/confidentiality" component={Confidentiality}/>
+          <Route path="/new-password" component={NewPassword}/>
         </Switch>
         <Footer/>
       </div>
