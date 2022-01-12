@@ -18,7 +18,7 @@ function Desserts() {
     <div className="row">
       {desserts.map((data, index) => {
         return (
-          <div className="col-6 col-md-3" id="category-card">
+          <div className="col-6 col-md-3">
             <Card
               key={index}
               name={data.name}
