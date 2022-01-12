@@ -17,7 +17,6 @@ const Search = () => {
               placeholder="Хайх"
             />
             <InputGroup.Text className="leftIconSearch">
-              <a href=""></a>
             </InputGroup.Text>
           </InputGroup>
         </Form.Group>
