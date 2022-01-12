@@ -17,10 +17,13 @@ function Sales() {
           <Card
             name={data.name}
             price={data.price}
+            portion={data.portion}
+            stock={data.stock}
             image={data.thumb_img}
             discount={data.sales}
             percentage={data.discount_percentage}
             finalPrice={data.final_price}
+            recipe={data.recipe}
           />
         </div>
       ))}

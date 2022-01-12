@@ -23,9 +23,12 @@ function Desserts() {
               key={index}
               name={data.name}
               price={data.price}
+              portion={data.portion}
+              stock={data.stock}
               image={data.thumb_img}
               discount={data.sales}
               percentage={data.discount_percentage}
+              recipe={data.recipe}
             />
           </div>
         );
