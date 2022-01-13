@@ -1,37 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
 import "../css/card.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "./Button";
 
 function CardComponent(props) {
+  const [fullscreen, setFullscreen] = useState(true);
+  function handleShow() {
+    setFullscreen("sm-down");
+    setShow(true);
+  }
   const [show, setShow] = useState(false);
-  let person = "хүн";
-
+  const [counter, setCounter] = useState(1);
   const portion = () => {
     if (props.portion > 1) {
       return (
         <div className="row">
           <div className="col-6">
-            <Button
-              value={props.portion / 2 + " хүн"}
-              className="active-button "
-            />
+            <input type="radio" name="portion" id="portion1" />
+            <label htmlFor="portion1">{props.portion / 2 + " хүн"}</label>
           </div>
           <div className="col-6">
-            <Button value={props.portion + " хүн"} className="active-button" />
+            <input type="radio" name="portion" id="portion2" />
+            <label htmlFor="portion2">{props.portion + " хүн"}</label>
           </div>
         </div>
       );
     } else {
       return (
-        <div>
-          <Button value={props.portion + " хүн"} className="active-button" />
+        <div className="col-6  col-lg-4 mx-auto">
+          <input defaultChecked type="radio" name="portion" id="portion3" />
+          <label htmlFor="portion3">{props.portion + " хүн"}</label>
         </div>
       );
     }
   };
-  const handleShow = () => setShow(true);
+  const decrementScore = () => {
+    if (counter > 1) {
+      setCounter((prevCount) => prevCount - 1);
+    }
+  };
+  const incrementScore = () => setCounter((prevCount) => prevCount + 1);
   const handleClose = () =>
     setTimeout(() => {
       setShow(false);
@@ -83,18 +92,25 @@ function CardComponent(props) {
           {productText}
         </Card.Body>
       </Card>
-      <Modal size="xl" show={show} onHide={handleClose} centered>
+      <Modal
+        id="modal"
+        size="xl"
+        show={show}
+        fullscreen={fullscreen}
+        onHide={handleClose}
+        centered
+      >
         <Modal.Header
           className="justify-content-end pb-0 pe-4 pe-lg-2"
           closeButton
         ></Modal.Header>
         <div
           id="my-modal"
-          className="container row align-items-center pb-4 pe-0 pe-lg-5 my-modal"
+          className="container row align-items-center pb-5 pe-0 pe-lg-5 my-modal"
         >
-          <div className="col-12 col-lg-6 mt-4 mt-lg-0">
+          <div className="img-fluid" className="col-12 col-lg-6 mt-4 mt-lg-0 text-center">
             <img
-              className="img-fluid"
+              id="modal-img"
               width={475}
               height={443}
               src={props.image}
@@ -116,24 +132,24 @@ function CardComponent(props) {
 
             <div className="my-3">
               <h5 className="fw-600">Хэмжээ</h5>
-              <div>{portion()}</div>
+              {portion()}
             </div>
 
             <div className="my-3" id="counter">
               <h5 className="fw-600">Тоо</h5>
               <div className="row justify-content-between align-items-center">
-                <div className="col-2">
+                <div onClick={decrementScore} className="col-2">
                   <Button className="default mt-1" value="-"></Button>
                 </div>
                 <div className="col-7 text-center" id="counter-number">
-                  1
+                  {counter}
                 </div>
-                <div className="col-2">
+                <div onClick={incrementScore} className="col-2">
                   <Button className="default mt-1" value="+"></Button>
                 </div>
               </div>
             </div>
-            <Button className="noBorder border w-100" value="Сагслах">
+            <Button className="noBorder w-100" value="Сагслах">
               Сагслах
             </Button>
           </div>

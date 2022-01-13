@@ -15,7 +15,7 @@ function Main() {
       {menu.map((data, index) => (
         <div className="col-6 col-md-3">
           <Cards
-               key={index}
+               key={data.index}
                name={data.name}
                price={data.price}
                portion={data.portion}
