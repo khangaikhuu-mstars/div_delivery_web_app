@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/menu" component={SubMenuComponent} />
           <Route path="/search" component={FoodSearch} />
-          <Route path="/Area" component={DeliveryArea} />
+          <Route path="/area" component={DeliveryArea} />
         </Switch>
         <Footer />
       </div>
