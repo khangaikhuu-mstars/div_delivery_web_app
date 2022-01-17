@@ -12,15 +12,18 @@ const Salad = () => {
   let menu = mainMenu.filter((m) => m.category === "Салад ба зууш");
   return (
     <div className="row">
-      {menu.map((data) => (
+      {menu.map((data, index) => (
         <div className="col-6 col-md-3">
           <Card
-            name={data.name}
-            price={data.price}
-            image={data.thumb_img}
-            discount={data.sales}
-            percentage={data.discount_percentage}
-            finalPrice={data.final_price}
+              key={data.index}
+              name={data.name}
+              price={data.price}
+              portion={data.portion}
+              stock={data.stock}
+              image={data.thumb_img}
+              discount={data.sales}
+              percentage={data.discount_percentage}
+              recipe={data.recipe}
           />
         </div>
       ))}

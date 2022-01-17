@@ -11,9 +11,10 @@ function SaladMenu() {
   let menu = mainMenu.filter((m) => m.category === "Салад ба зууш").slice(0, 4);
   return (
     <div className="row">
-      {menu.map((data) => (
+      {menu.map((data, index) => (
         <div className="col-6 col-md-3" id="category-card">
           <Cards
+            key={index}
             name={data.name}
             price={data.price}
             portion={data.portion}
