@@ -1,4 +1,4 @@
-import { FormControl, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 import "../css/menu.css";
 function SearchBar() {
