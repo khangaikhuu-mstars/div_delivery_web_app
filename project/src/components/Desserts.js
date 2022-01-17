@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Card from "../Card";
+import Card from "./Card";
 
 function Desserts() {
   const [foods, setFoods] = useState([]);
@@ -12,7 +12,7 @@ function Desserts() {
       });
   }, []);
 
-  let desserts = foods.filter((p) => p.category === "Амттан");
+  let desserts = foods.filter((p) => p.category === "Амттан").slice(0, 4);
 
   return (
     <div className="row">
@@ -23,9 +23,12 @@ function Desserts() {
               key={index}
               name={data.name}
               price={data.price}
+              portion={data.portion}
+              stock={data.stock}
               image={data.thumb_img}
               discount={data.sales}
               percentage={data.discount_percentage}
+              recipe={data.recipe}
             />
           </div>
         );

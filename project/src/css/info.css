@@ -4,7 +4,7 @@ body {
 * {
     box-sizing: border-box;
 }
-p {
+.InfoPanel p {
     font-size: 14px;
     color: #1D1D1F;
     opacity: 0.75;

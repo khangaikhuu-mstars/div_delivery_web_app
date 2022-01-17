@@ -14,15 +14,15 @@ function SearchBar() {
     <>
       <div className="hideSearch">
         <Form onSubmit={handleSubmit}>
-          <div className="searchs" id="search">
+          <div id="search">
             <input
               type="text"
-              class="search_input"
+              className="search_input"
               ref={(input) => (foodInput = input)}
               aria-label="search"
               placeholder=" Хайх"
             />
-            <button class="search_submit" aria-label="submit search">
+            <button className="search_submit" aria-label="submit search">
               {" "}
               <img
                 className="uu"

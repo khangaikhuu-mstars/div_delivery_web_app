@@ -1,699 +1,274 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+::placeholder {
+    font-family: 'Poppins', sans-serif !important;
+}
 
-code {
-    font-family: 'Poppins', sans-serif;
+.App-header1 {
+    background-color: #fff;
+    min-height: 50vh;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px !important;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #171717;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+/* Form Size&Shape */
+.formSize {
+    border-radius: 16px !important;
+    border: 1px solid #FFD7BF !important;
+    font-size: 14px !important;
+}
+
+.searchSize {
+    padding-left: 30px !important;
+}
+
+.form-select:scope {
+    background-color: #F17228 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+.form-control {
+    height: 40px;
+    padding-left: 30px;
+    font-size: 14px !important;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem #ffffff !important;
+    border-color: #F17228 !important;
+}
+
+#enabledSelect:checked[type=selected] {
+    background-color: #F17228 !important;
+    color: #fff !important;
+}
+
+#formEmail,
+#formPassword,
+#enabledSelect,
+#floatingTextarea2,
+#basic-addon1 {
+    display: block;
+    width: 335px;
+    height: 40px;
+
+}
+
+#formEmail,
+#formPassword:hover #enabledSelect,
+#floatingTextarea2 {
+    color: #171717;
 }
 
 
+/* Section Icon */
+
+.rightIcon {
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    margin-top: 10px !important;
+    border: none !important;
+    z-index: 3;
+}
+
+.leftIcon {
+    position: absolute;
+    left: 0;
+    padding: 6px 0px 15px 15px !important;
+    margin-top: 16px !important;
+    margin-left: 12px;
+    border: none !important;
+    background: transparent !important;
+    background-image: url("/public/icons/location.svg") !important;
+    background-repeat: no-repeat !important;
+    z-index: 10;
+}
+
+.form-select {
+    padding-left: 30px !important;
+    background-image: url("/public/icons/arrow.svg") !important;
+    z-index: 10;
+}
+
+.rightIcons {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    margin-top: 13px;
+    border: none !important;
+    background: transparent !important;
+    background-image: url("/public/icons/pen.svg") !important;
+    background-repeat: no-repeat !important;
+    padding-top: 20px !important;
+    z-index: 10;
+}
+
+.leftIcons {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    margin-top: 2px !important;
+    border: none !important;
+    background: transparent !important;
+    margin-left: 8px !important;
+    z-index: 10;
+}
+
+.userBack {
+    height: 35px !important;
+    width: 35px !important;
+    border: 1px solid #FEF5ED !important;
+    border-radius: 16px !important;
+    background-color: #FEF5ED !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 6px;
+    z-index: 10;
+}
+
+.leftIconSearch {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    margin-top: 12px;
+    margin-left: 10px !important;
+    border: none !important;
+    background: transparent !important;
+    background-image: url("/public/icons/searchButton.svg") !important;
+    background-repeat: no-repeat !important;
+    padding-top: 15px !important;
+    z-index: 10;
+
+
+}
+
+/* Register name password */
+
+
+.text-mute {
+    --bs-text-opacity: 1;
+    color: #171717;
+    margin-left: 199px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.text-mute:hover {
+
+    color: #F17228;
+
+}
+
+/* Checkbox Size */
+
+.checkboxSize {
+    margin-left: 61px;
+
+}
+
+.textColor {
+    color: #F17228;
+    line-height: 21px;
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-color: #F17228;
+    border-radius: 16px;
+    border-color: #F17228;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 16px !important;
+    border-color: #F17228;
+}
+
+.formPadding {
+    padding-left: 30px !important;
+}
+
+.recoverPass,
+.newPass {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #171717;
+    margin-left: 10px;
+}
+
+form .form-text a:hover {
+    color: #F17228;
+}
+
+.reBorder {
+    margin-bottom: -8px !important;
+    position: absolute;
+    position: static;
+    width: 9px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #F17228;
+}
+#codeSent{
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgba(241, 114, 40, 0.5);
+    padding: 12px;
+}
+
 @media (min-width: 0px)and (max-width: 739px) {
-
-
-    .App-header1 {
-
-        background-color: #fff;
-        min-height: 50vh;
-        justify-content: center;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px !important;
-        line-height: 140%;
-        display: flex;
-        align-items: center;
-        color: #171717;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 10px;
-    }
-
-    /* Form Size&Shape */
-    .formSize {
-        border-radius: 10px !important;
-        border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
-        font-size: 14px !important;
-    }
-
-    .searchSize {
-        padding-left: 30px !important;
-    }
-
-    .form-select:scope {
-        background-color: #F17228 !important;
-        color: #fff !important;
-        font-weight: 600 !important;
-        font-size: 12px !important;
-    }
-
-    .form-control {
-        height: 40px;
-        padding-left: 30px;
-        font-size: 14px !important;
-    }
-
-    .form-control:focus,
-    .form-select:focus,
-    .form-check-input:focus {
-        box-shadow: 0 0 0 0.25rem #ffffff !important;
-        border-color: #F17228 !important;
-    }
-
-    #enabledSelect:checked[type=selected] {
-        background-color: #F17228 !important;
-        color: #fff !important;
-    }
-
-    #formEmail,
-    #formPassword,
-    #enabledSelect,
-    #floatingTextarea2,
-    #basic-addon1 {
-        display: block;
-        width: 335px;
-        height: 40px;
-
-    }
-
-    #formEmail,
-    #formPassword:hover #enabledSelect,
-    #floatingTextarea2 {
-        color: #171717;
-
-    }
-
-    /* Section Icon */
-
-    .rightIcon {
-        position: absolute;
-        right: 0;
-        margin-top: 15px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/search.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-    .leftIcon {
-        position: absolute;
-        left: 0;
-        padding: 6px 0px 15px 15px !important;
-        margin-top: 16px !important;
-        margin-left: 12px;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/location.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-    .form-select {
-        padding-left: 30px !important;
-        background-image: url("/public/icons/arrow.svg") !important;
-        z-index: 10;
-    }
-
-    .rightIcons {
-        position: absolute;
-        right: 0;
-        margin-top: 18px;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/pen.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 20px !important;
-        z-index: 10;
-    }
-
-    .leftIcons {
-        position: absolute;
-        left: 0;
-        margin-top: 7px !important;
-        border: none !important;
-        background: transparent !important;
-        margin-left: 8px !important;
-        z-index: 10;
-    }
-
-    .userBack {
-        height: 35px !important;
-        width: 35px !important;
-        border: 1px solid #FEF5ED !important;
-        border-radius: 10px !important;
-        background-color: #FEF5ED !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 5px;
-        margin-top: 6px;
-        z-index: 10;
-    }
-
-    .leftIconSearch {
-        position: absolute;
-        left: 0;
-        margin-top: 12px;
-        margin-left: 10px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/searchButton.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 15px !important;
-        z-index: 10;
-
-
-    }
-
-    /* Register name password */
-
-    .registerName {
-        margin-left: 20px !important;
-    }
-
-    .text-mute {
-        --bs-text-opacity: 1;
-        color: #171717;
-        margin-left: 199px;
-        font-size: 14px;
-        text-decoration: none;
-    }
-
-    .text-mute:hover {
-
-        color: #F17228;
-
-    }
-
-    /* Checkbox Size */
-
-    .checkboxSize {
-        margin-left: 61px;
-    }
-
-    .textColor {
-        color: #F17228;
-        line-height: 21px;
-    }
-
-    .form-check-input:checked[type=checkbox] {
-        background-color: #F17228;
-        border-radius: 20px;
-        border-color: #F17228;
-    }
-
-    .form-check-input[type=checkbox] {
-        border-radius: 20px !important;
-        border-color: #F17228;
-    }
-
-    .formPadding {
-        padding-left: 30px !important;
-    }
-
     .userSize {
         width: 335px !important;
         height: 50px !important;
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
-        border-radius: 10px !important;
+        border-radius: 16px !important;
         border: 1px solid rgb(156, 65, 65) !important;
     }
 }
 
 @media (min-width: 740px)and (max-width: 1024px) {
 
-
-    .App-header1 {
-
-        background-color: #fff;
-        min-height: 50vh;
-        justify-content: center;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px !important;
-        line-height: 140%;
-        display: flex;
-        align-items: center;
-        color: #171717;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 10px;
-    }
-
-    /* Form Size&Shape */
-
-    .formSize {
-        border-radius: 10px !important;
-        border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
-        font-size: 14px !important;
-    }
-
-    .searchSize {
-        padding-left: 30px !important;
-    }
-
-    .form-select:scope {
-        background-color: #F17228 !important;
-        color: #fff !important;
-        font-weight: 600 !important;
-        font-size: 12px !important;
-    }
-
-    .form-control {
-        height: 40px;
-        padding-left: 30px;
-        font-size: 14px !important;
-    }
-
-    .form-control:focus,
-    .form-select:focus,
-    .form-check-input:focus {
-        box-shadow: 0 0 0 0.25rem #ffffff !important;
-        border-color: #F17228 !important;
-    }
-
-    .form-select:checked {
-        background-color: #F17228 !important;
-        color: #fff !important;
-    }
-
-    #formEmail,
-    #formPassword,
-    #enabledSelect,
-    #floatingTextarea2,
-    #basic-addon1 {
-        display: block;
-        width: 340px;
-        height: 40px;
-
-    }
-
-    #formEmail,
-    #formPassword:hover #enabledSelect,
-    #floatingTextarea2 {
-        color: #171717;
-
-    }
-
-    /* Section Icon */
-    .rightIcon {
-        position: absolute;
-        right: 0;
-        margin-top: 15px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/search.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-    .leftIcon {
-        position: absolute;
-        left: 0;
-        padding: 6px 0px 15px 15px !important;
-        margin-top: 16px !important;
-        margin-left: 12px;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/location.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-
-    .form-select {
-        padding-left: 30px !important;
-        background-image: url("/public/icons/arrow.svg") !important;
-        z-index: 10;
-    }
-
-    .rightIcons {
-        position: absolute;
-        right: 0;
-        margin-top: 14px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/pen.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 20px !important;
-        z-index: 10;
-    }
-
-    .leftIcons {
-        position: absolute;
-        left: -2px !important;
-        margin-top: 2px !important;
-        border: none !important;
-        background: transparent !important;
-        margin-left: 8px !important;
-        z-index: 10;
-    }
-
-    .userBack {
-        height: 35px !important;
-        width: 35px !important;
-        border: 1px solid #FEF5ED !important;
-        border-radius: 10px !important;
-        background-color: #FEF5ED !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 5px;
-        margin-top: 6px;
-        z-index: 10;
-    }
-
-
-    .leftIconSearch {
-        position: absolute;
-        left: 0;
-        margin-top: 12px;
-        margin-left: 10px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/searchButton.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 15px !important;
-        z-index: 10;
-
-
-    }
-
-
-    /* Register name password */
-
-    .text-mute {
-        --bs-text-opacity: 1;
-        color: #171717;
-        margin-left: 199px;
-        font-size: 14px;
-        text-decoration: none;
-    }
-
-    .text-mute:hover {
-
-        color: #F17228;
-
-    }
-
-    /* Checkbox Size */
-
-    .checkboxSize {
-        margin-left: 61px;
-    }
-
-    .textColor {
-        color: #F17228;
-        line-height: 21px;
-    }
-
-    .form-check-input:checked[type=checkbox] {
-        background-color: #F17228;
-        border-radius: 20px;
-        border-color: #F17228;
-    }
-
-    .form-check-input[type=checkbox] {
-        border-radius: 20px !important;
-        border-color: #F17228;
-    }
-
-    .formPadding {
-        padding-left: 30px !important;
-    }
-
     .userSize {
         width: 340px !important;
         height: 40px !important;
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
-        border-radius: 10px !important;
+        border-radius: 16px !important;
         border: 1px solid rgb(156, 65, 65) !important;
-    }
-
-    .recoverPass,
-    .newPass {
-        font-family: Poppins;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #171717;
-        margin-left: 10px;
-    }
-
-    .reBorder {
-        margin-bottom: -8px !important;
-        position: absolute;
-        position: static;
-        width: 9px;
-        height: 30px;
-        left: 0px;
-        top: 0px;
-        background-color: #F17228;
     }
 }
 
 @media (min-width: 1025px) {
-
-
-    .App-header1 {
-        background-color: #fff;
-        min-height: 50vh;
-        justify-content: center;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px !important;
-        line-height: 140%;
-        display: flex;
-        align-items: center;
-        color: #171717;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px 10px;
-    }
-
-    /* Form Size&Shape */
-
-    .formSize {
-        border-radius: 10px !important;
-        border: 1px solid #F17228 !important;
-        font-family: 'Poppins' !important;
-        font-size: 14px !important;
-    }
-
-    .searchSize {
-        padding-left: 30px !important;
-    }
-
-    .form-select:scope {
-        background-color: #F17228 !important;
-        color: #fff !important;
-        font-weight: 600 !important;
-        font-size: 12px !important;
-    }
-
-    .form-control {
-        height: 40px;
-        padding-left: 30px;
-        font-size: 14px !important;
-    }
-
-    .form-control:focus,
-    .form-select:focus,
-    .form-check-input:focus {
-        box-shadow: 0 0 0 0.25rem #ffffff !important;
-        border-color: #F17228 !important;
-    }
-
-    .form-select:checked {
-        background-color: #F17228 !important;
-        color: #fff !important;
-    }
-
-    #formEmail,
-    #formPassword,
-    #enabledSelect,
-    #floatingTextarea2,
-    #basic-addon1 {
-        display: block;
-        width: 359px;
-        height: 40px;
-
-    }
-
-    #formEmail,
-    #formPassword:hover #enabledSelect,
-    #floatingTextarea2 {
-        color: #171717;
-
-    }
-
-    /* Section Icon */
-    .rightIcon {
-        position: absolute;
-        right: 0;
-        margin-top: 15px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/search.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-    .leftIcon {
-        position: absolute;
-        left: 0;
-        padding: 6px 0px 15px 15px !important;
-        margin-top: 16px !important;
-        margin-left: 12px;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/location.svg") !important;
-        background-repeat: no-repeat !important;
-        z-index: 10;
-    }
-
-    .form-select {
-        padding-left: 30px !important;
-        background-image: url("/public/icons/arrow.svg") !important;
-        z-index: 10;
-    }
-
-    .rightIcons {
-        position: absolute;
-        right: 0;
-        margin-top: 13px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/pen.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 20px !important;
-        z-index: 10;
-    }
-
-    .leftIcons {
-        position: absolute;
-        left: -2px;
-        margin-top: 2px !important;
-        border: none !important;
-        background: transparent !important;
-        margin-left: 8px !important;
-        z-index: 10;
-    }
-
-    .userBack {
-        height: 35px !important;
-        width: 35px !important;
-        border: 1px solid #FEF5ED !important;
-        border-radius: 10px !important;
-        background-color: #FEF5ED !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 5px;
-        margin-top: 6px;
-        z-index: 10;
-    }
-
-    .leftIconSearch {
-        position: absolute;
-        left: 0;
-        margin-top: 12px;
-        margin-left: 10px !important;
-        border: none !important;
-        background: transparent !important;
-        background-image: url("/public/icons/searchButton.svg") !important;
-        background-repeat: no-repeat !important;
-        padding-top: 15px !important;
-        z-index: 10;
-    }
-
-    /* Register name password */
-    .text-mute {
-        --bs-text-opacity: 1;
-        color: #171717;
-        margin-left: 199px;
-        font-size: 14px;
-        text-decoration: none;
-    }
-
-    .text-mute:hover {
-
-        color: #F17228;
-
-    }
-
-    /* Checkbox Size */
-
-    .checkboxSize {
-        margin-left: 61px;
-    }
-
-    .textColor {
-        color: #F17228;
-        line-height: 21px;
-    }
-
-    .form-check-input:checked[type=checkbox] {
-        background-color: #F17228;
-        border-radius: 20px;
-        border-color: #F17228;
-    }
-
-    .form-check-input[type=checkbox] {
-        border-radius: 20px !important;
-        border-color: #F17228;
-    }
-
-    .formPadding {
-        padding-left: 30px !important;
-    }
-
     .userSize {
         width: 359px !important;
         height: 40px !important;
         background: #FFFFFF;
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
-        border-radius: 10px !important;
+        border-radius: 16px !important;
         border: 1px solid rgb(156, 65, 65) !important;
-    }
-
-    .recoverPass,
-    .newPass {
-        font-family: Poppins;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 25px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: #171717;
-        margin-left: 10px;
-    }
-
-    .reBorder {
-        margin-bottom: -8px !important;
-        position: absolute;
-        position: static;
-        width: 9px;
-        height: 30px;
-        left: 0px;
-        top: 0px;
-        background-color: #F17228;
     }
 }
