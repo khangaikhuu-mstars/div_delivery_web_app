@@ -20,7 +20,7 @@ function Desserts() {
         return (
           <div className="col-6 col-md-3">
             <Card
-              key={data.index}
+              key={index}
               name={data.name}
               price={data.price}
               portion={data.portion}

@@ -85,7 +85,7 @@ function CardComponent(props) {
 
   return (
     <div className="card-hover">
-    <div id="card-component" className="radius ">
+    <div id="card-component" className="radius" onClick={handleShow}>
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}

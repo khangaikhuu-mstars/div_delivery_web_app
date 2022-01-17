@@ -16,6 +16,9 @@
 #menu-tab #card-component {
   cursor: pointer;
 }
+.card-hover{
+  cursor: pointer;
+}
 
 #modal input[type="radio"] {
   opacity: 0;
@@ -43,6 +46,7 @@
 #modal .modal-content {
   height: auto;
 }
+
 
 @media screen and (max-width:740px) {
   #my-modal .modal-content .modal-header {
