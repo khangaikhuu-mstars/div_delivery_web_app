@@ -84,7 +84,8 @@ function CardComponent(props) {
   );
 
   return (
-    <div id="card-component" className="radius" onClick={handleShow}>
+    <div className="card-hover">
+    <div id="card-component" className="radius ">
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
           {productImage}
@@ -155,6 +156,7 @@ function CardComponent(props) {
           </div>
         </div>
       </Modal>
+    </div>
     </div>
   );
 }

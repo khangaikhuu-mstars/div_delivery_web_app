@@ -2,10 +2,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     font-weight: 600;
 }
-
 #card-component .card-title {
     font-weight: 600;
 }
+
 
 #discounted-img {
     color: white;
@@ -31,7 +31,6 @@
         font-size: 12px;
         font-weight: 700;
     }
-
 
     #discounted-img {
         color: white;

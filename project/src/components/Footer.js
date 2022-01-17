@@ -16,13 +16,19 @@ export default function Footer() {
           <div className="col">
             <ul className="list-style fw-bold p-0">
               <li>
-                <NavLink className="nav-link" to="/">Нүүр</NavLink>
+                <NavLink className="nav-link" to="/">
+                  Нүүр
+                </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/menu">Хоолны цэс</NavLink>
+                <NavLink className="nav-link" to="/menu">
+                  Хоолны цэс
+                </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link" to="/area">Хүргэлтийн бүс</NavLink>
+                <NavLink className="nav-link" to="/area">
+                  Хүргэлтийн бүс
+                </NavLink>
               </li>
             </ul>
           </div>

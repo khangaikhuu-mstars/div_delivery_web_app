@@ -42,6 +42,7 @@ function MenuComponent() {
             <OffCanvas />
             <div className="login">
               <NavLink to="/login">
+              
                 <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
                 <Button
                   variant="outline-none"

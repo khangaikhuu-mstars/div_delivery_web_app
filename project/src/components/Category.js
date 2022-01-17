@@ -3,7 +3,8 @@ import Desserts from "./Desserts";
 import MainDishMenu from "./MainDishMenu";
 import Sales from "./Sales";
 import SaladMenu from "./SaladMenuComponent";
-import {NavLink } from "react-router-dom"
+import {NavLink } from "react-router-dom";
+import React from "react";
 
 
 function Category() {
