@@ -32,7 +32,7 @@
         "name": "Чикен бургер",
         "sales": false,
         "price": 14000,
-        "portion": 3,
+        "portion": 1,
         "stock": 10,
         "recipe": "Үхрийн мах, салатны навч, бургерийн талх, соус, сонгино",
         "thumb_img": "/food/chicken_burger.png",
@@ -55,7 +55,7 @@
         "discount_percentage": 20,
         "portion": 2,
         "stock": 10,
-        "recipe": "Талх, банана, шоколадны крем, ",
+        "recipe": "Талх, банана, шоколадны крем",
         "thumb_img": "/food/banana_sandwich.png",
         "category": "Салад ба зууш"
     },

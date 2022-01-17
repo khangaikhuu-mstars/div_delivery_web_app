@@ -14,7 +14,7 @@ function SearchBar() {
     <>
       <div className="hideSearch">
         <Form onSubmit={handleSubmit}>
-          <div className="searchs" id="search">
+          <div id="search">
             <input
               type="text"
               className="search_input"

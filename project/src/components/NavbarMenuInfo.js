@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import {NavLink } from "react-router-dom"
 
 function MenuInfo() {
   function toggleFunction() {
@@ -38,12 +39,10 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="/menu">
+            <NavLink className="tses-toggle nav-link" to="/menu">
               Хоолны цэс
-            </Nav.Link>
-            <a href="">
+            </NavLink>
               <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
-            </a>
           </div>
           <div className="line"></div>
           <div className="menu-info">
@@ -66,12 +65,10 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="area">
+            <NavLink className="tses-toggle nav-link" to="/area">
               Хүргэлтийн бүс
-            </Nav.Link>
-            <a href="">
+            </NavLink>
               <img src="/icons/arrowRi  ght.svg" alt="" className="menuSize" />
-            </a>
           </div>
         </div>
         <div className="user">
@@ -95,12 +92,10 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <NavLink className="tses-toggle nav-link" to="/login">
               Хэрэглэгчийн мэдээлэл
-            </Nav.Link>
-            <a href="">
+            </NavLink>
               <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
-            </a>
           </div>
           <div className="line"></div>
           <div className="menu-info">
@@ -123,12 +118,10 @@ function MenuInfo() {
                 fill="#F17228"
               />
             </svg>
-            <Nav.Link className="tses-toggle" href="#">
+            <NavLink className="tses-toggle nav-link" to="/">
               Миний захиалга
-            </Nav.Link>
-            <a href="">
+            </NavLink>
               <img src="/icons/arrowRight.svg" alt="" className="menuSize" />
-            </a>
           </div>
         </div>
       </div>

@@ -22,8 +22,12 @@
     border-radius: 0 8px 0 20px;
 }
 
+
+
 @media screen and (max-width: 740px) {
-    #card-component .card-title, .card-text {
+
+    #card-component .card-title,
+    .card-text {
         font-size: 12px;
         font-weight: 700;
     }

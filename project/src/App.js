@@ -6,15 +6,17 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import MenuComponent from "./components/MenuComponent";
 import SubMenuComponent from "./components/SubMenuComponent";
-import Login from "./components/Login"
-import PasswordRecovery from "./components/PasswordRecovery"
-import Register from "./components/Register"
+import Policy from "./components/Policy";
+import Confidentiality from "./components/Confidentiality";
+import NewPassword from "./components/RecoverPass";
 import "./css/App.css";
 import "./css/button.css";
 import "./css/card.css";
 import "./css/category.css";
 import "./css/search.css";
-import "./css/tab.css"
+import "./css/tab.css";
+import "./css/TextField.css";
+import "./css/footerPage.css";
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/password-recovery" component={PasswordRecovery} />
           <Route path="/register" component={Register} />
+          <Route path="/policy" component={Policy} />
+          <Route path="/confidentiality" component={Confidentiality} />
+          <Route path="/new-password" component={NewPassword} />
         </Switch>
         <Footer />
       </div>

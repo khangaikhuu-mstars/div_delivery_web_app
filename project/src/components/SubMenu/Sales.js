@@ -11,15 +11,18 @@ const Sales = () => {
   let mainSales = sale.filter((s) => s.sales === true);
   return (
     <div className="row">
-      {mainSales.map((data) => (
-        <div className="col-6 col-md-3" id="category-card">
+      {mainSales.map((data, index) => (
+        <div className="col-6 col-md-3">
           <Card
-            name={data.name}
-            price={data.price}
-            image={data.thumb_img}
-            discount={data.sales}
-            percentage={data.discount_percentage}
-            finalPrice={data.final_price}
+              key={index}
+              name={data.name}
+              price={data.price}
+              portion={data.portion}
+              stock={data.stock}
+              image={data.thumb_img}
+              discount={data.sales}
+              percentage={data.discount_percentage}
+              recipe={data.recipe}
           />
         </div>
       ))}

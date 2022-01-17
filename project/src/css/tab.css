@@ -21,6 +21,9 @@
     white-space: nowrap;
     flex-wrap: nowrap;
   }
+  #menu-tab::-webkit-scrollbar{
+    display: none;
+  }
   @media (min-width: 992px) {
     #menu-tab {
       width: 50%;
