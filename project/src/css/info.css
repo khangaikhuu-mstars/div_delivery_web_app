@@ -1,94 +1,117 @@
 body {
-    margin: 0;
+  margin: 0;
 }
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .InfoPanel p {
-    font-size: 14px;
-    color: #1D1D1F;
-    opacity: 0.75;
+  font-size: 14px;
+  color: #1d1d1f;
+  opacity: 0.75;
 }
+
 .InfoPanel {
-    padding: 50px 0;
-    background: linear-gradient(179.24deg, #F17228 -90.18%, rgba(255, 255, 255, 0) 28.19%);
+  padding: 50px 0;
+  background: linear-gradient(
+    179.24deg,
+    #f17228 -90.18%,
+    rgba(255, 255, 255, 0) 28.19%
+  );
 }
+
 .info-col {
+  display: flex;
+  justify-content: center;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-8 {
+  width: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .InfoPanel {
+    background: url("../../public/img/base.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .col-8 {
+    width: 50% !important;
+  }
+
+  .info-col {
     display: flex;
     justify-content: center;
+    padding-left: 80px !important;
+    padding-top: 30px;
+  }
 }
-.info-text {
-    display: flex;
-    flex-direction: column;
-}
-.col-8 {
-    width: 100% !important;
-}
-@media (max-width: 767px) {
-    .InfoPanel {
-        background: url('../../public/img/base.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
-    .col-8 {
-        width: 50% !important;
-    }
-    .info-col {
-        display: flex;
-        justify-content: center;
-        padding-left: 80px !important;
-        padding-top: 30px;
-    }
-}
+
 @media (max-width: 992px) {
-    .col-2 svg, .info-text {
-        padding: 0 5px;
-        margin: 0 20px;
-    }
-    .infoBox {
-        display: flex;
-    }
-    .col-4 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 20% !important;
-    }
-    .info-text h1 {
-        font-size: 14px !important;
-        font-weight: bold !important;
-    }
-    .info-text p{
-        font-size: 12px;
-    }
+  .col-2 svg,
+  .info-text {
+    padding: 0 5px;
+    margin: 0 20px;
+  }
+
+  .infoBox {
+    display: flex;
+  }
+
+  .col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20% !important;
+  }
+
+  .info-text h1 {
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+
+  .info-text p {
+    font-size: 12px;
+  }
 }
+
 @media (min-width: 992px) and (max-width: 1200px) {
-    .info-text h1 {
-        font-size: 14px !important;
-        font-weight: bold !important;
-    }
-    .info-text p{
-        font-size: 12px;
-    }
-    .InfoPanel {
-        padding: 40px 0;
-    }
+  .info-text h1 {
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+
+  .info-text p {
+    font-size: 12px;
+  }
+
+  .InfoPanel {
+    padding: 40px 0;
+  }
 }
 
 @media (min-width: 1200px) {
-    .infoBox {
-        padding: 60px;
-        background: rgba(255, 255, 255, 1);
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-        border-radius: 30px;
-        text-align: center;
-    }
-    .info-text {
-        align-items: flex-start;
-    }
-    .info-text h1 {
-        font-size: 18px !important;
-        font-weight: bold !important;
-    }
+  .infoBox {
+    padding: 60px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .info-text {
+    align-items: flex-start;
+  }
+
+  .info-text h1 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+  }
 }

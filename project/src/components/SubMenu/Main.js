@@ -12,15 +12,18 @@ function Main() {
   let menu = mainMenu.filter((m) => m.category === "Үндсэн хоол");
   return (
     <div className="row">
-      {menu.map((data) => (
+      {menu.map((data, index) => (
         <div className="col-6 col-md-3">
           <Cards
-            name={data.name}
-            price={data.price}
-            image={data.thumb_img}
-            discount={data.sales}
-            percentage={data.discount_percentage}
-            finalPrice={data.final_price}
+               key={data.index}
+               name={data.name}
+               price={data.price}
+               portion={data.portion}
+               stock={data.stock}
+               image={data.thumb_img}
+               discount={data.sales}
+               percentage={data.discount_percentage}
+               recipe={data.recipe}
           />
         </div>
       ))}

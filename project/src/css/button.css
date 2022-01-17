@@ -3,17 +3,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.default{
+.default {
   background-color: #F17228 !important;
   color: white !important;
   border: 1px solid #F17228 !important;
   border-radius: 20px !important;
   text-align: center;
+  padding: 10px 30px !important;
   width: 100%;
   font-weight: 500 !important;
 }
 
-button:focus{
+button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -28,28 +29,19 @@ button:focus{
   width: 100%;
   font-weight: 500 !important;
 }
-.active-button:hover{
+
+.active-button:hover {
   background-color: #F17228 !important;
   color: white !important;
 }
-.header-slider .active-button{
+
+.header-slider .active-button {
   background-color: white !important;
   color: #F17228 !important;
   border-radius: 20px !important;
   border: 0 !important;
   padding: 10px 20px !important;
   text-align: center;
-}
-
-.border {
-  border-radius: 15px !important;
-  background-color: #F17228 !important;
-  color: white !important;
-  border: 1px solid #F17228 !important;
-  text-align: center;
-  padding: 10px 30px !important;
-  font-weight: 500 !important;
-  width: 300px;
 }
 
 .noBorder {
@@ -63,20 +55,30 @@ button:focus{
   width: 300px;
 }
 
-.noBorder1 {
-  border-radius: 0 !important;
-  background-color: #FFF1E9 !important;
-  color: black !important;
-  border: 1px solid #FFF1E9 !important;
-  text-align: center;
-  padding: 10px 30px !important;
-  font-weight: 500 !important;
-  font-size: 16px;
-  width: 300px;
-}
-
-#see-all-button{
+#see-all-button {
   text-decoration: none !important;
   font-weight: 700 !important;
   padding: 15px 30px;
-}  
+}
+
+#my-modal .active-button,
+.default {
+  border-radius: 10px !important;
+}
+
+#my-modal #counter .default {
+  padding: 10px 0 !important;
+}
+
+#counter #counter-number {
+  background-color: #FFF1E9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width:740px) {
+  #my-modal .noBorder {
+    border-radius: 10px !important;
+  }
+}
