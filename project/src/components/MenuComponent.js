@@ -16,7 +16,7 @@ function MenuComponent() {
           <SearchBar />
           <OffCanvas />
         </div>
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={NavLink} to="/" className="ps-4 ps-md-5 ps-lg-0">
           <div className="logo order-0">
             <img src="/icons/food.svg" alt="" width={30} height={35} />
             <div className="food">Food Delivery</div>
@@ -42,15 +42,14 @@ function MenuComponent() {
             <OffCanvas />
             <div className="login">
               <NavLink to="/login">
-              <a href="">
+              
                 <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
-              </a>
-              <Button
-                variant="outline-none"
-                className="signin text-orange fw-500"
-              >
-                Нэвтрэх
-              </Button>
+                <Button
+                  variant="outline-none"
+                  className="signin text-orange fw-500"
+                >
+                  Нэвтрэх
+                </Button>
               </NavLink>
             </div>
           </div>

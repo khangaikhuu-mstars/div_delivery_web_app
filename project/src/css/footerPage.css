@@ -1,0 +1,30 @@
+.leaflet-container {
+    width: 100vw;
+    height: 50vh;
+}
+
+#indented-text p {
+    text-indent: 50px !important;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2.5rem;
+    color: black;
+}
+
+#border-left {
+    border-left: 11px solid #f17228;
+}
+
+@media screen and (max-width: 740px) {
+    #indented-text p {
+        font-size: 14px !important;
+        line-height: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    #intented-text p {
+        font-size: 16px !important;
+    }
+}

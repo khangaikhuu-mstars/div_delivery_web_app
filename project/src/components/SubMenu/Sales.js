@@ -12,7 +12,7 @@ const Sales = () => {
   return (
     <div className="row">
       {mainSales.map((data) => (
-        <div className="col-6 col-md-3" id="category-card">
+        <div className="col-6 col-md-3">
           <Card
             name={data.name}
             price={data.price}
