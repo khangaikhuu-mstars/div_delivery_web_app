@@ -23,6 +23,7 @@ function CardComponent(props) {
   );
 
   return (
+    <div className="card-hover">
     <div id="card-component" className="radius ">
       <Card className="mt-5 radius border-0">
         <Card.Body className="position-relative z-index-1">
@@ -31,6 +32,7 @@ function CardComponent(props) {
           {productText}
         </Card.Body>
       </Card>
+    </div>
     </div>
   );
 }

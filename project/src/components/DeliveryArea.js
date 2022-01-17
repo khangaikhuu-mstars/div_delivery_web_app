@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Map from "./Map";
+import React from "react";
 
 function DeliveryArea() {
   const [area, setArea] = useState([]);

@@ -19,7 +19,7 @@ function MenuComponent() {
         <Navbar.Brand href="/">
           <div className="logo order-0">
             <img src="/icons/food.svg" alt="" width={30} height={35} />
-            <div className="food"><p className="text-white">Food Delivery</p></div>
+            <div className="food">Food Delivery</div>
           </div>
         </Navbar.Brand>
         <Navbar id="navbarScroll">
@@ -42,8 +42,6 @@ function MenuComponent() {
             <OffCanvas />
             <div className="login">
               <NavLink to="/login">
-
-      
               <a href="">
                 <img src="/icons/usermenu.svg" alt="" width={20} height={25} />
               </a>
